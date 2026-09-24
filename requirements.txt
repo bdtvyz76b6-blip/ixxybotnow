@@ -1,0 +1,6 @@
+aiogram>=3.4
+aiosqlite
+httpx
+python-dotenv
+fastapi
+uvicorn[standard]
