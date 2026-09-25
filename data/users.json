@@ -4,7 +4,12 @@
     "username": "rusrodyyya",
     "first_name": "Админ",
     "created_at": "2026-09-25T07:58:14.682387+00:00",
-    "subs": {},
+    "subs": {
+      "supra": {
+        "started_at": "2026-09-25T09:08:55.693978+00:00",
+        "expires_at": null
+      }
+    },
     "trial_used": true
   }
 }
