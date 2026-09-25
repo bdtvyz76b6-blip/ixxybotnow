@@ -65,5 +65,13 @@
       }
     },
     "trial_used": true
+  },
+  "6100622005": {
+    "id": 6100622005,
+    "username": "sss_319",
+    "first_name": "Kotov",
+    "created_at": "2026-09-25T11:32:10.474394+00:00",
+    "subs": {},
+    "trial_used": false
   }
 }
