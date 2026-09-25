@@ -36,7 +36,12 @@
     "username": "",
     "first_name": "",
     "created_at": "2026-09-25T09:35:23.049635+00:00",
-    "subs": {},
+    "subs": {
+      "supra": {
+        "started_at": "2026-09-25T09:35:44.133197+00:00",
+        "expires_at": null
+      }
+    },
     "trial_used": false
   }
 }
