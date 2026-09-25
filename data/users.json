@@ -8,6 +8,10 @@
       "supra": {
         "started_at": "2026-09-25T09:08:55.693978+00:00",
         "expires_at": null
+      },
+      "mobile": {
+        "started_at": "2026-09-25T09:09:10.182383+00:00",
+        "expires_at": null
       }
     },
     "trial_used": true
