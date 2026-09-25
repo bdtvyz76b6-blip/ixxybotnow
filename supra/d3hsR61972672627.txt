@@ -1,10 +1,10 @@
 #profile-title: base64:SVhYWSDCtyBTVVBSQQ==
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=0
+#subscription-userinfo: upload=0; download=0; total=0; expire=1792921123
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
-#announce: 🟢 Подписка активна • до ∞
+#announce: 🟢 Подписка активна • до 25.10.2026
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp#🇫🇮 IXXY Finland 01
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ge-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&sid=1b21fca2edd3872b&type=tcp#🇩🇪 IXXY Germany 01
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:61374?encryption=none&security=reality&sni=ftp.debian.org&fp=qq&pbk=QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI&sid=40a4b9403abe554c&type=xhttp&path=%2F&host=ftp.debian.org&mode=packet-up#🇫🇮 IXXY Finland XHTTP 01
