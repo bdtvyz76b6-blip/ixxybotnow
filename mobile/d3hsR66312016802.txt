@@ -1,10 +1,10 @@
 #profile-title: base64:SVhYWSDCtyBNT0JJTEU=
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=0
+#subscription-userinfo: upload=0; download=0; total=0; expire=1790931282
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
-#announce: 🟢 Подписка активна • до ∞
+#announce: 🟢 Подписка активна • до 02.10.2026
 vless://c5694dc5-39fd-4a92-8430-3837baa522a3@fr.aether-runet.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fr.aether-runet.top&fp=chrome&pbk=mbd06LKGZlQInmxNq_AOgRT_EuOMQyjX5ArfxoWpFWY&sid=d14c88e86e91bf45&type=tcp#🇫🇷 IXXY France — Антиглушилка 01
 vless://c5694dc5-39fd-4a92-8430-3837baa522a3@185.229.9.234:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=firefox&pbk=fsyvGBPzzwpnSA0UnJML_cDqviNSEdj9zktpC1EeFhY&sid=743541f932fa3959&type=tcp#🇪🇺 IXXY Europe — Антиглушилка 02
 vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@81.94.148.199:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro#🇨🇭 IXXY — Антиглушилка 03
