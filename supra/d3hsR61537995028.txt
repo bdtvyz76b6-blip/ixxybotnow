@@ -1,6 +1,6 @@
 #profile-title: base64:SVhYWSDCtyBTVVBSQQ==
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1790417983
+#subscription-userinfo: upload=0; download=0; total=0; expire=1790418125
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
