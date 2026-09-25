@@ -7,9 +7,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T08:09:54.731219+00:00",
-        "expires_at": "2026-09-28T08:09:54.731219+00:00"
+        "expires_at": "2026-09-27T08:09:54.731219+00:00"
       }
     },
-    "trial_used": false
+    "trial_used": true
   }
 }
