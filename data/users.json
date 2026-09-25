@@ -12,6 +12,10 @@
       "mobile": {
         "started_at": "2026-09-25T09:09:10.182383+00:00",
         "expires_at": null
+      },
+      "basic": {
+        "started_at": "2026-09-25T09:09:18.885479+00:00",
+        "expires_at": null
       }
     },
     "trial_used": true
