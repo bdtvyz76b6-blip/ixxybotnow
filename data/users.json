@@ -26,10 +26,12 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T09:12:05.588431+00:00",
-        "expires_at": "2026-10-27T09:12:05.588431+00:00"
+        "expires_at": "2026-09-27T09:12:05.588431+00:00"
       }
     },
-    "trial_used": true
+    "trial_used": true,
+    "username": "kocherizhka777",
+    "first_name": "армани"
   },
   "1972672627": {
     "id": 1972672627,
