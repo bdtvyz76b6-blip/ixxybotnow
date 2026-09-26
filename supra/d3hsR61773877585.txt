@@ -5,12 +5,14 @@
 #happ-hide-settings: true
 #hide_server_settings: true
 #announce: 🟢 Подписка активна • до 27.12.2026
-vless://4054fdc2-ee80-4419-8a8e-d937df4719e2@qq.utiltools.site:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=qq.utiltools.site&fp=chrome&pbk=drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI&type=tcp&headerType=none#🇪🇺 ЕВРОПА • ЭКСКЛЮЗИВ АДМИНА
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp#🇫🇮 IXXY Finland 01
-vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ge-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&sid=1b21fca2edd3872b&type=tcp#🇩🇪 IXXY Germany 01
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0#🇩🇪 IXXY Germany 02
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@fr.aether-runet.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fr.aether-runet.top&fp=chrome&pbk=mbd06LKGZlQInmxNq_AOgRT_EuOMQyjX5ArfxoWpFWY&sid=d14c88e86e91bf45&type=tcp#🇫🇷 IXXY France — Антиглушилка 01
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@185.229.9.234:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=firefox&pbk=fsyvGBPzzwpnSA0UnJML_cDqviNSEdj9zktpC1EeFhY&sid=743541f932fa3959&type=tcp#🇪🇺 IXXY Europe — Антиглушилка 02
-vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@81.94.148.199:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro#🇨🇭 IXXY — Антиглушилка 03
-vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@81.94.148.8:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro#🇨🇭 IXXY — Антиглушилка 04
-vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@78.159.245.161:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro#🇨🇭 IXXY — Антиглушилка 05
+vless://0017846f-76fd-4253-9ec9-42af716a14b7@usa-ws.duck-net.pro:8444?encryption=none&security=tls&sni=usa-ws.duck-net.pro&type=ws&host=usa-ws.duck-net.pro&path=/ws#🇺🇸 IXXY USA 01
+vless://0017846f-76fd-4253-9ec9-42af716a14b7@144.31.94.174:443?encryption=none&security=reality&sni=deepl.com&fp=qq&pbk=zjv3djnsCKDqP7zZFIrJ9ImzgdPE3zFMCYrOvdWqkEE&sid=06bf5b24acb9&type=grpc&serviceName=deepl-grpc#🇪🇺 IXXY Europe 01
+vless://0017846f-76fd-4253-9ec9-42af716a14b7@37.49.226.222:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdn.jsdelivr.net&fp=firefox&pbk=_CbLQm3wopCKcM82NEeVJmQXJtJvikZHF3Hn89ZMBEc&sid=1c9ac5&type=tcp#🇪🇺 IXXY Europe 02
+vless://0017846f-76fd-4253-9ec9-42af716a14b7@self-fn.ducknet.digital:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=self-fn.ducknet.digital&fp=chrome&pbk=ppgcxQ5tiz0QQWBgzgM8e2lptjuI9I2HAa7fs-nfX2s&sid=6bfcb2d88b1aefbd&type=tcp#🇫🇮 IXXY Finland 01
+vless://0017846f-76fd-4253-9ec9-42af716a14b7@sw-ws.ducknet.digital:8443?encryption=none&security=tls&sni=sw-ws.ducknet.digital&fp=qq&type=ws&path=/ws#🇸🇪 IXXY Sweden 01
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp#🇫🇮 IXXY Finland 02
+vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ge-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&sid=1b21fca2edd3872b&type=tcp#🇩🇪 IXXY Germany 02
+hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0#🇩🇪 IXXY Germany 03
+vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@81.94.148.199:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro#🇨🇭 IXXY — Антиглушилка 01
+vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@81.94.148.8:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro#🇨🇭 IXXY — Антиглушилка 02
+vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@78.159.245.161:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro#🇨🇭 IXXY — Антиглушилка 03
