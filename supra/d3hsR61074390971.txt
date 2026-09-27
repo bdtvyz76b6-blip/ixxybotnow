@@ -1,10 +1,13 @@
-#profile-title: base64:SVhYWSDCtyBTVVBSQQ==
+#profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
 #subscription-userinfo: upload=0; download=0; total=0; expire=1790546509
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
-#announce: 🟢 Подписка активна • до 27.09.2026
+#hide_settings: true
+#announce: ⚠️ Подписка заканчивается · осталось 0 дн. · продлить в боте
+#profile-web-page-url: https://t.me/orelvpntopbot
+#support-url: https://t.me/rusrodyyya
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp&serverDescription=Wi-Fi#🇫🇮 IXXY Finland 02
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ge-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&sid=1b21fca2edd3872b&type=tcp&serverDescription=Wi-Fi#🇩🇪 IXXY Germany 02
 hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0&serverDescription=Wi-Fi#🇩🇪 IXXY Germany 03
