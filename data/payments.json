@@ -16,5 +16,14 @@
     "amount_rub": 29200,
     "status": "pending",
     "created_at": "2026-09-27T10:02:41.131980+00:00"
+  },
+  {
+    "uuid": "01a0e25f-1165-7396-92d9-5849698a4cd2",
+    "user_id": 6312016802,
+    "tariff": "supra",
+    "days": 2,
+    "amount_rub": 24,
+    "status": "pending",
+    "created_at": "2026-09-27T10:17:59.417485+00:00"
   }
 ]
