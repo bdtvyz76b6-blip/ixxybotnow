@@ -5,7 +5,7 @@
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🔴 Подписка закончилась · продлить: @orelvpntopbot
+#announce: 🔴 ПОДПИСКА ЗАКОНЧИЛАСЬ · продлить: @orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
 vless://expired@127.0.0.1:443?security=none&type=tcp&serverDescription=Expired#IXXY-Expired
