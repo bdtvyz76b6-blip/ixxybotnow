@@ -7,5 +7,14 @@
     "amount_rub": 360,
     "status": "pending",
     "created_at": "2026-09-27T10:01:38.398678+00:00"
+  },
+  {
+    "uuid": "01a0e251-1869-73b4-aa6b-527e62bf007b",
+    "user_id": 6312016802,
+    "tariff": "mobile",
+    "days": 3650,
+    "amount_rub": 29200,
+    "status": "pending",
+    "created_at": "2026-09-27T10:02:41.131980+00:00"
   }
 ]
