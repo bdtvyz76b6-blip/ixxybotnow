@@ -25,5 +25,14 @@
     "amount_rub": 24,
     "status": "pending",
     "created_at": "2026-09-27T10:17:59.417485+00:00"
+  },
+  {
+    "uuid": "01a0e29a-7181-704a-a5ea-0d53d4520454",
+    "user_id": 6312016802,
+    "tariff": "basic",
+    "days": 7,
+    "amount_rub": 35,
+    "status": "pending",
+    "created_at": "2026-09-27T11:22:48.035782+00:00"
   }
 ]
