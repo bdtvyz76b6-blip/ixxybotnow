@@ -1,11 +1,11 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1790666839
+#subscription-userinfo: upload=0; download=0; total=0; expire=1821985540
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: ⚠️ ПОДПИСКА ЗАКАНЧИВАЕТСЯ · осталось 0 дн. · продлить в боте
+#announce: 🟢 IXXY VPN · активна до 26.09.2027
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp&serverDescription=Wi-Fi#🇫🇮 IXXY · Финляндия
