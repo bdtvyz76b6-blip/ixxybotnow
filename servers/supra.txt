@@ -1,5 +1,7 @@
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp&serverDescription=Wi-Fi#🇫🇮 IXXY · Финляндия
 
+vless://b51b90cb-84ec-4cc5-9f48-c81f0c043017@217.60.178.23:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nlex.zanet.baby&fp=firefox&pbk=FOirrAYY9Pdja-IxK0Pq8AOS5RMWQ2kMeivyhpInPnk&sid=ea953f2f&type=tcp&headerType=none#🇳🇱 IXXY · Нидерланды
+
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ge-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8&sid=1b21fca2edd3872b&type=tcp&serverDescription=Wi-Fi#🇩🇪 IXXY · Германия 1
 
 hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0&serverDescription=Wi-Fi#🇩🇪 IXXY · Германия 2
