@@ -114,7 +114,8 @@
     "tariff": "basic",
     "days": 1,
     "amount_rub": 5,
-    "status": "pending",
-    "created_at": "2026-09-28T18:52:39.194413+00:00"
+    "status": "paid",
+    "created_at": "2026-09-28T18:52:39.194413+00:00",
+    "paid_at": "2026-09-28T18:57:33.284883+00:00"
   }
 ]
