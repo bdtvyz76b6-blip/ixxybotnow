@@ -81,12 +81,12 @@
     "created_at": "2026-09-28T07:09:29.885730+00:00"
   },
   {
-    "uuid": "01a0e6ed-fbfb-721e-b7dd-e6b4aa1fffe7",
+    "uuid": "01a0e6f0-0359-7149-8f9d-f4136476c67e",
     "user_id": 6312016802,
     "tariff": "mobile",
     "days": 1,
     "amount_rub": 8,
     "status": "pending",
-    "created_at": "2026-09-28T07:32:31.764078+00:00"
+    "created_at": "2026-09-28T07:34:44.554662+00:00"
   }
 ]
