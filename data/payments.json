@@ -107,5 +107,14 @@
     "status": "paid",
     "created_at": "2026-09-28T15:39:02.986233+00:00",
     "paid_at": "2026-09-28T15:48:31.094928+00:00"
+  },
+  {
+    "payment_id": "01a0e95c-a835-7150-be65-ca2ad4c16559",
+    "user_id": 6312016802,
+    "tariff": "basic",
+    "days": 1,
+    "amount_rub": 5,
+    "status": "pending",
+    "created_at": "2026-09-28T18:52:39.194413+00:00"
   }
 ]
