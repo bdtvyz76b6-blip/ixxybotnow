@@ -99,12 +99,12 @@
     "created_at": "2026-09-28T07:42:18.080438+00:00"
   },
   {
-    "payment_id": "01a0e8aa-b786-71f0-8dd0-8675afb4bdd3",
+    "payment_id": "01a0e8ab-68fb-724d-a7f8-d3b4f1def6aa",
     "user_id": 6312016802,
     "tariff": "mobile",
-    "days": 7,
-    "amount_rub": 56,
+    "days": 1,
+    "amount_rub": 8,
     "status": "pending",
-    "created_at": "2026-09-28T15:38:17.606887+00:00"
+    "created_at": "2026-09-28T15:39:02.986233+00:00"
   }
 ]
