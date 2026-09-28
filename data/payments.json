@@ -97,5 +97,14 @@
     "amount_rub": 8,
     "status": "pending",
     "created_at": "2026-09-28T07:42:18.080438+00:00"
+  },
+  {
+    "payment_id": "01a0e8aa-b786-71f0-8dd0-8675afb4bdd3",
+    "user_id": 6312016802,
+    "tariff": "mobile",
+    "days": 7,
+    "amount_rub": 56,
+    "status": "pending",
+    "created_at": "2026-09-28T15:38:17.606887+00:00"
   }
 ]
