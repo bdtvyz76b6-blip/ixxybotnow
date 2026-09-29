@@ -128,7 +128,7 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-29T15:20:48.765938+00:00",
-        "expires_at": "2026-10-01T15:20:48.765938+00:00"
+        "expires_at": null
       }
     },
     "trial_used": true
