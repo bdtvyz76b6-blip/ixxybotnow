@@ -119,5 +119,13 @@
       }
     },
     "trial_used": true
+  },
+  "6900520193": {
+    "id": 6900520193,
+    "username": "",
+    "first_name": "Олеся",
+    "created_at": "2026-09-29T15:20:38.796054+00:00",
+    "subs": {},
+    "trial_used": false
   }
 }
