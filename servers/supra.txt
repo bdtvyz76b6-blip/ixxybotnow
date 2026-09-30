@@ -1,4 +1,4 @@
-hysteria2://kPuGw9wrem1ufWnMhapiFBAXAer36Jsk@185.88.36.76:4328?sni=irs.xanka.best&insecure=0&obfs=salamander&obfs-password=Ydsi%40d3Co%24S#🇫🇮 IXXY · Финляндия [Игровой] 🔥
+hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0&alpn=h3#🇩🇪 IXXY · Игровой 🔥
 
 vless://f6dc28c3-103d-4ea0-a09c-02b0688b00ff@151.240.121.135:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nor.xanka.best&fp=firefox&pbk=eYquSTpOdzWpOaG_nN6wkASDohIULXNcPf1kwpwp9A8&sid=8310b33f&type=tcp&headerType=none#🇳🇴 IXXY · Норвегия
 
