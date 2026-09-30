@@ -1,3 +1,23 @@
+hysteria2://kPuGw9wrem1ufWnMhapiFBAXAer36Jsk@185.88.36.76:4328?sni=irs.xanka.best&insecure=0&obfs=salamander&obfs-password=Ydsi%40d3Co%24S#🇫🇮 IXXY · Финляндия [Игровой] 🔥
+
+vless://f6dc28c3-103d-4ea0-a09c-02b0688b00ff@151.240.121.135:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nor.xanka.best&fp=firefox&pbk=eYquSTpOdzWpOaG_nN6wkASDohIULXNcPf1kwpwp9A8&sid=8310b33f&type=tcp&headerType=none#🇳🇴 IXXY · Норвегия
+
+vless://1cfcca69-78a6-4fe7-bd0f-bbaa6abc6aab@80.66.79.193:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rus.yt.xanka.best&fp=firefox&pbk=9SK0qHj03aO6mpT2Vzoyr4jQqB15OkT7PurI4OxaMH0&sid=780dc377&type=tcp&headerType=none#🇷🇺 IXXY · Россия · Без РКН
+
+vless://29a2fec5-a92a-4bd8-a6d6-48e8eb9d7cf1@45.131.213.79:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gers.xanka.best&fp=firefox&pbk=s41XJywJTMPfHJ81MfFKDvhKCtfJP3gKJfgesvJRoS4&sid=f6103483&type=tcp&headerType=none#🇩🇪 IXXY · Германия 3
+
+vless://d9e50deb-a6bb-4d75-910b-47bb4c60896e@176.118.198.122:4443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=litenergy.xanka.best&fp=firefox&pbk=u-atgxyh-vMFdvkypqgHKnJWNVpfBzBv9p_D5SjINm0&sid=3dc224b3&type=tcp&headerType=none#🇱🇹 IXXY · Литва
+
+vless://a9753f57-f41b-43d7-8cb7-3b358dc66b71@212.115.55.109:9421?encryption=none&flow=xtls-rprx-vision&security=reality&sni=exton.xanka.best&fp=firefox&pbk=6pZWjiFTUUuL3tjB8ls0cnyXTMbRbSdQ9Y31xi5NhEI&sid=5be9fe01&type=tcp&headerType=none#🇪🇪 IXXY · Эстония
+
+vless://e8653fbe-1e37-4849-af96-f7801d0683f1@89.125.124.253:1337?encryption=none&flow=xtls-rprx-vision&security=reality&sni=engoc.xanka.best&fp=firefox&pbk=MKoeqrRMeryTxhSbcrPmoMZKKtd9268vwsiZ22w2Gig&sid=be901ea3&type=tcp&headerType=none#🇬🇧 IXXY · Англия
+
+vless://36c6d3c4-156a-4f17-90ed-c70f408dc394@151.241.138.70:65312?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pilka.xanka.best&fp=firefox&pbk=okU4G2KsLWMyFwIOCsAtFJ1G7W8zhDMlwkmRVAYbemc&sid=b5ca60c5&type=tcp&headerType=none#🇵🇱 IXXY · Польша
+
+vless://3d3890b0-6ac2-4d31-b818-32c240f58992@157.22.240.236:1337?encryption=none&flow=xtls-rprx-vision&security=reality&sni=albanka.yt.ru.xanka.best&fp=firefox&pbk=Hr-SUAmh1knf9MQZeUDoDcsT7S6IzdaP5TFxwZiHf0g&sid=2bfab8d6&type=tcp&headerType=none#🇦🇱 IXXY · Албания · YouTube без рекламы
+
+vless://05852a82-aa12-4462-ba0e-9bf6e89cf0aa@103.213.249.252:24921?encryption=none&flow=xtls-rprx-vision&security=reality&sni=xn-429.xanka.best&fp=firefox&pbk=SivVEob0Fqf6hLuzebIrtv47LsjcBLo4pc4vo-g_HRg&sid=f78b74d1&type=tcp&headerType=none#🇸🇪 IXXY · Швеция
+
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp&serverDescription=Wi-Fi#🇫🇮 IXXY · Финляндия
 
 vless://b51b90cb-84ec-4cc5-9f48-c81f0c043017@217.60.178.23:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nlex.zanet.baby&fp=firefox&pbk=FOirrAYY9Pdja-IxK0Pq8AOS5RMWQ2kMeivyhpInPnk&sid=ea953f2f&type=tcp&headerType=none#🇳🇱 IXXY · Нидерланды
@@ -7,8 +27,6 @@ vless://f8d52ece-fad4-478d-875d-df6eed3befa7@ge-s-1.pythonmakemigreat.wiki:443?e
 hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0&serverDescription=Wi-Fi#🇩🇪 IXXY · Германия 2
 
 vless://51238fe2-dc61-45cd-b3a6-ebb212c6c7c8@81.94.148.199:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=msk.cdnvideo.work&pbk=uTtaQ2ukMIbjoqBEZY97u8JtwsMKshUO8HTPMdlJ2Ro&serverDescription=Wi-Fi%20%2B%20LTE#🇨🇭 IXXY · Швейцария · Антиглушилка 1
-
-vless://a7856bcd-564a-4e86-a258-65d1886c2b09@static114.burn.best:443?encryption=none&security=tls&sni=static114.burn.best&fp=firefox&type=xhttp&path=/media/api/frames/&mode=packet-up&host=static114.burn.best#🇪🇺 🌐 IXXY — Антиглушилка 01
 
 vless://4054fdc2-ee80-4419-8a8e-d937df4719e2@qq.utiltools.site:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=qq.utiltools.site&fp=qq&pbk=drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI&type=tcp&headerType=none&serverDescription=Wi-Fi%20%2B%20LTE#🇷🇺 IXXY · Россия · Антиглушилка
 
