@@ -8,7 +8,7 @@
 #announce: 💎 IXXY VPN · БЕССРОЧНЫЙ ДОСТУП
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-hysteria2://kPuGw9wrem1ufWnMhapiFBAXAer36Jsk@185.88.36.76:4328?sni=irs.xanka.best&insecure=0&obfs=salamander&obfs-password=Ydsi%40d3Co%24S&serverDescription=Wi-Fi#🇫🇮 IXXY · Финляндия [Игровой] 🔥
+hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0&alpn=h3&serverDescription=Wi-Fi#🇩🇪 IXXY · Игровой 🔥
 vless://f6dc28c3-103d-4ea0-a09c-02b0688b00ff@151.240.121.135:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nor.xanka.best&fp=firefox&pbk=eYquSTpOdzWpOaG_nN6wkASDohIULXNcPf1kwpwp9A8&sid=8310b33f&type=tcp&headerType=none&serverDescription=Wi-Fi#🇳🇴 IXXY · Норвегия
 vless://1cfcca69-78a6-4fe7-bd0f-bbaa6abc6aab@80.66.79.193:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rus.yt.xanka.best&fp=firefox&pbk=9SK0qHj03aO6mpT2Vzoyr4jQqB15OkT7PurI4OxaMH0&sid=780dc377&type=tcp&headerType=none&serverDescription=Wi-Fi#🇷🇺 IXXY · Россия · Без РКН
 vless://29a2fec5-a92a-4bd8-a6d6-48e8eb9d7cf1@45.131.213.79:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gers.xanka.best&fp=firefox&pbk=s41XJywJTMPfHJ81MfFKDvhKCtfJP3gKJfgesvJRoS4&sid=f6103483&type=tcp&headerType=none&serverDescription=Wi-Fi%20%2B%20LTE#🇩🇪 IXXY · Германия 3
