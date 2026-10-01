@@ -159,7 +159,12 @@
     "username": "wil3r_88",
     "first_name": "wal3r",
     "created_at": "2026-10-01T12:13:13.291895+00:00",
-    "subs": {},
+    "subs": {
+      "supra": {
+        "started_at": "2026-10-01T12:13:18.215367+00:00",
+        "expires_at": "2026-10-02T12:13:18.215367+00:00"
+      }
+    },
     "trial_used": false
   }
 }
