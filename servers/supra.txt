@@ -4,19 +4,15 @@ vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@qcloudge1.exitvpn.shop:20268?encryp
 
 hysteria2://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@qcloudge1.exitvpn.shop:20270?sni=qcloudge1.exitvpn.shop&insecure=0&alpn=h3#🇩🇪 IXXY · Германия · Hysteria2
 
-vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@qcloudge1.exitvpn.shop:20275?encryption=none&security=tls&sni=qcloudge1.exitvpn.shop&fp=edge&type=xhttp&path=%2Fapi%2F20275%2Fdownload%2F&host=qcloudge1.exitvpn.shop&mode=packet-up#🇩🇪 IXXY · Германия · XHTTP
-
 vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@spainspeedboostjbl88.qcloud.surf:27311?encryption=none&flow=xtls-rprx-vision&security=reality&sni=metrika.yandex.ru&fp=firefox&pbk=9vHDWMrmerdjndp_XHbCc9jaR-9K95H_mwpLvI2emkY&sid=56daff9a&type=tcp&headerType=none#🇪🇸 IXXY · Испания · VLESS
 
 hysteria2://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@spainspeedboostjbl88.qcloud.surf:27313?sni=spainspeedboostjbl88.qcloud.surf&insecure=0&alpn=h3#🇪🇸 IXXY · Испания · Hysteria2
-
-vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@spainspeedboostjbl88.qcloud.surf:27315?encryption=none&security=tls&sni=spainspeedboostjbl88.qcloud.surf&fp=edge&type=xhttp&path=%2Fapi%2F27315%2Fdownload%2F&host=spainspeedboostjbl88.qcloud.surf&mode=packet-up#🇪🇸 IXXY · Испания · XHTTP
 
 vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@alb1337.zaebalsanoproxyklinus.lol:28150?encryption=none&flow=xtls-rprx-vision&security=reality&sni=metrika.yandex.ru&fp=firefox&pbk=HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww&sid=dcb858da&type=tcp&headerType=none#🇦🇱 IXXY · Албания · VLESS
 
 hysteria2://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@alb1337.zaebalsanoproxyklinus.lol:28152?sni=alb1337.zaebalsanoproxyklinus.lol&insecure=0&alpn=h3#🇦🇱 IXXY · Албания · Hysteria2
 
-vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@alb1337.zaebalsanoproxyklinus.lol:9378?encryption=none&security=tls&sni=alb1337.zaebalsanoproxyklinus.lol&fp=edge&type=xhttp&path=%2Fapi%2F9378%2Fdownload%2F&host=alb1337.zaebalsanoproxyklinus.lol&mode=packet-up#🇦🇱 IXXY · Албания · XHTTP
+vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@alb1337.zaebalsanoproxyklinus.lol:28150?encryption=none&flow=xtls-rprx-vision&security=reality&sni=metrika.yandex.ru&fp=firefox&pbk=HRmmr0Ii4Tr9jPLrwratvLhee3_VWFNK47T8AAo7kzww&sid=dcb858da&type=tcp&headerType=none#🇦🇱 IXXY · YouTube без рекламы
 
 vless://f8d52ece-fad4-478d-875d-df6eed3befa7@fi-s-1.pythonmakemigreat.wiki:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi-s-1.pythonmakemigreat.wiki&fp=chrome&pbk=ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg&sid=78f97d82e16aaad6&type=tcp&serverDescription=Wi-Fi#🇫🇮 IXXY · Финляндия · VLESS
 
