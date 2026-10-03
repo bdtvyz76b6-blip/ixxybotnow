@@ -18,7 +18,8 @@
         "expires_at": "2026-09-29T15:48:28.721582+00:00"
       }
     },
-    "trial_used": true
+    "trial_used": true,
+    "discount": 100
   },
   "6215130536": {
     "id": 6215130536,
