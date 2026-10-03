@@ -1,10 +1,16 @@
 [
   {
-    "code": "PF9T4SDRTQ",
+    "code": "85JMHVB38F",
     "type": "discount",
     "value": 100,
     "used_by": [
       6312016802
     ]
+  },
+  {
+    "code": "NZ7R27H3Z2",
+    "type": "discount",
+    "value": 70,
+    "used_by": []
   }
 ]
