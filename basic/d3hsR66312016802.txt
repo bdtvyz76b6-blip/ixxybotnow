@@ -1,11 +1,11 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1791411257
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🟢 IXXY VPN · подписка активна · будьте на связи с IXXY ☂️
+#announce: 💎 IXXY VPN · бессрочный доступ · будьте на связи с IXXY ☂️
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
 hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0&alpn=h3&serverDescription=Wi-Fi#🇩🇪 IXXY · Игровой 🔥
