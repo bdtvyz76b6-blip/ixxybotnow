@@ -185,7 +185,12 @@
     "username": "funpay_bankir",
     "first_name": "ꜰᴜɴᴘᴀʏ • garant",
     "created_at": "2026-10-03T15:59:07.781618+00:00",
-    "subs": {},
+    "subs": {
+      "supra": {
+        "started_at": "2026-10-03T15:59:14.471293+00:00",
+        "expires_at": "2026-10-04T15:59:14.471293+00:00"
+      }
+    },
     "trial_used": false
   }
 }
