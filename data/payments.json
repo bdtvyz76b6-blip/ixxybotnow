@@ -146,13 +146,13 @@
     "created_at": "2026-10-03T17:48:49.011748+00:00"
   },
   {
-    "payment_id": "01a102eb-1f58-7203-a00b-4663a96ba3cf",
+    "payment_id": "01a102ec-6964-7280-8cf5-33515224f91c",
     "user_id": 6312016802,
-    "tariff": "basic",
+    "tariff": "mobile",
     "days": 7,
-    "amount_rub": 35,
+    "amount_rub": 56,
     "discount_pct": 0,
     "status": "pending",
-    "created_at": "2026-10-03T17:58:46.179388+00:00"
+    "created_at": "2026-10-03T18:00:10.618195+00:00"
   }
 ]
