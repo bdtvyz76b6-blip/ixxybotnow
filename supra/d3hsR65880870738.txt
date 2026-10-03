@@ -1,15 +1,11 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=0; expire=1791029598
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: ┏━━━━━━━━━━━━━━━━━━━━━━┓
-┃  🔴 ПОДПИСКА ЗАКОНЧИЛАСЬ  ┃
-┗━━━━━━━━━━━━━━━━━━━━━━┛
-➤ Продлить: @orelvpntopbot
-📡 Будьте на связи с IXXY ☂️
-✨ В публичном Wi-Fi 9 из 10 сетей не шифруют трафик
+#announce: 🔴 IXXY VPN · подписка закончилась · продлить: @orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
 vless://expired@127.0.0.1:443?security=none&type=tcp&serverDescription=Expired#Expired
