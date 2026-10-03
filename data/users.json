@@ -7,15 +7,15 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-27T14:10:55.657451+00:00",
-        "expires_at": null
+        "expires_at": "2027-09-27T14:10:55.657451+00:00"
       },
       "basic": {
         "started_at": "2026-09-28T07:27:19.044063+00:00",
-        "expires_at": null
+        "expires_at": "2026-10-07T22:14:17.254026+00:00"
       },
       "mobile": {
         "started_at": "2026-09-28T15:48:28.721582+00:00",
-        "expires_at": null
+        "expires_at": "2027-10-03T18:22:30.327037+00:00"
       }
     },
     "trial_used": true
