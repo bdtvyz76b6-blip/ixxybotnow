@@ -1,11 +1,15 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1790706541
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🔴 ПОДПИСКА ЗАКОНЧИЛАСЬ · продлить: @orelvpntopbot
+#announce: ┏━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🔴 ПОДПИСКА ЗАКОНЧИЛАСЬ  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━┛
+➤ Продлить: @orelvpntopbot
+📡 Будьте на связи с IXXY ☂️
+✨ DPI-системы в РФ анализируют до 40 Тбит/с трафика
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
 vless://expired@127.0.0.1:443?security=none&type=tcp&serverDescription=Expired#Expired
