@@ -164,5 +164,15 @@
     "discount_pct": 0,
     "status": "pending",
     "created_at": "2026-10-03T18:21:33.397552+00:00"
+  },
+  {
+    "payment_id": "01a10309-9f4d-72f8-8a7a-55d75b30db28",
+    "user_id": 6312016802,
+    "tariff": "basic",
+    "days": 7,
+    "amount_rub": 35,
+    "discount_pct": 0,
+    "status": "pending",
+    "created_at": "2026-10-03T18:32:04.991772+00:00"
   }
 ]
