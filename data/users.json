@@ -170,5 +170,16 @@
     "ref_earned": 0,
     "username": "tg_katyusha0",
     "first_name": "катя"
+  },
+  "8950023034": {
+    "id": 8950023034,
+    "created_at": "2026-10-05T09:16:15.618141+00:00",
+    "subs": {},
+    "trial_used": false,
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_earned": 0,
+    "username": "Golchikova1",
+    "first_name": "София"
   }
 }
