@@ -221,7 +221,8 @@
     "days": 365,
     "amount_rub": 2920,
     "discount_pct": 0,
-    "status": "pending",
-    "created_at": "2026-10-06T19:04:52.181267+00:00"
+    "status": "expired",
+    "created_at": "2026-10-06T19:04:52.181267+00:00",
+    "expired_at": "2026-10-06T19:57:18.613428+00:00"
   }
 ]
