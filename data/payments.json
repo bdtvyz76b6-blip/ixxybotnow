@@ -5,8 +5,9 @@
     "tariff": "supra",
     "days": 30,
     "amount_rub": 360,
-    "status": "pending",
-    "created_at": "2026-09-27T10:01:38.398678+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T10:01:38.398678+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e251-1869-73b4-aa6b-527e62bf007b",
@@ -14,8 +15,9 @@
     "tariff": "mobile",
     "days": 3650,
     "amount_rub": 29200,
-    "status": "pending",
-    "created_at": "2026-09-27T10:02:41.131980+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T10:02:41.131980+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e25f-1165-7396-92d9-5849698a4cd2",
@@ -23,8 +25,9 @@
     "tariff": "supra",
     "days": 2,
     "amount_rub": 24,
-    "status": "pending",
-    "created_at": "2026-09-27T10:17:59.417485+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T10:17:59.417485+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e29a-7181-704a-a5ea-0d53d4520454",
@@ -32,8 +35,9 @@
     "tariff": "basic",
     "days": 7,
     "amount_rub": 35,
-    "status": "pending",
-    "created_at": "2026-09-27T11:22:48.035782+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T11:22:48.035782+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e41e-9284-70bf-974d-21431ad7ffe1",
@@ -41,8 +45,9 @@
     "tariff": "basic",
     "days": 1,
     "amount_rub": 5,
-    "status": "pending",
-    "created_at": "2026-09-27T18:26:44.631266+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T18:26:44.631266+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e43d-fa7d-72ee-beb4-07f1579350cc",
@@ -50,8 +55,9 @@
     "tariff": "basic",
     "days": 1,
     "amount_rub": 5,
-    "status": "pending",
-    "created_at": "2026-09-27T19:01:02.847356+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T19:01:02.847356+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e458-03a8-70fe-831f-7be5c99221c5",
@@ -59,8 +65,9 @@
     "tariff": "basic",
     "days": 1,
     "amount_rub": 5,
-    "status": "pending",
-    "created_at": "2026-09-27T19:29:28.939955+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T19:29:28.939955+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e45b-574c-7130-aa83-139c84fb7978",
@@ -68,8 +75,9 @@
     "tariff": "basic",
     "days": 1,
     "amount_rub": 5,
-    "status": "pending",
-    "created_at": "2026-09-27T19:33:07.038271+00:00"
+    "status": "expired",
+    "created_at": "2026-09-27T19:33:07.038271+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e6d8-e69a-72ec-b809-8d89d74d12c3",
@@ -77,8 +85,9 @@
     "tariff": "mobile",
     "days": 1,
     "amount_rub": 8,
-    "status": "pending",
-    "created_at": "2026-09-28T07:09:29.885730+00:00"
+    "status": "expired",
+    "created_at": "2026-09-28T07:09:29.885730+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e6f0-0359-7149-8f9d-f4136476c67e",
@@ -86,8 +95,9 @@
     "tariff": "mobile",
     "days": 1,
     "amount_rub": 8,
-    "status": "pending",
-    "created_at": "2026-09-28T07:34:44.554662+00:00"
+    "status": "expired",
+    "created_at": "2026-09-28T07:34:44.554662+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "uuid": "01a0e6f6-ee26-70d2-8170-8cae50bd869e",
@@ -95,8 +105,9 @@
     "tariff": "mobile",
     "days": 1,
     "amount_rub": 8,
-    "status": "pending",
-    "created_at": "2026-09-28T07:42:18.080438+00:00"
+    "status": "expired",
+    "created_at": "2026-09-28T07:42:18.080438+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a0e8ab-68fb-724d-a7f8-d3b4f1def6aa",
@@ -124,8 +135,9 @@
     "tariff": "basic",
     "days": 365,
     "amount_rub": 1825,
-    "status": "pending",
-    "created_at": "2026-09-30T22:18:49.075459+00:00"
+    "status": "expired",
+    "created_at": "2026-09-30T22:18:49.075459+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a0fdd9-c7eb-73a2-93b3-0bb94a4968be",
@@ -133,8 +145,9 @@
     "tariff": "mobile",
     "days": 3,
     "amount_rub": 24,
-    "status": "pending",
-    "created_at": "2026-10-02T18:21:43.560462+00:00"
+    "status": "expired",
+    "created_at": "2026-10-02T18:21:43.560462+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a102e2-02c7-7188-b995-6507785c8bfe",
@@ -142,8 +155,9 @@
     "tariff": "mobile",
     "days": 7,
     "amount_rub": 56,
-    "status": "pending",
-    "created_at": "2026-10-03T17:48:49.011748+00:00"
+    "status": "expired",
+    "created_at": "2026-10-03T17:48:49.011748+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a102ed-2d77-7368-826d-72e357b8297c",
@@ -152,8 +166,9 @@
     "days": 365,
     "amount_rub": 876,
     "discount_pct": 70,
-    "status": "pending",
-    "created_at": "2026-10-03T18:01:03.516151+00:00"
+    "status": "expired",
+    "created_at": "2026-10-03T18:01:03.516151+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a102ff-fc06-726c-b8c7-37063caf82d0",
@@ -162,8 +177,9 @@
     "days": 365,
     "amount_rub": 2920,
     "discount_pct": 0,
-    "status": "pending",
-    "created_at": "2026-10-03T18:21:33.397552+00:00"
+    "status": "expired",
+    "created_at": "2026-10-03T18:21:33.397552+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a10309-9f4d-72f8-8a7a-55d75b30db28",
@@ -172,8 +188,9 @@
     "days": 7,
     "amount_rub": 35,
     "discount_pct": 0,
-    "status": "pending",
-    "created_at": "2026-10-03T18:32:04.991772+00:00"
+    "status": "expired",
+    "created_at": "2026-10-03T18:32:04.991772+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a10371-e0b7-7054-b3c9-47b990786f6c",
@@ -182,8 +199,9 @@
     "days": 365,
     "amount_rub": 4380,
     "discount_pct": 0,
-    "status": "pending",
-    "created_at": "2026-10-03T20:25:57.451339+00:00"
+    "status": "expired",
+    "created_at": "2026-10-03T20:25:57.451339+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a103b9-0de0-7185-8419-d1499306c00d",
@@ -192,8 +210,9 @@
     "days": 365,
     "amount_rub": 2920,
     "discount_pct": 0,
-    "status": "pending",
-    "created_at": "2026-10-03T21:43:42.108464+00:00"
+    "status": "expired",
+    "created_at": "2026-10-03T21:43:42.108464+00:00",
+    "expired_at": "2026-10-06T19:26:56.382744+00:00"
   },
   {
     "payment_id": "01a1129a-b789-738b-a4f6-debb469797cd",
