@@ -10,7 +10,8 @@
         "expires_at": "2027-10-08T19:04:18.437650+00:00"
       }
     },
-    "trial_used": true
+    "trial_used": true,
+    "discount": 30
   },
   "6215130536": {
     "id": 6215130536,
