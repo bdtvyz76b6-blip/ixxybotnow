@@ -198,7 +198,7 @@
         "expires_at": "2026-10-12T18:40:14.439294+00:00"
       }
     },
-    "trial_used": false,
+    "trial_used": true,
     "ref_by": null,
     "ref_count": 0,
     "ref_earned": 0,
