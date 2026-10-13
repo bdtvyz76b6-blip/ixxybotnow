@@ -8,17 +8,408 @@
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443/?sni=bu-ge-hy.cloud-files.app&fp=firefox&alpn=h3#%F0%9F%94%81%D0%90%D0%B2%D1%82%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80
-vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?encryption=none&security=reality&sni=www.nvidia.com&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&sid=b484941b4767eb&fp=chrome&spx=%2F&type=tcp#%F0%9F%94%81%D0%90%D0%B2%D1%82%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80
-vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nl3.un1.pro&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&sid=6ba85179e30d4fc2&fp=edge&spx=%2F&type=tcp#%F0%9F%94%81%D0%90%D0%B2%D1%82%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80
-vless://102ff202-787b-4c28-b71e-940645c19f08@eu86.vaultberry.cloud:443?encryption=none&security=reality&sni=eu86.vaultberry.cloud&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&sid=1ed136481e0ede74&fp=firefox&type=tcp#%F0%9F%94%81%D0%90%D0%B2%D1%82%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@45.192.12.121:443/?sni=bu-pl-hy.cloud-files.app&fp=firefox&alpn=h3#%F0%9F%94%81%D0%90%D0%B2%D1%82%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80
-vless://1b66c786-4ad6-4782-b5f8-48e4ad5b999a@nashzapas.pro:443?encryption=none&security=tls&sni=nashzapas.pro&fp=firefox&alpn=h2&type=xhttp&host=nashzapas.pro&path=%2Fnzws&mode=auto#%F0%9F%94%81%D0%90%D0%B2%D1%82%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443/?sni=bu-ge-hy.cloud-files.app&fp=firefox&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA%20%E2%9A%A1%EF%B8%8F%F0%9F%9A%80%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20WiFi
-vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?encryption=none&security=reality&sni=www.nvidia.com&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&sid=b484941b4767eb&fp=chrome&spx=%2F&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20%E2%9A%A1%EF%B8%8F%F0%9F%9A%80%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20WiFi
-vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?encryption=none&security=reality&sni=www.nvidia.com&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&sid=b484941b4767eb&fp=chrome&spx=%2F&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20%E2%9A%A1%EF%B8%8F%F0%9F%9A%80%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20Brawl%20Stars%20WiFi
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443/?sni=bu-ge-hy.cloud-files.app&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA%20%E2%9A%A1%EF%B8%8F%F0%9F%9A%80%20%D0%98%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%B9%20WiFi
-vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nl3.un1.pro&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&sid=6ba85179e30d4fc2&fp=edge&spx=%2F&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20%E2%9A%A1%EF%B8%8F%F0%9F%9A%80%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20WiFi
-vless://102ff202-787b-4c28-b71e-940645c19f08@eu86.vaultberry.cloud:443?encryption=none&security=reality&sni=eu86.vaultberry.cloud&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&sid=1ed136481e0ede74&fp=firefox&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20%E2%9A%A1%EF%B8%8F%F0%9F%9A%80%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%D0%98%D0%98%20WiFi
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@45.192.12.121:443/?sni=bu-pl-hy.cloud-files.app&fp=firefox&alpn=h3#%F0%9F%87%B5%F0%9F%87%B1%20%E2%9A%A1%EF%B8%8F%F0%9F%9A%80%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%20WiFi
-vless://1b66c786-4ad6-4782-b5f8-48e4ad5b999a@nashzapas.pro:443?encryption=none&security=tls&sni=nashzapas.pro&fp=firefox&alpn=h2&type=xhttp&host=nashzapas.pro&path=%2Fnzws&mode=auto#%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%9A%80%20LTE%20%E2%84%961%20%7C%20%D0%92%D1%81%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B
+[
+  {
+    "remarks": "🔁Автовыбор",
+    "dns": {
+      "queryStrategy": "IPIfNonMatch",
+      "servers": ["1.1.1.1", "1.0.0.1"]
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": { "auth": "noauth", "udp": true },
+        "sniffing": { "destOverride": ["http", "tls", "quic"], "enabled": true },
+        "tag": "socks"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": { "allowTransparent": false },
+        "sniffing": { "destOverride": ["http", "tls", "quic"], "enabled": true },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log",
+      "dnsLog": true,
+      "loglevel": "Warning"
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "destination": "http://www.gstatic.com/generate_204",
+        "interval": "1m",
+        "sampling": 1,
+        "timeout": "3s"
+      },
+      "subjectSelector": ["proxy"]
+    },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "hysteria",
+        "settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
+          "security": "tls",
+          "tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox", "enableSessionResumption": false }
+        }
+      },
+      {
+        "tag": "proxy-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }]
+        },
+        "streamSettings": {
+          "network": "tcp", "security": "reality", "tcpSettings": {},
+          "realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }
+        }
+      },
+      {
+        "tag": "proxy-3",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [{ "address": "nl3.un1.pro", "port": 443, "users": [{ "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719", "encryption": "none", "flow": "xtls-rprx-vision" }] }]
+        },
+        "streamSettings": {
+          "network": "tcp", "security": "reality", "tcpSettings": {},
+          "realitySettings": { "fingerprint": "edge", "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM", "serverName": "nl3.un1.pro", "shortId": "6ba85179e30d4fc2", "spiderX": "/" }
+        }
+      },
+      {
+        "tag": "proxy-4",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [{ "address": "eu86.vaultberry.cloud", "port": 443, "users": [{ "id": "102ff202-787b-4c28-b71e-940645c19f08", "encryption": "none" }] }]
+        },
+        "streamSettings": {
+          "network": "tcp", "security": "reality", "tcpSettings": {},
+          "realitySettings": { "fingerprint": "firefox", "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M", "serverName": "eu86.vaultberry.cloud", "shortId": "1ed136481e0ede74" }
+        }
+      },
+      {
+        "tag": "proxy-5",
+        "protocol": "hysteria",
+        "settings": { "address": "45.192.12.121", "port": 443, "version": 2 },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
+          "security": "tls",
+          "tlsSettings": { "serverName": "bu-pl-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox", "enableSessionResumption": false }
+        }
+      },
+      {
+        "tag": "proxy-6",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [{ "address": "nashzapas.pro", "port": 443, "users": [{ "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a", "encryption": "none" }] }]
+        },
+        "streamSettings": {
+          "network": "xhttp", "security": "tls",
+          "tlsSettings": { "serverName": "nashzapas.pro", "alpn": ["h2"], "fingerprint": "firefox" },
+          "xhttpSettings": { "host": "nashzapas.pro", "path": "/nzws", "mode": "auto" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainMatcher": "hybrid",
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "Super_Balancer",
+          "selector": ["proxy"],
+          "fallbackTag": "direct",
+          "strategy": {
+            "type": "leastLoad",
+            "settings": { "baselines": ["1s"], "expected": 2, "maxRTT": "1s", "tolerance": 0.01 }
+          }
+        }
+      ],
+      "rules": [
+        { "type": "field", "protocol": ["bittorrent"], "outboundTag": "direct" },
+        {
+          "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"],
+          "outboundTag": "direct"
+        },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" },
+        {
+          "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"],
+          "balancerTag": "Super_Balancer"
+        },
+        { "type": "field", "network": "tcp,udp", "balancerTag": "Super_Balancer" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇩🇪 ⚡️🚀 Германия WiFi",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "hysteria",
+        "settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
+          "security": "tls",
+          "tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇫🇮 ⚡️🚀 Финляндия WiFi",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": { "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }] },
+        "streamSettings": {
+          "network": "tcp", "security": "reality", "tcpSettings": {},
+          "realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇫🇮 ⚡️🚀 Финляндия Brawl Stars WiFi",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": { "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }] },
+        "streamSettings": {
+          "network": "tcp", "security": "reality", "tcpSettings": {},
+          "realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇩🇪 ⚡️🚀 Игровой WiFi",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "hysteria",
+        "settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
+          "security": "tls",
+          "tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"] }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇳🇱 ⚡️🚀 Нидерланды WiFi",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": { "vnext": [{ "address": "nl3.un1.pro", "port": 443, "users": [{ "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719", "encryption": "none", "flow": "xtls-rprx-vision" }] }] },
+        "streamSettings": {
+          "network": "tcp", "security": "reality", "tcpSettings": {},
+          "realitySettings": { "fingerprint": "edge", "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM", "serverName": "nl3.un1.pro", "shortId": "6ba85179e30d4fc2", "spiderX": "/" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇳🇱 ⚡️🚀 Нидерланды ИИ WiFi",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": { "vnext": [{ "address": "eu86.vaultberry.cloud", "port": 443, "users": [{ "id": "102ff202-787b-4c28-b71e-940645c19f08", "encryption": "none" }] }] },
+        "streamSettings": {
+          "network": "tcp", "security": "reality", "tcpSettings": {},
+          "realitySettings": { "fingerprint": "firefox", "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M", "serverName": "eu86.vaultberry.cloud", "shortId": "1ed136481e0ede74" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇵🇱 ⚡️🚀 Польша WiFi",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "hysteria",
+        "settings": { "address": "45.192.12.121", "port": 443, "version": 2 },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
+          "security": "tls",
+          "tlsSettings": { "serverName": "bu-pl-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇩🇪 🚀 LTE №1 | Все операторы",
+    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
+    "inbounds": [
+      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
+      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
+    ],
+    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": { "vnext": [{ "address": "nashzapas.pro", "port": 443, "users": [{ "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a", "encryption": "none" }] }] },
+        "streamSettings": {
+          "network": "xhttp", "security": "tls",
+          "tlsSettings": { "serverName": "nashzapas.pro", "alpn": ["h2"], "fingerprint": "firefox" },
+          "xhttpSettings": { "host": "nashzapas.pro", "path": "/nzws", "mode": "auto" }
+        }
+      },
+      { "protocol": "freedom", "tag": "direct" },
+      { "protocol": "blackhole", "tag": "block" }
+    ],
+    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
+        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
+        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
+      ]
+    },
+    "stats": {}
+  }
+]
