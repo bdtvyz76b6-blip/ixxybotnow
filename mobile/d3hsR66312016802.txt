@@ -1,11 +1,11 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1794380968
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🟢 IXXY VPN · Активна до 11.11.2026 · Осталось 28 дн. · Будьте на связи с IXXY ☂️
+#announce: 🟢  АКТИВНА · до 11.11.2026 · осталось 28 дн. · IXXY VPN ☂️
+#announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
 vless://1b66c786-4ad6-4782-b5f8-48e4ad5b999a@nashzapas.pro:443?type=xhttp&security=tls&sni=nashzapas.pro&alpn=h2&fp=firefox&host=nashzapas.pro&path=%2Fnzws&mode=auto&encryption=none&serverDescription=Wi-Fi#🇩🇪 🚀 LTE №1 | Все операторы
