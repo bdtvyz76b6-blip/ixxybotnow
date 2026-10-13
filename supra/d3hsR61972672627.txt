@@ -8,408 +8,408 @@
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-[
-  {
-    "remarks": "🔁Автовыбор",
-    "dns": {
-      "queryStrategy": "IPIfNonMatch",
-      "servers": ["1.1.1.1", "1.0.0.1"]
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": { "auth": "noauth", "udp": true },
-        "sniffing": { "destOverride": ["http", "tls", "quic"], "enabled": true },
-        "tag": "socks"
-      },
-      {
-        "listen": "127.0.0.1",
-        "port": 10809,
-        "protocol": "http",
-        "settings": { "allowTransparent": false },
-        "sniffing": { "destOverride": ["http", "tls", "quic"], "enabled": true },
-        "tag": "http"
-      }
-    ],
-    "log": {
-      "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log",
-      "dnsLog": true,
-      "loglevel": "Warning"
-    },
-    "burstObservatory": {
-      "pingConfig": {
-        "destination": "http://www.gstatic.com/generate_204",
-        "interval": "1m",
-        "sampling": 1,
-        "timeout": "3s"
-      },
-      "subjectSelector": ["proxy"]
-    },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "hysteria",
-        "settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },
-        "streamSettings": {
-          "network": "hysteria",
-          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
-          "security": "tls",
-          "tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox", "enableSessionResumption": false }
-        }
-      },
-      {
-        "tag": "proxy-2",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }]
-        },
-        "streamSettings": {
-          "network": "tcp", "security": "reality", "tcpSettings": {},
-          "realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }
-        }
-      },
-      {
-        "tag": "proxy-3",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [{ "address": "nl3.un1.pro", "port": 443, "users": [{ "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719", "encryption": "none", "flow": "xtls-rprx-vision" }] }]
-        },
-        "streamSettings": {
-          "network": "tcp", "security": "reality", "tcpSettings": {},
-          "realitySettings": { "fingerprint": "edge", "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM", "serverName": "nl3.un1.pro", "shortId": "6ba85179e30d4fc2", "spiderX": "/" }
-        }
-      },
-      {
-        "tag": "proxy-4",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [{ "address": "eu86.vaultberry.cloud", "port": 443, "users": [{ "id": "102ff202-787b-4c28-b71e-940645c19f08", "encryption": "none" }] }]
-        },
-        "streamSettings": {
-          "network": "tcp", "security": "reality", "tcpSettings": {},
-          "realitySettings": { "fingerprint": "firefox", "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M", "serverName": "eu86.vaultberry.cloud", "shortId": "1ed136481e0ede74" }
-        }
-      },
-      {
-        "tag": "proxy-5",
-        "protocol": "hysteria",
-        "settings": { "address": "45.192.12.121", "port": 443, "version": 2 },
-        "streamSettings": {
-          "network": "hysteria",
-          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
-          "security": "tls",
-          "tlsSettings": { "serverName": "bu-pl-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox", "enableSessionResumption": false }
-        }
-      },
-      {
-        "tag": "proxy-6",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [{ "address": "nashzapas.pro", "port": 443, "users": [{ "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a", "encryption": "none" }] }]
-        },
-        "streamSettings": {
-          "network": "xhttp", "security": "tls",
-          "tlsSettings": { "serverName": "nashzapas.pro", "alpn": ["h2"], "fingerprint": "firefox" },
-          "xhttpSettings": { "host": "nashzapas.pro", "path": "/nzws", "mode": "auto" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainMatcher": "hybrid",
-      "domainStrategy": "IPIfNonMatch",
-      "balancers": [
-        {
-          "tag": "Super_Balancer",
-          "selector": ["proxy"],
-          "fallbackTag": "direct",
-          "strategy": {
-            "type": "leastLoad",
-            "settings": { "baselines": ["1s"], "expected": 2, "maxRTT": "1s", "tolerance": 0.01 }
-          }
-        }
-      ],
-      "rules": [
-        { "type": "field", "protocol": ["bittorrent"], "outboundTag": "direct" },
-        {
-          "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"],
-          "outboundTag": "direct"
-        },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" },
-        {
-          "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"],
-          "balancerTag": "Super_Balancer"
-        },
-        { "type": "field", "network": "tcp,udp", "balancerTag": "Super_Balancer" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇩🇪 ⚡️🚀 Германия WiFi",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "hysteria",
-        "settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },
-        "streamSettings": {
-          "network": "hysteria",
-          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
-          "security": "tls",
-          "tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇫🇮 ⚡️🚀 Финляндия WiFi",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": { "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }] },
-        "streamSettings": {
-          "network": "tcp", "security": "reality", "tcpSettings": {},
-          "realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇫🇮 ⚡️🚀 Финляндия Brawl Stars WiFi",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": { "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }] },
-        "streamSettings": {
-          "network": "tcp", "security": "reality", "tcpSettings": {},
-          "realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇩🇪 ⚡️🚀 Игровой WiFi",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "hysteria",
-        "settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },
-        "streamSettings": {
-          "network": "hysteria",
-          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
-          "security": "tls",
-          "tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"] }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇳🇱 ⚡️🚀 Нидерланды WiFi",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": { "vnext": [{ "address": "nl3.un1.pro", "port": 443, "users": [{ "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719", "encryption": "none", "flow": "xtls-rprx-vision" }] }] },
-        "streamSettings": {
-          "network": "tcp", "security": "reality", "tcpSettings": {},
-          "realitySettings": { "fingerprint": "edge", "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM", "serverName": "nl3.un1.pro", "shortId": "6ba85179e30d4fc2", "spiderX": "/" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇳🇱 ⚡️🚀 Нидерланды ИИ WiFi",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": { "vnext": [{ "address": "eu86.vaultberry.cloud", "port": 443, "users": [{ "id": "102ff202-787b-4c28-b71e-940645c19f08", "encryption": "none" }] }] },
-        "streamSettings": {
-          "network": "tcp", "security": "reality", "tcpSettings": {},
-          "realitySettings": { "fingerprint": "firefox", "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M", "serverName": "eu86.vaultberry.cloud", "shortId": "1ed136481e0ede74" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇵🇱 ⚡️🚀 Польша WiFi",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "hysteria",
-        "settings": { "address": "45.192.12.121", "port": 443, "version": 2 },
-        "streamSettings": {
-          "network": "hysteria",
-          "hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },
-          "security": "tls",
-          "tlsSettings": { "serverName": "bu-pl-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "remarks": "🇩🇪 🚀 LTE №1 | Все операторы",
-    "dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },
-    "inbounds": [
-      { "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },
-      { "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }
-    ],
-    "log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": { "vnext": [{ "address": "nashzapas.pro", "port": 443, "users": [{ "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a", "encryption": "none" }] }] },
-        "streamSettings": {
-          "network": "xhttp", "security": "tls",
-          "tlsSettings": { "serverName": "nashzapas.pro", "alpn": ["h2"], "fingerprint": "firefox" },
-          "xhttpSettings": { "host": "nashzapas.pro", "path": "/nzws", "mode": "auto" }
-        }
-      },
-      { "protocol": "freedom", "tag": "direct" },
-      { "protocol": "blackhole", "tag": "block" }
-    ],
-    "policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        { "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },
-        { "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },
-        { "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }
-      ]
-    },
-    "stats": {}
-  }
-]
+[?serverDescription=Wi-Fi
+{?serverDescription=Wi-Fi
+"remarks": "🔁Автовыбор",?serverDescription=Wi-Fi
+"dns": {?serverDescription=Wi-Fi%20%2B%20LTE
+"queryStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"servers": ["1.1.1.1", "1.0.0.1"]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"listen": "127.0.0.1",?serverDescription=Wi-Fi%20%2B%20LTE
+"port": 10808,?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "socks",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "auth": "noauth", "udp": true },?serverDescription=Wi-Fi%20%2B%20LTE
+"sniffing": { "destOverride": ["http", "tls", "quic"], "enabled": true },?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "socks"?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"listen": "127.0.0.1",?serverDescription=Wi-Fi%20%2B%20LTE
+"port": 10809,?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "http",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "allowTransparent": false },?serverDescription=Wi-Fi%20%2B%20LTE
+"sniffing": { "destOverride": ["http", "tls", "quic"], "enabled": true },?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "http"?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": {?serverDescription=Wi-Fi%20%2B%20LTE
+"access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log",?serverDescription=Wi-Fi%20%2B%20LTE
+"dnsLog": true,?serverDescription=Wi-Fi%20%2B%20LTE
+"loglevel": "Warning"?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"burstObservatory": {?serverDescription=Wi-Fi%20%2B%20LTE
+"pingConfig": {?serverDescription=Wi-Fi%20%2B%20LTE
+"destination": "http://www.gstatic.com/generate_204",?serverDescription=Wi-Fi%20%2B%20LTE
+"interval": "1m",?serverDescription=Wi-Fi%20%2B%20LTE
+"sampling": 1,?serverDescription=Wi-Fi%20%2B%20LTE
+"timeout": "3s"?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"subjectSelector": ["proxy"]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },?serverDescription=Wi-Fi%20%2B%20LTE
+"security": "tls",?serverDescription=Wi-Fi%20%2B%20LTE
+"tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox", "enableSessionResumption": false }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy-2",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "tcp", "security": "reality", "tcpSettings": {},?serverDescription=Wi-Fi%20%2B%20LTE
+"realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy-3",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"vnext": [{ "address": "nl3.un1.pro", "port": 443, "users": [{ "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719", "encryption": "none", "flow": "xtls-rprx-vision" }] }]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "tcp", "security": "reality", "tcpSettings": {},?serverDescription=Wi-Fi%20%2B%20LTE
+"realitySettings": { "fingerprint": "edge", "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM", "serverName": "nl3.un1.pro", "shortId": "6ba85179e30d4fc2", "spiderX": "/" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy-4",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"vnext": [{ "address": "eu86.vaultberry.cloud", "port": 443, "users": [{ "id": "102ff202-787b-4c28-b71e-940645c19f08", "encryption": "none" }] }]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "tcp", "security": "reality", "tcpSettings": {},?serverDescription=Wi-Fi%20%2B%20LTE
+"realitySettings": { "fingerprint": "firefox", "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M", "serverName": "eu86.vaultberry.cloud", "shortId": "1ed136481e0ede74" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy-5",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "address": "45.192.12.121", "port": 443, "version": 2 },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },?serverDescription=Wi-Fi%20%2B%20LTE
+"security": "tls",?serverDescription=Wi-Fi%20%2B%20LTE
+"tlsSettings": { "serverName": "bu-pl-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox", "enableSessionResumption": false }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy-6",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"vnext": [{ "address": "nashzapas.pro", "port": 443, "users": [{ "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a", "encryption": "none" }] }]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "xhttp", "security": "tls",?serverDescription=Wi-Fi%20%2B%20LTE
+"tlsSettings": { "serverName": "nashzapas.pro", "alpn": ["h2"], "fingerprint": "firefox" },?serverDescription=Wi-Fi%20%2B%20LTE
+"xhttpSettings": { "host": "nashzapas.pro", "path": "/nzws", "mode": "auto" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainMatcher": "hybrid",?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"balancers": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "Super_Balancer",?serverDescription=Wi-Fi%20%2B%20LTE
+"selector": ["proxy"],?serverDescription=Wi-Fi%20%2B%20LTE
+"fallbackTag": "direct",?serverDescription=Wi-Fi%20%2B%20LTE
+"strategy": {?serverDescription=Wi-Fi%20%2B%20LTE
+"type": "leastLoad",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "baselines": ["1s"], "expected": 2, "maxRTT": "1s", "tolerance": 0.01 }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "type": "field", "protocol": ["bittorrent"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"],?serverDescription=Wi-Fi%20%2B%20LTE
+"outboundTag": "direct"?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"],?serverDescription=Wi-Fi%20%2B%20LTE
+"balancerTag": "Super_Balancer"?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "type": "field", "network": "tcp,udp", "balancerTag": "Super_Balancer" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇩🇪 ⚡️🚀 Германия WiFi",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },?serverDescription=Wi-Fi%20%2B%20LTE
+"security": "tls",?serverDescription=Wi-Fi%20%2B%20LTE
+"tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇫🇮 ⚡️🚀 Финляндия WiFi",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "tcp", "security": "reality", "tcpSettings": {},?serverDescription=Wi-Fi%20%2B%20LTE
+"realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇫🇮 ⚡️🚀 Финляндия Brawl Stars WiFi",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "vnext": [{ "address": "2.27.122.221", "port": 443, "users": [{ "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a", "encryption": "none" }] }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "tcp", "security": "reality", "tcpSettings": {},?serverDescription=Wi-Fi%20%2B%20LTE
+"realitySettings": { "fingerprint": "chrome", "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE", "serverName": "www.nvidia.com", "shortId": "b484941b4767eb", "spiderX": "/" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇩🇪 ⚡️🚀 Игровой WiFi",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "address": "bu-ge-hy.cloud-files.app", "port": 443, "version": 2 },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },?serverDescription=Wi-Fi%20%2B%20LTE
+"security": "tls",?serverDescription=Wi-Fi%20%2B%20LTE
+"tlsSettings": { "serverName": "bu-ge-hy.cloud-files.app", "alpn": ["h3"] }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇳🇱 ⚡️🚀 Нидерланды WiFi",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "vnext": [{ "address": "nl3.un1.pro", "port": 443, "users": [{ "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719", "encryption": "none", "flow": "xtls-rprx-vision" }] }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "tcp", "security": "reality", "tcpSettings": {},?serverDescription=Wi-Fi%20%2B%20LTE
+"realitySettings": { "fingerprint": "edge", "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM", "serverName": "nl3.un1.pro", "shortId": "6ba85179e30d4fc2", "spiderX": "/" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇳🇱 ⚡️🚀 Нидерланды ИИ WiFi",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "vnext": [{ "address": "eu86.vaultberry.cloud", "port": 443, "users": [{ "id": "102ff202-787b-4c28-b71e-940645c19f08", "encryption": "none" }] }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "tcp", "security": "reality", "tcpSettings": {},?serverDescription=Wi-Fi%20%2B%20LTE
+"realitySettings": { "fingerprint": "firefox", "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M", "serverName": "eu86.vaultberry.cloud", "shortId": "1ed136481e0ede74" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇵🇱 ⚡️🚀 Польша WiFi",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "address": "45.192.12.121", "port": 443, "version": 2 },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "hysteria",?serverDescription=Wi-Fi%20%2B%20LTE
+"hysteriaSettings": { "version": 2, "auth": "052d0bc5-02de-426e-986d-b6528cd41380" },?serverDescription=Wi-Fi%20%2B%20LTE
+"security": "tls",?serverDescription=Wi-Fi%20%2B%20LTE
+"tlsSettings": { "serverName": "bu-pl-hy.cloud-files.app", "alpn": ["h3"], "fingerprint": "firefox" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"remarks": "🇩🇪 🚀 LTE №1 | Все операторы",?serverDescription=Wi-Fi%20%2B%20LTE
+"dns": { "tag": "dns_out", "queryStrategy": "IPIfNonMatch", "servers": [{ "address": "1.1.1.1", "skipFallback": false }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"inbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10808, "protocol": "socks", "settings": { "auth": "noauth", "udp": true, "userLevel": 8 }, "sniffing": { "destOverride": ["http", "tls", "fakedns"], "enabled": true }, "tag": "socks" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "listen": "127.0.0.1", "port": 10809, "protocol": "http", "settings": { "userLevel": 8 }, "tag": "http" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"log": { "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log", "dnsLog": true, "loglevel": "Warning" },?serverDescription=Wi-Fi%20%2B%20LTE
+"outbounds": [?serverDescription=Wi-Fi%20%2B%20LTE
+{?serverDescription=Wi-Fi%20%2B%20LTE
+"tag": "proxy",?serverDescription=Wi-Fi%20%2B%20LTE
+"protocol": "vless",?serverDescription=Wi-Fi%20%2B%20LTE
+"settings": { "vnext": [{ "address": "nashzapas.pro", "port": 443, "users": [{ "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a", "encryption": "none" }] }] },?serverDescription=Wi-Fi%20%2B%20LTE
+"streamSettings": {?serverDescription=Wi-Fi%20%2B%20LTE
+"network": "xhttp", "security": "tls",?serverDescription=Wi-Fi%20%2B%20LTE
+"tlsSettings": { "serverName": "nashzapas.pro", "alpn": ["h2"], "fingerprint": "firefox" },?serverDescription=Wi-Fi%20%2B%20LTE
+"xhttpSettings": { "host": "nashzapas.pro", "path": "/nzws", "mode": "auto" }?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "freedom", "tag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "protocol": "blackhole", "tag": "block" }?serverDescription=Wi-Fi%20%2B%20LTE
+],?serverDescription=Wi-Fi%20%2B%20LTE
+"policy": { "system": { "statsOutboundDownlink": true, "statsOutboundUplink": true } },?serverDescription=Wi-Fi%20%2B%20LTE
+"routing": {?serverDescription=Wi-Fi%20%2B%20LTE
+"domainStrategy": "IPIfNonMatch",?serverDescription=Wi-Fi%20%2B%20LTE
+"rules": [?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["habr.com", "4pda.to", "4pda.ru", "kemono.su", "jut.su", "kara.su", "theins.ru", "tvrain.ru", "echo.msk.ru", "the-village.ru", "snob.ru", "novayagazeta.ru", "moscowtimes.ru"], "outboundTag": "proxy" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "domain": ["geosite:private", "geosite:apple", "geosite:apple-pki", "geosite:huawei", "geosite:xiaomi", "geosite:category-android-app-download", "geosite:f-droid", "geosite:twitch", "geosite:category-ru"], "outboundTag": "direct" },?serverDescription=Wi-Fi%20%2B%20LTE
+{ "ip": ["geoip:ru", "geoip:private"], "outboundTag": "direct" }?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
+},?serverDescription=Wi-Fi%20%2B%20LTE
+"stats": {}?serverDescription=Wi-Fi%20%2B%20LTE
+}?serverDescription=Wi-Fi%20%2B%20LTE
+]?serverDescription=Wi-Fi%20%2B%20LTE
