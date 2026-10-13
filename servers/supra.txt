@@ -6,6 +6,4 @@ vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?type=tcp&security=
 
 vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?type=tcp&security=reality&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&fp=edge&sni=nl3.un1.pro&sid=6ba85179e30d4fc2&spx=%2F&flow=xtls-rprx-vision&encryption=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
 
-vless://1b66c786-4ad6-4782-b5f8-48e4ad5b999a@nashzapas.pro:443?type=xhttp&security=tls&sni=nashzapas.pro&alpn=h2&fp=firefox&host=nashzapas.pro&path=%2Fnzws&mode=auto&encryption=none#Обход глушилок 👇🏻
-
 vless://1b66c786-4ad6-4782-b5f8-48e4ad5b999a@nashzapas.pro:443?type=xhttp&security=tls&sni=nashzapas.pro&alpn=h2&fp=firefox&host=nashzapas.pro&path=%2Fnzws&mode=auto&encryption=none#🇩🇪 🚀 LTE №1 | Все операторы
