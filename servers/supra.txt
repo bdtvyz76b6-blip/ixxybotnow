@@ -1,6 +1,4 @@
-vless://c00513b0-04a9-4291-851f-c04d0e2762b5@151.240.121.135:8443?type=tcp&security=reality&pbk=eYquSTpOdzWpOaG_nN6wkASDohIULXNcPf1kwpwp9A8&fp=firefox&sni=nor.xanka.best&sid=8310b33f&flow=xtls-rprx-vision&encryption=none&fragment=50-100%2C10-20%2C1-3%2Ctlshello#🇳🇴 ⚡️🚀 Игровой WiFi
-
-vless://c3c0c3ed-6a11-4ef4-b8da-51df2854f60d@51.77.71.57:443?type=tcp&security=reality&pbk=Ikumrv2FLlu3rKB_hupcTM6O9e3dJzjm1SSiyiVfBQM&fp=firefox&sni=de-4362eee2fd.xanka.best&sid=adf2a038&flow=xtls-rprx-vision&encryption=none&fragment=50-100%2C10-20%2C1-3%2Ctlshello#🇩🇪 ⚡️🚀 Германия WiFi
+vless://c3c0c3ed-6a11-4ef4-b8da-51df2854f60d@51.77.71.57:443?type=tcp&security=reality&pbk=Ikumrv2FLlu3rKB_hupcTM6O9e3dJzjm1SSiyiVfBQM&fp=firefox&sni=de-4362eee2fd.xanka.best&sid=adf2a038&flow=xtls-rprx-vision&encryption=none&fragment=50-100%2C10-20%2C1-3%2Ctlshello#🇩🇪 ⚡️🚀 Игровой WiFi
 
 hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@45.192.12.121:443/?security=tls&sni=bu-pl-hy.cloud-files.app&alpn=h3&fp=firefox#🇵🇱 ⚡️🚀 Польша WiFi
 
