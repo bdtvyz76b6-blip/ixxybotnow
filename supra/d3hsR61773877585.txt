@@ -8,9 +8,8 @@
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-vless://c00513b0-04a9-4291-851f-c04d0e2762b5@151.240.121.135:8443?type=tcp&security=reality&pbk=eYquSTpOdzWpOaG_nN6wkASDohIULXNcPf1kwpwp9A8&fp=firefox&sni=nor.xanka.best&sid=8310b33f&flow=xtls-rprx-vision&encryption=none&fragment=50-100%2C10-20%2C1-3%2Ctlshello&serverDescription=Wi-Fi#🇳🇴 ⚡️🚀 Игровой WiFi
-vless://c3c0c3ed-6a11-4ef4-b8da-51df2854f60d@51.77.71.57:443?type=tcp&security=reality&pbk=Ikumrv2FLlu3rKB_hupcTM6O9e3dJzjm1SSiyiVfBQM&fp=firefox&sni=de-4362eee2fd.xanka.best&sid=adf2a038&flow=xtls-rprx-vision&encryption=none&fragment=50-100%2C10-20%2C1-3%2Ctlshello&serverDescription=Wi-Fi#🇩🇪 ⚡️🚀 Германия WiFi
+vless://c3c0c3ed-6a11-4ef4-b8da-51df2854f60d@51.77.71.57:443?type=tcp&security=reality&pbk=Ikumrv2FLlu3rKB_hupcTM6O9e3dJzjm1SSiyiVfBQM&fp=firefox&sni=de-4362eee2fd.xanka.best&sid=adf2a038&flow=xtls-rprx-vision&encryption=none&fragment=50-100%2C10-20%2C1-3%2Ctlshello&serverDescription=Wi-Fi#🇩🇪 ⚡️🚀 Игровой WiFi
 hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@45.192.12.121:443/?security=tls&sni=bu-pl-hy.cloud-files.app&alpn=h3&fp=firefox&serverDescription=Wi-Fi#🇵🇱 ⚡️🚀 Польша WiFi
-vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?type=tcp&security=reality&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&fp=chrome&sni=www.nvidia.com&sid=b484941b4767eb&spx=%2F&encryption=none&serverDescription=Wi-Fi%20%2B%20LTE#🇫🇮 ⚡️🚀 Финляндия WiFi
+vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?type=tcp&security=reality&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&fp=chrome&sni=www.nvidia.com&sid=b484941b4767eb&spx=%2F&encryption=none&serverDescription=Wi-Fi#🇫🇮 ⚡️🚀 Финляндия WiFi
 vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?type=tcp&security=reality&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&fp=edge&sni=nl3.un1.pro&sid=6ba85179e30d4fc2&spx=%2F&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi%20%2B%20LTE#🇳🇱 ⚡️🚀 Нидерланды WiFi
 vless://1b66c786-4ad6-4782-b5f8-48e4ad5b999a@nashzapas.pro:443?type=xhttp&security=tls&sni=nashzapas.pro&alpn=h2&fp=firefox&host=nashzapas.pro&path=%2Fnzws&mode=auto&encryption=none&serverDescription=Wi-Fi%20%2B%20LTE#🇩🇪 🚀 LTE №1 | Все операторы
