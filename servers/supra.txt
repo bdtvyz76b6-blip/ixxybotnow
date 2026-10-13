@@ -1,3 +1,5 @@
+vless://ace33fb8-c593-4b17-8f72-f3359b6e9638@kr0w1ya.khovanski.mom:443?type=tcp&security=reality&pbk=r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk&fp=firefox&sni=kr0w1ya.khovanski.mom&sid=d98e7afec9c0c359&flow=xtls-rprx-vision&encryption=none#🇰🇷 ⚡️🚀 Игровой WiFi
+
 hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@45.192.12.121:443/?security=tls&sni=bu-pl-hy.cloud-files.app&alpn=h3&fp=firefox#🇵🇱 ⚡️🚀 Польша WiFi
 
 vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?type=tcp&security=reality&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&fp=chrome&sni=www.nvidia.com&sid=b484941b4767eb&spx=%2F&encryption=none#🇫🇮 ⚡️🚀 Финляндия WiFi
