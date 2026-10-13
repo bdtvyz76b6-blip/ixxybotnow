@@ -1,15 +1,963 @@
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443?sni=bu-ge-hy.cloud-files.app&insecure=0&alpn=h3#🇩🇪 ⚡️🚀 Игровой WiFi
-
-vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?type=tcp&security=reality&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&fp=chrome&sni=www.nvidia.com&sid=b484941b4767eb&spx=%2F&encryption=none#🇫🇮 ⚡️🚀 Финляндия WiFi
-
-vless://dcec1f6d-0584-48ee-9e67-c2e16f23904a@2.27.122.221:443?type=tcp&security=reality&pbk=YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE&fp=chrome&sni=www.nvidia.com&sid=b484941b4767eb&spx=%2F&encryption=none#🇫🇮 ⚡️🚀 Финляндия Brawl Stars WiFi
-
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@bu-ge-hy.cloud-files.app:443/?security=tls&sni=bu-ge-hy.cloud-files.app&alpn=h3&fp=firefox#🇩🇪 ⚡️🚀 Германия WiFi
-
-vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?type=tcp&security=reality&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&fp=edge&sni=nl3.un1.pro&sid=6ba85179e30d4fc2&spx=%2F&flow=xtls-rprx-vision&encryption=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
-
-vless://102ff202-787b-4c28-b71e-940645c19f08@eu86.vaultberry.cloud:443?type=tcp&security=reality&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&fp=firefox&sni=eu86.vaultberry.cloud&sid=1ed136481e0ede74#🇳🇱 ⚡️🚀 Нидерланды ИИ WiFi
-
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@45.192.12.121:443/?security=tls&sni=bu-pl-hy.cloud-files.app&alpn=h3&fp=firefox#🇵🇱 ⚡️🚀 Польша WiFi
-
-vless://1b66c786-4ad6-4782-b5f8-48e4ad5b999a@nashzapas.pro:443?type=xhttp&security=tls&sni=nashzapas.pro&alpn=h2&fp=firefox&host=nashzapas.pro&path=%2Fnzws&mode=auto&encryption=none#🇩🇪 🚀 LTE №1 | Все операторы
+[
+  {
+    "remarks": "🇪🇺 Авто выбор",
+    "meta": {
+      "serverDescription": "BALANCER / AUTO"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy-de-hy-game",
+        "protocol": "hysteria",
+        "settings": {
+          "address": "bu-ge-hy.cloud-files.app",
+          "port": 443,
+          "version": 2
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "052d0bc5-02de-426e-986d-b6528cd41380"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "bu-ge-hy.cloud-files.app",
+            "alpn": [
+              "h3"
+            ]
+          },
+          "finalmask": {
+            "quicParams": {
+              "debug": false,
+              "congestion": "bbr"
+            }
+          }
+        }
+      },
+      {
+        "tag": "proxy-fi-reality-1",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "2.27.122.221",
+              "port": 443,
+              "users": [
+                {
+                  "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.nvidia.com",
+            "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE",
+            "fingerprint": "chrome",
+            "shortId": "b484941b4767eb",
+            "spiderX": "/"
+          }
+        }
+      },
+      {
+        "tag": "proxy-fi-reality-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "2.27.122.221",
+              "port": 443,
+              "users": [
+                {
+                  "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.nvidia.com",
+            "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE",
+            "fingerprint": "chrome",
+            "shortId": "b484941b4767eb",
+            "spiderX": "/"
+          }
+        }
+      },
+      {
+        "tag": "proxy-de-hy",
+        "protocol": "hysteria",
+        "settings": {
+          "address": "bu-ge-hy.cloud-files.app",
+          "port": 443,
+          "version": 2
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "052d0bc5-02de-426e-986d-b6528cd41380"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "bu-ge-hy.cloud-files.app",
+            "alpn": [
+              "h3"
+            ],
+            "fingerprint": "firefox"
+          },
+          "finalmask": {
+            "quicParams": {
+              "debug": false,
+              "congestion": "bbr"
+            }
+          }
+        }
+      },
+      {
+        "tag": "proxy-nl-reality",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "nl3.un1.pro",
+              "port": 443,
+              "users": [
+                {
+                  "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "nl3.un1.pro",
+            "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM",
+            "fingerprint": "edge",
+            "shortId": "6ba85179e30d4fc2",
+            "spiderX": "/"
+          }
+        }
+      },
+      {
+        "tag": "proxy-nl-ai",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "eu86.vaultberry.cloud",
+              "port": 443,
+              "users": [
+                {
+                  "id": "102ff202-787b-4c28-b71e-940645c19f08",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "eu86.vaultberry.cloud",
+            "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+            "fingerprint": "firefox",
+            "shortId": "1ed136481e0ede74"
+          }
+        }
+      },
+      {
+        "tag": "proxy-pl-hy",
+        "protocol": "hysteria",
+        "settings": {
+          "address": "45.192.12.121",
+          "port": 443,
+          "version": 2
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "052d0bc5-02de-426e-986d-b6528cd41380"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "bu-pl-hy.cloud-files.app",
+            "alpn": [
+              "h3"
+            ],
+            "fingerprint": "firefox"
+          },
+          "finalmask": {
+            "quicParams": {
+              "debug": false,
+              "congestion": "bbr"
+            }
+          }
+        }
+      },
+      {
+        "tag": "proxy-de-xhttp",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "nashzapas.pro",
+              "port": 443,
+              "users": [
+                {
+                  "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "nashzapas.pro",
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "nashzapas.pro",
+            "path": "/nzws",
+            "mode": "auto"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "routing": {
+      "balancers": [
+        {
+          "tag": "auto",
+          "selector": [
+            "proxy-de-hy-game",
+            "proxy-fi-reality-1",
+            "proxy-fi-reality-2",
+            "proxy-de-hy",
+            "proxy-nl-reality",
+            "proxy-nl-ai",
+            "proxy-pl-hy",
+            "proxy-de-xhttp"
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "auto"
+        }
+      ]
+    }
+  },
+  {
+    "remarks": "🇩🇪 ⚡️🚀 Игровой WiFi",
+    "meta": {
+      "serverDescription": "HYSTERIA2 / TLS"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "hysteria",
+        "settings": {
+          "address": "bu-ge-hy.cloud-files.app",
+          "port": 443,
+          "version": 2
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "052d0bc5-02de-426e-986d-b6528cd41380"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "bu-ge-hy.cloud-files.app",
+            "alpn": [
+              "h3"
+            ]
+          },
+          "finalmask": {
+            "quicParams": {
+              "debug": false,
+              "congestion": "bbr"
+            }
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  },
+  {
+    "remarks": "🇫🇮 ⚡️🚀 Финляндия WiFi",
+    "meta": {
+      "serverDescription": "VLESS / TCP / REALITY"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "2.27.122.221",
+              "port": 443,
+              "users": [
+                {
+                  "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.nvidia.com",
+            "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE",
+            "fingerprint": "chrome",
+            "shortId": "b484941b4767eb",
+            "spiderX": "/"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  },
+  {
+    "remarks": "🇫🇮 ⚡️🚀 Финляндия Brawl Stars WiFi",
+    "meta": {
+      "serverDescription": "VLESS / TCP / REALITY"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "2.27.122.221",
+              "port": 443,
+              "users": [
+                {
+                  "id": "dcec1f6d-0584-48ee-9e67-c2e16f23904a",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.nvidia.com",
+            "publicKey": "YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE",
+            "fingerprint": "chrome",
+            "shortId": "b484941b4767eb",
+            "spiderX": "/"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  },
+  {
+    "remarks": "🇩🇪 ⚡️🚀 Германия WiFi",
+    "meta": {
+      "serverDescription": "HYSTERIA2 / TLS"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "hysteria",
+        "settings": {
+          "address": "bu-ge-hy.cloud-files.app",
+          "port": 443,
+          "version": 2
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "052d0bc5-02de-426e-986d-b6528cd41380"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "bu-ge-hy.cloud-files.app",
+            "alpn": [
+              "h3"
+            ],
+            "fingerprint": "firefox"
+          },
+          "finalmask": {
+            "quicParams": {
+              "debug": false,
+              "congestion": "bbr"
+            }
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  },
+  {
+    "remarks": "🇳🇱 ⚡️🚀 Нидерланды WiFi",
+    "meta": {
+      "serverDescription": "VLESS / TCP / REALITY"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "nl3.un1.pro",
+              "port": 443,
+              "users": [
+                {
+                  "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "nl3.un1.pro",
+            "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM",
+            "fingerprint": "edge",
+            "shortId": "6ba85179e30d4fc2",
+            "spiderX": "/"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  },
+  {
+    "remarks": "🇳🇱 ⚡️🚀 Нидерланды ИИ WiFi",
+    "meta": {
+      "serverDescription": "VLESS / TCP / REALITY"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "eu86.vaultberry.cloud",
+              "port": 443,
+              "users": [
+                {
+                  "id": "102ff202-787b-4c28-b71e-940645c19f08",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "eu86.vaultberry.cloud",
+            "publicKey": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+            "fingerprint": "firefox",
+            "shortId": "1ed136481e0ede74"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  },
+  {
+    "remarks": "🇵🇱 ⚡️🚀 Польша WiFi",
+    "meta": {
+      "serverDescription": "HYSTERIA2 / TLS"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "hysteria",
+        "settings": {
+          "address": "45.192.12.121",
+          "port": 443,
+          "version": 2
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "052d0bc5-02de-426e-986d-b6528cd41380"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "bu-pl-hy.cloud-files.app",
+            "alpn": [
+              "h3"
+            ],
+            "fingerprint": "firefox"
+          },
+          "finalmask": {
+            "quicParams": {
+              "debug": false,
+              "congestion": "bbr"
+            }
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  },
+  {
+    "remarks": "🇩🇪 🚀 LTE №1 | Все операторы",
+    "meta": {
+      "serverDescription": "VLESS / XHTTP / TLS"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {},
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "nashzapas.pro",
+              "port": 443,
+              "users": [
+                {
+                  "id": "1b66c786-4ad6-4782-b5f8-48e4ad5b999a",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "nashzapas.pro",
+            "alpn": [
+              "h2"
+            ],
+            "fingerprint": "firefox"
+          },
+          "xhttpSettings": {
+            "host": "nashzapas.pro",
+            "path": "/nzws",
+            "mode": "auto"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ]
+  }
+]
