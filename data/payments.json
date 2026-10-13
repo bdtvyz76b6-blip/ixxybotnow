@@ -235,5 +235,15 @@
     "status": "expired",
     "created_at": "2026-10-11T18:50:02.081626+00:00",
     "expired_at": "2026-10-11T19:50:56.232728+00:00"
+  },
+  {
+    "payment_id": "01a1357e-d6f9-7019-8a60-fb1a6a776984",
+    "user_id": 6312016802,
+    "tariff": "supra",
+    "days": 30,
+    "amount_rub": 168,
+    "discount_pct": 30,
+    "status": "pending",
+    "created_at": "2026-10-13T13:41:07.559333+00:00"
   }
 ]
