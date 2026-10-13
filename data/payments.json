@@ -243,8 +243,9 @@
     "days": 30,
     "amount_rub": 168,
     "discount_pct": 30,
-    "status": "pending",
-    "created_at": "2026-10-13T13:41:07.559333+00:00"
+    "status": "expired",
+    "created_at": "2026-10-13T13:41:07.559333+00:00",
+    "expired_at": "2026-10-13T14:15:53.411423+00:00"
   },
   {
     "payment_id": "01a13583-afcc-7293-851f-ef0affea36a6",
