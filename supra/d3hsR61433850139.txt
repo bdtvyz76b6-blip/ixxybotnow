@@ -8,7 +8,7 @@
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-hysteria2://052d0bc5-02de-426e-986d-b6528cd41380@45.192.12.121:443/?security=tls&sni=bu-pl-hy.cloud-files.app&alpn=h3&fp=firefox&serverDescription=Wi-Fi#🇵🇱 ⚡️🚀 Польша WiFi
+vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@qcloudge1.exitvpn.shop:20268?type=tcp&security=reality&pbk=5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM&fp=firefox&sni=metrika.yandex.ru&sid=0c774b50&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇩🇪 ⚡️🚀 Германия | WiFi
 vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?type=tcp&security=reality&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&fp=edge&sni=nl3.un1.pro&sid=6ba85179e30d4fc2&spx=%2F&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇳🇱 ⚡️🚀 Нидерланды WiFi
 vless://8dc66819-a598-4857-a084-7f6d927399ef@185.22.234.233:11443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=main-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇷🇺 🚀 LTE №1 | Все операторы
 vless://8dc66819-a598-4857-a084-7f6d927399ef@46.8.210.132:14443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=s3-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi%20%2B%20LTE#🇷🇺 🚀 LTE №2 Белый | Все операторы
