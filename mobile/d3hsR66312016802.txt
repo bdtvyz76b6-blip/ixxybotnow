@@ -8,5 +8,5 @@
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-vless://8dc66819-a598-4857-a084-7f6d927399ef@185.22.234.233:9443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=main-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇦🇶 🚀 LTE №1 | Все операторы
+vless://8dc66819-a598-4857-a084-7f6d927399ef@185.22.234.233:11443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=main-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇷🇺 🚀 LTE №1 | Все операторы
 vless://8dc66819-a598-4857-a084-7f6d927399ef@46.8.210.132:14443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=s3-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇷🇺 🚀 LTE №2 Белый | Все операторы
