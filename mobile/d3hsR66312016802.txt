@@ -8,5 +8,4 @@
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-vless://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@ahmeaxelho.liberty-nodes.online:443?type=tcp&security=reality&pbk=ObdaDJ1-OGV8eq3pV3uw7CX1LR9snkN9YDkaCqfxtik&fp=firefox&sni=bypmu4cjat.mail.ru&sid=e40e390e6790a97e&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇹🇷 🚀 LTE №1 | Все операторы
-vless://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@wrab.live:8443?type=xhttp&security=reality&pbk=tGPqiaIg1iOEZUy-UQhyNsOHD5ACi8Wx6NCQ7PmDFHQ&fp=firefox&sni=wrab.live&sid=8913c991b89f6c7e&path=%2Fapi%2Fv2%2Fstream%2Fby-group-id%2Fa0672485620ba65b&mode=stream-one&encryption=none&serverDescription=Wi-Fi#🇹🇷 🚀 LTE №1 Резерв | Все операторы
+vless://b1a8fcb2-b8ff-4079-8895-e87c0cbe8f89@188.72.110.50:443?type=xhttp&security=tls&sni=cdn-de.yesilove.beer&fp=chrome&host=cdn-de.yesilove.beer&path=%2Fxhttp%2Fstream.ts&mode=packet-up&encryption=none&serverDescription=Wi-Fi#🇷🇺 ⚡️🚀 Обход БС | Русский интернет
