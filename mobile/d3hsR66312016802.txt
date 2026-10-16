@@ -4,9 +4,9 @@
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🟢  АКТИВНА · до 11.11.2026 07:09 · осталось 26 дней · IXXY VPN ☂️
+#announce: 🟢  АКТИВНА · до 11.11.2026 07:09 · осталось 25 дней · IXXY VPN ☂️
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-vless://8dc66819-a598-4857-a084-7f6d927399ef@185.22.234.233:11443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=main-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇷🇺 🚀 LTE №1 | Все операторы
-vless://8dc66819-a598-4857-a084-7f6d927399ef@46.8.210.132:14443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=s3-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇷🇺 🚀 LTE №2 Белый | Все операторы
+vless://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@ahmeaxelho.liberty-nodes.online:443?type=tcp&security=reality&pbk=ObdaDJ1-OGV8eq3pV3uw7CX1LR9snkN9YDkaCqfxtik&fp=firefox&sni=bypmu4cjat.mail.ru&sid=e40e390e6790a97e&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇹🇷 🚀 LTE №1 | Все операторы
+vless://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@wrab.live:8443?type=xhttp&security=reality&pbk=tGPqiaIg1iOEZUy-UQhyNsOHD5ACi8Wx6NCQ7PmDFHQ&fp=firefox&sni=wrab.live&sid=8913c991b89f6c7e&path=%2Fapi%2Fv2%2Fstream%2Fby-group-id%2Fa0672485620ba65b&mode=stream-one&encryption=none&serverDescription=Wi-Fi#🇹🇷 🚀 LTE №1 Резерв | Все операторы
