@@ -4,11 +4,12 @@
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🟢  АКТИВНА · до 28.11.2026 08:24 · осталось 43 дня · IXXY VPN ☂️
+#announce: 🟢  АКТИВНА · до 28.11.2026 08:24 · осталось 42 дня · IXXY VPN ☂️
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-vless://4e7b8cbc-2296-41f7-a4ef-1f0e02dc94e8@qcloudge1.exitvpn.shop:20268?type=tcp&security=reality&pbk=5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM&fp=firefox&sni=metrika.yandex.ru&sid=0c774b50&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇩🇪 ⚡️🚀 Германия | WiFi
+hysteria2://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@jnclvnljql.liberty-nodes.online:8449/?security=tls&sni=snihelsinki02.jasontech.online&alpn=h3&fp=firefox&serverDescription=Wi-Fi#🇫🇮 🎮 Финляндия GAME WiFi
+vless://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@lqqvrvwxnx.liberty-nodes.online:8443?type=tcp&security=reality&pbk=rWRM2cPptEBzNrJ0UGmTJ5yzE7jzDueFBG7N26IQ6Bw&fp=firefox&sni=jrxdwsykko.mail.ru&sid=7ca862e35fe5e7f0&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇫🇷 ⚡🚀 Франция WiFi
 vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?type=tcp&security=reality&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&fp=edge&sni=nl3.un1.pro&sid=6ba85179e30d4fc2&spx=%2F&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇳🇱 ⚡️🚀 Нидерланды WiFi
-vless://8dc66819-a598-4857-a084-7f6d927399ef@185.22.234.233:11443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=main-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇷🇺 🚀 LTE №1 | Все операторы
-vless://8dc66819-a598-4857-a084-7f6d927399ef@46.8.210.132:14443?type=tcp&security=reality&pbk=314NsicCiiLrzh7cXZiLYeJk54lzW2CtIRpeaHJJ9nE&fp=firefox&sni=s3-xhttp.g-kast.ru&sid=f7c760add9fa3b89&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi%20%2B%20LTE#🇷🇺 🚀 LTE №2 Белый | Все операторы
+vless://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@ahmeaxelho.liberty-nodes.online:443?type=tcp&security=reality&pbk=ObdaDJ1-OGV8eq3pV3uw7CX1LR9snkN9YDkaCqfxtik&fp=firefox&sni=bypmu4cjat.mail.ru&sid=e40e390e6790a97e&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi%20%2B%20LTE#🇹🇷 🚀 LTE №1 | Все операторы
+vless://0fa4a8a9-8e06-4868-8472-6cfa17e0cdaa@wrab.live:8443?type=xhttp&security=reality&pbk=tGPqiaIg1iOEZUy-UQhyNsOHD5ACi8Wx6NCQ7PmDFHQ&fp=firefox&sni=wrab.live&sid=8913c991b89f6c7e&path=%2Fapi%2Fv2%2Fstream%2Fby-group-id%2Fa0672485620ba65b&mode=stream-one&encryption=none&serverDescription=Wi-Fi%20%2B%20LTE#🇹🇷 🚀 LTE №1 Резерв | Все операторы
