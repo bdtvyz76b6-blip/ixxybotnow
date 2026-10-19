@@ -878,11 +878,11 @@
       "tag" : "block"
     }
   ],
-  "remarks" : "🇪🇺 SUPRA AUTO",
+  "remarks" : "🇪🇺 SURPA | Авто-выбор 🌎",
   "routing" : {
     "balancers" : [
       {
-        "fallbackTag" : "block",
+        "fallbackTag" : "direct",
         "selector" : [
           "proxy",
           "proxy-2",
