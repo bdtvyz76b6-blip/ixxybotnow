@@ -1,12 +1,116 @@
-#profile-title: base64:4piC77iPIElYWFkgVlBO
-#profile-update-interval: 1
-#hide-settings: true
-#happ-hide-settings: true
-#hide_server_settings: true
-#hide_settings: true
-#announce: 🟢  АКТИВНА · до 18.11.2026 09:34 · осталось 29 дней · IXXY VPN ☂️
-#announce-url: https://t.me/orelvpntopbot
-#profile-web-page-url: https://t.me/orelvpntopbot
-#support-url: https://t.me/rusrodyyya
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080?serverDescription=Wi-Fi#🇳🇱 ⚡️🚀 Игровой WiFi
-vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?type=tcp&security=reality&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&fp=edge&sni=nl3.un1.pro&sid=6ba85179e30d4fc2&spx=%2F&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇳🇱 ⚡️🚀 Нидерланды WiFi
+{
+  "remarks": "☂️ IXXY BASIC · до 18.11.2026 09:34 · 29 дней",
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "queryStrategy": "UseIPv4",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      },
+      "tag": "socks"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl3.un1.pro",
+            "port": 443,
+            "users": [
+              {
+                "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM",
+          "spiderX": "/",
+          "serverName": "nl3.un1.pro",
+          "shortId": "6ba85179e30d4fc2"
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "balancers": [
+      {
+        "tag": "AUTO",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "120ms",
+              "250ms",
+              "500ms"
+            ],
+            "expected": 3,
+            "maxRTT": "2000ms"
+          }
+        },
+        "fallbackTag": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "AUTO"
+      },
+      {
+        "type": "field",
+        "ip": [
+          "::/0"
+        ],
+        "outboundTag": "block"
+      }
+    ]
+  }
+}
