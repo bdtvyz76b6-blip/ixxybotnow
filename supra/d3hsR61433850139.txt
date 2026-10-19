@@ -4,7 +4,7 @@
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🟢  АКТИВНА · до 01.10.2027 07:19 · осталось 347 дней · IXXY VPN ☂️
+#announce: 🟢  АКТИВНА · до 01.10.2027 07:19 · осталось 346 дней · IXXY VPN ☂️
 #announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
