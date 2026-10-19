@@ -1,11 +1,12 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1791411257
 #hide-settings: true
 #happ-hide-settings: true
 #hide_server_settings: true
 #hide_settings: true
-#announce: 🔴 IXXY VPN · подписка закончилась · продлить: @orelvpntopbot
+#announce: 🟢  АКТИВНА · до 18.11.2026 09:34 · осталось 29 дней · IXXY VPN ☂️
+#announce-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/rusrodyyya
-vless://expired@127.0.0.1:443?security=none&type=tcp&serverDescription=Expired#Expired
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080?serverDescription=Wi-Fi#🇳🇱 ⚡️🚀 Игровой WiFi
+vless://dacec89d-15d2-4f57-aa5e-f3b2aeee6719@nl3.un1.pro:443?type=tcp&security=reality&pbk=FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM&fp=edge&sni=nl3.un1.pro&sid=6ba85179e30d4fc2&spx=%2F&flow=xtls-rprx-vision&encryption=none&serverDescription=Wi-Fi#🇳🇱 ⚡️🚀 Нидерланды WiFi
