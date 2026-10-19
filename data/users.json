@@ -7,15 +7,21 @@
     "subs": {
       "supra": {
         "started_at": "2026-10-03T20:27:35.501594+00:00",
-        "expires_at": null
+        "expires_at": null,
+        "filename": "servers/user_2538829f1105e0fc.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_2538829f1105e0fc.json"
       },
       "mobile": {
         "started_at": "2026-10-12T07:09:28.865994+00:00",
-        "expires_at": "2026-11-11T07:09:28.865994+00:00"
+        "expires_at": "2026-11-11T07:09:28.865994+00:00",
+        "filename": "servers/user_9e44759fff4352fc.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_9e44759fff4352fc.json"
       },
       "basic": {
         "started_at": "2026-10-19T09:34:59.625395+00:00",
-        "expires_at": "2026-11-18T09:34:59.625395+00:00"
+        "expires_at": "2026-11-18T09:34:59.625395+00:00",
+        "filename": "servers/user_c7104551772d94c5.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_c7104551772d94c5.json"
       }
     },
     "trial_used": true,
@@ -27,7 +33,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T09:12:05.588431+00:00",
-        "expires_at": null
+        "expires_at": null,
+        "filename": "servers/user_c234d676af04045d.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_c234d676af04045d.json"
       }
     },
     "trial_used": true,
@@ -42,7 +50,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T09:38:43.515766+00:00",
-        "expires_at": null
+        "expires_at": null,
+        "filename": "servers/user_6266eb1ca6526434.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_6266eb1ca6526434.json"
       }
     },
     "trial_used": false
@@ -53,7 +63,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T10:22:05.811120+00:00",
-        "expires_at": "2026-11-28T08:24:04.754001+00:00"
+        "expires_at": "2026-11-28T08:24:04.754001+00:00",
+        "filename": "servers/user_f79efcba2e108522.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_f79efcba2e108522.json"
       }
     },
     "trial_used": true,
@@ -74,7 +86,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T11:32:17.567744+00:00",
-        "expires_at": null
+        "expires_at": null,
+        "filename": "servers/user_16ebea4869a3451f.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_16ebea4869a3451f.json"
       }
     },
     "trial_used": true
@@ -87,7 +101,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T16:21:48.321102+00:00",
-        "expires_at": "2026-12-27T16:21:48.321102+00:00"
+        "expires_at": "2026-12-27T16:21:48.321102+00:00",
+        "filename": "servers/user_eef3f4699a0e1cff.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_eef3f4699a0e1cff.json"
       }
     },
     "trial_used": true
@@ -114,7 +130,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-29T15:20:48.765938+00:00",
-        "expires_at": null
+        "expires_at": null,
+        "filename": "servers/user_cca2871f658609db.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_cca2871f658609db.json"
       }
     },
     "trial_used": true
@@ -127,7 +145,9 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-30T07:19:22.452941+00:00",
-        "expires_at": "2027-10-01T07:19:22.452941+00:00"
+        "expires_at": "2027-10-01T07:19:22.452941+00:00",
+        "filename": "servers/user_220c6a5bbaf39250.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_220c6a5bbaf39250.json"
       }
     },
     "trial_used": true
