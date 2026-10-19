@@ -1,12 +1,146 @@
-#profile-title: base64:4piC77iPIElYWFkgVlBO
-#profile-update-interval: 1
-#hide-settings: true
-#happ-hide-settings: true
-#hide_server_settings: true
-#hide_settings: true
-#announce: 🟢  АКТИВНА · до 11.11.2026 07:09 · осталось 22 дня · IXXY VPN ☂️
-#announce-url: https://t.me/orelvpntopbot
-#profile-web-page-url: https://t.me/orelvpntopbot
-#support-url: https://t.me/rusrodyyya
-vless://b1a8fcb2-b8ff-4079-8895-e87c0cbe8f89@188.72.110.50:443?type=xhttp&security=tls&sni=cdn-de.yesilove.beer&fp=chrome&host=cdn-de.yesilove.beer&path=%2Fxhttp%2Fstream.ts&mode=packet-up&encryption=none&serverDescription=Wi-Fi#🇷🇺 ⚡️🚀 Обход БС | Русский интернет
-vless://95a608b6-bff1-4e10-bb61-0a39f221bb7d@randomquaint.net:2053?type=xhttp&security=tls&sni=randomquaint.net&alpn=h2%2Chttp%2F1.1&fp=firefox&host=randomquaint.net&path=%2Fapi%2Fv1%2Fupload&mode=auto&encryption=none&serverDescription=Wi-Fi#🇪🇺 ⚡️🚀 Обход БС | Зарубежный интернет
+{
+  "remarks": "☂️ IXXY MOBILE · до 11.11.2026 07:09 · 22 дня",
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "queryStrategy": "UseIPv4",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      },
+      "tag": "socks"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.72.110.50",
+            "port": 443,
+            "users": [
+              {
+                "id": "b1a8fcb2-b8ff-4079-8895-e87c0cbe8f89",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "cdn-de.yesilove.beer"
+        },
+        "xhttpSettings": {
+          "path": "/xhttp/stream.ts",
+          "mode": "auto",
+          "host": "cdn-de.yesilove.beer"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "randomquaint.net",
+            "port": 2053,
+            "users": [
+              {
+                "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "firefox",
+          "serverName": "randomquaint.net"
+        },
+        "xhttpSettings": {
+          "path": "/api/v1/upload",
+          "mode": "auto",
+          "host": "randomquaint.net"
+        }
+      },
+      "tag": "proxy-2"
+    },
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "tag": "block"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "balancers": [
+      {
+        "tag": "AUTO",
+        "selector": [
+          "proxy",
+          "proxy-2"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "120ms",
+              "250ms",
+              "500ms"
+            ],
+            "expected": 3,
+            "maxRTT": "2000ms"
+          }
+        },
+        "fallbackTag": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "AUTO"
+      },
+      {
+        "type": "field",
+        "ip": [
+          "::/0"
+        ],
+        "outboundTag": "block"
+      }
+    ]
+  }
+}
