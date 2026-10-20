@@ -5,5 +5,5 @@
 #announce: ⚡ Включай VPN до открытия приложения.
 #support-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
-vless://b1a8fcb2-b8ff-4079-8895-e87c0cbe8f89@188.72.110.50:443?type=xhttp&security=tls&sni=cdn-de.yesilove.beer&fp=chrome&host=cdn-de.yesilove.beer&path=%2Fxhttp%2Fstream.ts&mode=packet-up&encryption=none#🇷🇺 ⚡️🚀 Обход БС | Русский интернет
-vless://95a608b6-bff1-4e10-bb61-0a39f221bb7d@randomquaint.net:2053?type=xhttp&security=tls&sni=randomquaint.net&alpn=h2%2Chttp%2F1.1&fp=firefox&host=randomquaint.net&path=%2Fapi%2Fv1%2Fupload&mode=auto&encryption=none#🇪🇺 ⚡️🚀 Обход БС | Зарубежный интернет
+vless://1ba0439d-384c-4a6e-9560-0439698beb2a@82.202.182.42:3443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=YIXOvwrCFxQYKOP_GwdhbzZLlwgBIVVISXDpFZQBt0c&sid=a5bb22e6a41ff20a&type=tcp&headerType=none#🇪🇺 🚀 Обход №1 | Зарубежный
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@summerculture.net:2053?encryption=none&security=tls&sni=summerculture.net&fp=firefox&type=xhttp&host=summerculture.net&path=%2Fapi%2Fv1%2Fupload&mode=auto#🇸🇬 🚀 Обход №2 | Зарубежный
