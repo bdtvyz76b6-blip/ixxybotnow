@@ -1,19 +1,439 @@
 {
-  "remarks": "🔴 Истекла",
-  "log": {
-    "loglevel": "warning"
+  "burstObservatory": {
+    "pingConfig": {
+      "destination": "http://www.gstatic.com/generate_204",
+      "interval": "10s",
+      "sampling": 2,
+      "timeout": "2s"
+    },
+    "subjectSelector": [
+      "proxy",
+      "proxy-2",
+      "proxy-3",
+      "proxy-4",
+      "proxy-5",
+      "proxy-6",
+      "proxy-7",
+      "proxy-8",
+      "proxy-9",
+      "proxy-10"
+    ]
+  },
+  "dns": {
+    "queryStrategy": "UseIPv4",
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ]
   },
   "inbounds": [
     {
+      "tag": "socks",
       "listen": "127.0.0.1",
       "port": 10808,
-      "protocol": "socks"
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "routeOnly": false
+      }
+    },
+    {
+      "tag": "http",
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ],
+        "routeOnly": false
+      }
     }
   ],
+  "log": {
+    "loglevel": "Warning",
+    "dnsLog": true
+  },
   "outbounds": [
     {
-      "protocol": "blackhole",
-      "tag": "block"
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "prom.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "prom.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "ohxjpubvuMpb7AhQBczXKWYOndnn2bDKkFhQGzk64A8"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lop.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "lop.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "kYhg50vbIcMdAA5h38XYui0rAk_itfH8UWOVM45LBSc"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "wer.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "wer.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "t1FcGTyNUZcZ5p-MOC6Ifqz5xoBGNBFf_u6-1wS-xkk"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-4",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hyt.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hyt.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "-yt_s6CNUitiKjel_wlKsbvuD30uILlBylwczPmKvQ0"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "xyz.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "xyz.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "1V4LvaI8JLQbtoZHprH99eXdp3kAv5S2lI1QOTiAek8",
+          "shortId": "0e3199d382f320e3"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-6",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "css.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "css.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "sf_oEeZGt2YA4aJ1bHQ6Vm0THPX_WzZClWpwOLrzkBY"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-7",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "loft.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "loft.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "ddbf6TKRHBPpIFRbjAHccJErbYFTZwWXKb3B9bZpdyI",
+          "shortId": "0e3199d382f320e3"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lumen.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "lumen.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "UhPReERa39UYMN0l0JOAriPyfAS8nwB_IMVgMLCacGE",
+          "shortId": "0e3199d382f320e3"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-9",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "notes.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "notes.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "Np48rpuboHn4CpeXHc-P0rF2gJ_6i8CuPW91LSkW-T8",
+          "shortId": "0e3199d382f320e3"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "proxy-10",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ker.labron-a.vip",
+            "port": 443,
+            "users": [
+              {
+                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ker.labron-a.vip",
+          "fingerprint": "firefox",
+          "publicKey": "mNchqsSs5DkbVZK7iJ5bZEqOZQrjVI5b7SDoawBdfEM"
+        },
+        "tcpSettings": {}
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
     }
-  ]
+  ],
+  "remarks": "👤 rusrodyyya | BASIC",
+  "routing": {
+    "balancers": [
+      {
+        "tag": "AUTO",
+        "selector": [
+          "proxy",
+          "proxy-2",
+          "proxy-3",
+          "proxy-4",
+          "proxy-5",
+          "proxy-6",
+          "proxy-7",
+          "proxy-8",
+          "proxy-9",
+          "proxy-10"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "baselines": [
+              "120ms",
+              "250ms",
+              "500ms"
+            ],
+            "expected": 3,
+            "maxRTT": "2000ms"
+          }
+        },
+        "fallbackTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "AUTO"
+      }
+    ]
+  }
 }
