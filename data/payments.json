@@ -270,5 +270,16 @@
     "status": "expired",
     "created_at": "2026-10-17T10:37:50.789038+00:00",
     "expired_at": "2026-10-17T11:17:46.140691+00:00"
+  },
+  {
+    "payment_id": "01a15967-90ba-70d2-be23-0737ee267801",
+    "user_id": 6312016802,
+    "tariff": "basic",
+    "days": 2,
+    "amount_rub": 6,
+    "discount_pct": 0,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-10-20T13:02:02.009956+00:00"
   }
 ]
