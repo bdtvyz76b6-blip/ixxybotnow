@@ -6,8 +6,20 @@
     "created_at": "2026-09-25T07:58:14.682387+00:00",
     "subs": {
       "supra": {
-        "started_at": "2026-10-20T07:00:40.468021+00:00",
-        "expires_at": "2026-11-19T07:00:40.468021+00:00"
+        "started_at": "2026-10-03T20:27:35.501594+00:00",
+        "expires_at": "2027-04-17T19:17:07.917507+00:00"
+      },
+      "mobile": {
+        "started_at": "2026-10-12T07:09:28.865994+00:00",
+        "expires_at": "2026-11-11T07:09:28.865994+00:00",
+        "filename": "servers/user_8fd5d78fa6ecabb0.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_8fd5d78fa6ecabb0.json"
+      },
+      "basic": {
+        "started_at": "2026-10-19T09:34:59.625395+00:00",
+        "expires_at": "2026-11-18T09:34:59.625395+00:00",
+        "filename": "servers/user_0150ababec975da1.json",
+        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_0150ababec975da1.json"
       }
     },
     "trial_used": true,
