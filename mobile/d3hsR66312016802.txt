@@ -2,8 +2,8 @@
 #profile-update-interval: 1
 #color-profile: {"backgroundGradientRotationAngle":38,"backgroundGradientColorIntensity":1,"backgroundColors":["#100016FF","#250030FF","#43005AFF"],"serverRowBackgroundColor":"#25082EFF","selectedServerRowColor":"#540064FF","subsHeaderColor":"#41004EFF","buttonColor":"#E54BFFFF","buttonTextColor":"#25002DFF","powerIconColor":"#4A005AFF","serverRowTitleTextColor":"#FFF4FFFF","serverRowSubTitleTextColor":"#D6A7DBFF","topBarButtonsColor":"#EF72FFFF","supportIconColor":"#EF72FFFF","profileWebPageIconColor":"#EF72FFFF","subHeaderButtonColor":"#EF72FFFF","settingsControlsTintColor":"#E54BFFFF","subscriptionInfoBackgroundColor":"#26072FFF","subscriptionTrafficBackgroundColor":"#570066FF","subscriptionInfoTextColor":"#FFF4FFFF","disclosureHeaderTextColor":"#FFF4FFFF","disclosureSubHeaderTextColor":"#D6A7DBFF","serverRowChevronColor":"#EF72FFFF","additionalOptionsButtonColor":"#EF72FFFF","buttonTimerColor":"#FFFFFFFF","elipseColors":["#E54BFFFF","#7A2CFFFF","#FF8BEFFF"],"backgroundImageType":"light","buttonImageType":"light"}
 #subscription-userinfo: expire=1794467368; upload=0; download=0; total=0
-#announce: ⚡ Включай VPN до открытия приложения.
+#announce: 🔒 Не заходи в банк через публичный Wi-Fi без VPN.
 #support-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
-vless://1ba0439d-384c-4a6e-9560-0439698beb2a@82.202.182.42:3443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=YIXOvwrCFxQYKOP_GwdhbzZLlwgBIVVISXDpFZQBt0c&sid=a5bb22e6a41ff20a&type=tcp&headerType=none#🇪🇺 🚀 Обход №1 | Зарубежный
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@summerculture.net:2053?encryption=none&security=tls&sni=summerculture.net&fp=firefox&type=xhttp&host=summerculture.net&path=%2Fapi%2Fv1%2Fupload&mode=auto#🇸🇬 🚀 Обход №2 | Зарубежный
+vless://1ba0439d-384c-4a6e-9560-0439698beb2a@82.202.182.42:3443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=YIXOvwrCFxQYKOP_GwdhbzZLlwgBIVVISXDpFZQBt0c&sid=a5bb22e6a41ff20a&type=tcp&headerType=none#🇪🇺 🚀 ОБХОД №1 | ЗАРУБЕЖНЫЙ
+vless://9737cc16-7266-45ce-94d9-6e05a45e0b9c@swit.nnight.sbs:443?encryption=none&security=tls&sni=swit.nnight.sbs&fp=firefox&alpn=h2&type=xhttp&host=swit.nnight.sbs&path=/api/v4/media/session/poll&mode=packet-up#🇨🇭 ⚡️🚀 ОБХОД №2 | ЗАРУБЕЖНЫЙ
