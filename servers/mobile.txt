@@ -1,3 +1,3 @@
-vless://1ba0439d-384c-4a6e-9560-0439698beb2a@82.202.182.42:3443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=YIXOvwrCFxQYKOP_GwdhbzZLlwgBIVVISXDpFZQBt0c&sid=a5bb22e6a41ff20a&type=tcp&headerType=none#🇪🇺 🚀 Обход №1 | Зарубежный
+vless://1ba0439d-384c-4a6e-9560-0439698beb2a@82.202.182.42:3443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=YIXOvwrCFxQYKOP_GwdhbzZLlwgBIVVISXDpFZQBt0c&sid=a5bb22e6a41ff20a&type=tcp&headerType=none#🇪🇺 🚀 ОБХОД №1 | ЗАРУБЕЖНЫЙ
 
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@summerculture.net:2053?encryption=none&security=tls&sni=summerculture.net&fp=firefox&type=xhttp&host=summerculture.net&path=%2Fapi%2Fv1%2Fupload&mode=auto#🇸🇬 🚀 Обход №2 | Зарубежный
+vless://9737cc16-7266-45ce-94d9-6e05a45e0b9c@swit.nnight.sbs:443?encryption=none&security=tls&sni=swit.nnight.sbs&fp=firefox&alpn=h2&type=xhttp&host=swit.nnight.sbs&path=/api/v4/media/session/poll&mode=packet-up#🇨🇭 ⚡️🚀 ОБХОД №2 | ЗАРУБЕЖНЫЙ
