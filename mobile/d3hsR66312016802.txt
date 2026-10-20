@@ -1,3 +1,10 @@
+#profile-title: base64:IOKYgu+4jyBJWFhZIFZQTg==
+#profile-update-interval: 1
+#color-profile: {"backgroundGradientRotationAngle":38,"backgroundGradientColorIntensity":1,"backgroundColors":["#100016FF","#250030FF","#43005AFF"],"serverRowBackgroundColor":"#25082EFF","selectedServerRowColor":"#540064FF","subsHeaderColor":"#41004EFF","buttonColor":"#E54BFFFF","buttonTextColor":"#25002DFF","powerIconColor":"#4A005AFF","serverRowTitleTextColor":"#FFF4FFFF","serverRowSubTitleTextColor":"#D6A7DBFF","topBarButtonsColor":"#EF72FFFF","supportIconColor":"#EF72FFFF","profileWebPageIconColor":"#EF72FFFF","subHeaderButtonColor":"#EF72FFFF","settingsControlsTintColor":"#E54BFFFF","subscriptionInfoBackgroundColor":"#26072FFF","subscriptionTrafficBackgroundColor":"#570066FF","subscriptionInfoTextColor":"#FFF4FFFF","disclosureHeaderTextColor":"#FFF4FFFF","disclosureSubHeaderTextColor":"#D6A7DBFF","serverRowChevronColor":"#EF72FFFF","additionalOptionsButtonColor":"#EF72FFFF","buttonTimerColor":"#FFFFFFFF","elipseColors":["#E54BFFFF","#7A2CFFFF","#FF8BEFFF"],"backgroundImageType":"light","buttonImageType":"light"}
+#subscription-userinfo: expire=1794380968; upload=0; download=0; total=0
+#announce: 🔒 Не заходи в банк через публичный Wi-Fi без VPN.
+#support-url: https://t.me/orelvpntopbot
+#profile-web-page-url: https://t.me/orelvpntopbot
 {
   "burstObservatory": {
     "pingConfig": {
@@ -58,6 +65,7 @@
     }
   ],
   "log": {
+    "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log",
     "dnsLog": true,
     "loglevel": "Warning"
   },
@@ -71,9 +79,9 @@
             "port": 443,
             "users": [
               {
+                "id": "b1a8fcb2-b8ff-4079-8895-e87c0cbe8f89",
                 "encryption": "none",
-                "flow": "",
-                "id": "b1a8fcb2-b8ff-4079-8895-e87c0cbe8f89"
+                "flow": ""
               }
             ]
           }
@@ -87,20 +95,9 @@
           "serverName": "cdn-de.yesilove.beer"
         },
         "xhttpSettings": {
-          "extra": {
-            "uplinkDataKey": "X-Sync-Token",
-            "uplinkDataPlacement": "header",
-            "uplinkHTTPMethod": "GET",
-            "xmux": {
-              "cMaxLifetimeMs": 0,
-              "cMaxReuseTimes": 0,
-              "maxConcurrency": "16-32",
-              "maxConnections": 0
-            }
-          },
-          "host": "cdn-de.yesilove.beer",
-          "mode": "packet-up",
-          "path": "/xhttp/stream.ts"
+          "path": "/xhttp/stream.ts",
+          "mode": "auto",
+          "host": "cdn-de.yesilove.beer"
         }
       },
       "tag": "proxy"
@@ -114,9 +111,9 @@
             "port": 2053,
             "users": [
               {
+                "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
                 "encryption": "none",
-                "flow": "",
-                "id": "95a608b6-bff1-4e10-bb61-0a39f221bb7d"
+                "flow": ""
               }
             ]
           }
@@ -126,13 +123,7 @@
         "network": "xhttp",
         "security": "tls",
         "tlsSettings": {
-          "enableSessionResumption": false,
           "fingerprint": "firefox",
-          "disableSystemRoot": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
           "serverName": "randomquaint.net"
         },
         "xhttpSettings": {
@@ -152,28 +143,28 @@
       "tag": "block"
     }
   ],
-  "remarks": "☂️ IXXY MOBILE · до 11.11.2026 07:09 · 22 дня",
+  "remarks": "☂️ MOBILE | 6312016802",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "direct",
+        "tag": "AUTO",
         "selector": [
           "proxy",
           "proxy-2"
         ],
+        "fallbackTag": "direct",
         "strategy": {
+          "type": "leastLoad",
           "settings": {
             "baselines": [
               "120ms",
               "250ms",
               "500ms"
             ],
-            "expected": 2,
+            "expected": 3,
             "maxRTT": "2000ms"
-          },
-          "type": "leastLoad"
-        },
-        "tag": "AUTO"
+          }
+        }
       }
     ],
     "domainMatcher": "hybrid",
@@ -731,9 +722,9 @@
         "type": "field"
       },
       {
+        "type": "field",
         "network": "tcp,udp",
-        "balancerTag": "AUTO",
-        "type": "field"
+        "balancerTag": "AUTO"
       }
     ]
   }
