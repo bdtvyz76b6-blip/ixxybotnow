@@ -5,6 +5,7 @@
 #announce: 🚀 Чем ближе сервер — тем меньше пинг. Тестируй!
 #support-url: @orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
+
 {
   "burstObservatory": {
     "pingConfig": {
