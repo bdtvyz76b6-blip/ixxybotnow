@@ -1,3 +1,10 @@
+#profile-title: base64:IOKYgu+4jyBJWFhZIFZQTg==
+#profile-update-interval: 1
+#color-profile: {"backgroundGradientRotationAngle":38,"backgroundGradientColorIntensity":1,"backgroundColors":["#100016FF","#250030FF","#43005AFF"],"serverRowBackgroundColor":"#25082EFF","selectedServerRowColor":"#540064FF","subsHeaderColor":"#41004EFF","buttonColor":"#E54BFFFF","buttonTextColor":"#25002DFF","powerIconColor":"#4A005AFF","serverRowTitleTextColor":"#FFF4FFFF","serverRowSubTitleTextColor":"#D6A7DBFF","topBarButtonsColor":"#EF72FFFF","supportIconColor":"#EF72FFFF","profileWebPageIconColor":"#EF72FFFF","subHeaderButtonColor":"#EF72FFFF","settingsControlsTintColor":"#E54BFFFF","subscriptionInfoBackgroundColor":"#26072FFF","subscriptionTrafficBackgroundColor":"#570066FF","subscriptionInfoTextColor":"#FFF4FFFF","disclosureHeaderTextColor":"#FFF4FFFF","disclosureSubHeaderTextColor":"#D6A7DBFF","serverRowChevronColor":"#EF72FFFF","additionalOptionsButtonColor":"#EF72FFFF","buttonTimerColor":"#FFFFFFFF","elipseColors":["#E54BFFFF","#7A2CFFFF","#FF8BEFFF"],"backgroundImageType":"light","buttonImageType":"light"}
+#subscription-userinfo: expire=1794994499; upload=0; download=0; total=0
+#announce: ⚡ Включай VPN до открытия приложения.
+#support-url: https://t.me/orelvpntopbot
+#profile-web-page-url: https://t.me/orelvpntopbot
 {
   "burstObservatory": {
     "pingConfig": {
@@ -7,16 +14,7 @@
       "timeout": "2s"
     },
     "subjectSelector": [
-      "proxy",
-      "proxy-2",
-      "proxy-3",
-      "proxy-4",
-      "proxy-5",
-      "proxy-6",
-      "proxy-7",
-      "proxy-8",
-      "proxy-9",
-      "proxy-10"
+      "proxy"
     ]
   },
   "dns": {
@@ -67,20 +65,20 @@
   ],
   "log": {
     "loglevel": "Warning",
+    "access": "/private/var/mobile/Containers/Shared/AppGroup/544AFF36-54CF-4DC5-9967-2A01F79FE6CB/Library/Application Support/Xray/logs/access.log",
     "dnsLog": true
   },
   "outbounds": [
     {
-      "tag": "proxy",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "prom.labron-a.vip",
+            "address": "nl3.un1.pro",
             "port": 443,
             "users": [
               {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
+                "id": "dacec89d-15d2-4f57-aa5e-f3b2aeee6719",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -92,277 +90,19 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "prom.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "ohxjpubvuMpb7AhQBczXKWYOndnn2bDKkFhQGzk64A8"
+          "fingerprint": "edge",
+          "publicKey": "FX3u5aWx9knjd4w2wqHfr0pX4pAUlsMf6ES1JZ6QnmM",
+          "spiderX": "/",
+          "serverName": "nl3.un1.pro",
+          "shortId": "6ba85179e30d4fc2"
         },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-2",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "lop.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+        "tcpSettings": {
+          "header": {
+            "type": "none"
           }
-        ]
+        }
       },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "lop.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "kYhg50vbIcMdAA5h38XYui0rAk_itfH8UWOVM45LBSc"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-3",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "wer.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "wer.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "t1FcGTyNUZcZ5p-MOC6Ifqz5xoBGNBFf_u6-1wS-xkk"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "hyt.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "hyt.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "-yt_s6CNUitiKjel_wlKsbvuD30uILlBylwczPmKvQ0"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-5",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "xyz.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "xyz.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "1V4LvaI8JLQbtoZHprH99eXdp3kAv5S2lI1QOTiAek8",
-          "shortId": "0e3199d382f320e3"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-6",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "css.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "css.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "sf_oEeZGt2YA4aJ1bHQ6Vm0THPX_WzZClWpwOLrzkBY"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-7",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "loft.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "loft.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "ddbf6TKRHBPpIFRbjAHccJErbYFTZwWXKb3B9bZpdyI",
-          "shortId": "0e3199d382f320e3"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-8",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "lumen.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "lumen.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "UhPReERa39UYMN0l0JOAriPyfAS8nwB_IMVgMLCacGE",
-          "shortId": "0e3199d382f320e3"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-9",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "notes.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "notes.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "Np48rpuboHn4CpeXHc-P0rF2gJ_6i8CuPW91LSkW-T8",
-          "shortId": "0e3199d382f320e3"
-        },
-        "tcpSettings": {}
-      }
-    },
-    {
-      "tag": "proxy-10",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ker.labron-a.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "7a602a59-8117-45ef-8666-1117d0c87818",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ker.labron-a.vip",
-          "fingerprint": "firefox",
-          "publicKey": "mNchqsSs5DkbVZK7iJ5bZEqOZQrjVI5b7SDoawBdfEM"
-        },
-        "tcpSettings": {}
-      }
+      "tag": "proxy"
     },
     {
       "tag": "direct",
@@ -373,23 +113,15 @@
       "protocol": "blackhole"
     }
   ],
-  "remarks": "☂️ IXXY BASIC · до 18.11.2026 09:34 · 29 дней",
+  "remarks": "☂️ BASIC | 6312016802",
   "routing": {
     "balancers": [
       {
         "tag": "AUTO",
         "selector": [
-          "proxy",
-          "proxy-2",
-          "proxy-3",
-          "proxy-4",
-          "proxy-5",
-          "proxy-6",
-          "proxy-7",
-          "proxy-8",
-          "proxy-9",
-          "proxy-10"
+          "proxy"
         ],
+        "fallbackTag": "direct",
         "strategy": {
           "type": "leastLoad",
           "settings": {
@@ -401,8 +133,7 @@
             "expected": 3,
             "maxRTT": "2000ms"
           }
-        },
-        "fallbackTag": "direct"
+        }
       }
     ],
     "domainMatcher": "hybrid",
