@@ -1,1 +1,1 @@
-vless://1ba0439d-384c-4a6e-9560-0439698beb2a@82.202.182.42:3443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&fp=firefox&pbk=YIXOvwrCFxQYKOP_GwdhbzZLlwgBIVVISXDpFZQBt0c&sid=a5bb22e6a41ff20a&type=tcp&headerType=none#🇪🇺 🚀 ОБХОД №1 | ЗАРУБЕЖНЫЙ
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:8443?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🚀 ОБХОД №1 | ALL
