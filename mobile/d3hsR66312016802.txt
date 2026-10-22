@@ -2,8 +2,12 @@
 #profile-update-interval: 1
 #color-profile: {"backgroundGradientRotationAngle":38,"backgroundGradientColorIntensity":1,"backgroundColors":["#100016FF","#250030FF","#43005AFF"],"serverRowBackgroundColor":"#25082EFF","selectedServerRowColor":"#540064FF","subsHeaderColor":"#41004EFF","buttonColor":"#E54BFFFF","buttonTextColor":"#25002DFF","powerIconColor":"#4A005AFF","serverRowTitleTextColor":"#FFF4FFFF","serverRowSubTitleTextColor":"#D6A7DBFF","topBarButtonsColor":"#EF72FFFF","supportIconColor":"#EF72FFFF","profileWebPageIconColor":"#EF72FFFF","subHeaderButtonColor":"#EF72FFFF","settingsControlsTintColor":"#E54BFFFF","subscriptionInfoBackgroundColor":"#26072FFF","subscriptionTrafficBackgroundColor":"#570066FF","subscriptionInfoTextColor":"#FFF4FFFF","disclosureHeaderTextColor":"#FFF4FFFF","disclosureSubHeaderTextColor":"#D6A7DBFF","serverRowChevronColor":"#EF72FFFF","additionalOptionsButtonColor":"#EF72FFFF","buttonTimerColor":"#FFFFFFFF","elipseColors":["#E54BFFFF","#7A2CFFFF","#FF8BEFFF"],"backgroundImageType":"light","buttonImageType":"light"}
 #subscription-userinfo: expire=1794467368; upload=0; download=0; total=0
-#announce: ⚡ Включай VPN до открытия приложения.
+#announce: 🔒 Не заходи в банк через публичный Wi-Fi без VPN.
 #support-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:8443?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🚀 ОБХОД №1 | ALL
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:2053?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 ⚡️🚀 ОБХОД №2 | ALL
+vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@santehdv.site:443?encryption=none&security=tls&sni=santehdv.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/E2QlYgrvniT_#🇪🇺 🔥 ОБХОД №1 | FAST
+vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@slivdom-spb.site:443?encryption=none&security=tls&sni=slivdom-spb.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/3VTlT49iHS1H#🇪🇺 🔥 ОБХОД №2 | FAST
+vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@santehdv.site:443?encryption=none&security=tls&sni=santehdv.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/qUWu2oaFgxAw#🇪🇺 🔥 ОБХОД №3 | FAST
+vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@slivdom-spb.site:443?encryption=none&security=tls&sni=slivdom-spb.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/dBglRwZveCyD#🇪🇺 🔥 ОБХОД №4 | FAST
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:8443?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🐢 ОБХОД №5 | SLOW
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:2053?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🐢 ОБХОД №6 | SLOW
