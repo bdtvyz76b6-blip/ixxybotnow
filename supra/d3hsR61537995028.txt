@@ -2,11 +2,13 @@
 #profile-update-interval: 1
 #color-profile: {"backgroundGradientRotationAngle":38,"backgroundGradientColorIntensity":1,"backgroundColors":["#100016FF","#250030FF","#43005AFF"],"serverRowBackgroundColor":"#25082EFF","selectedServerRowColor":"#540064FF","subsHeaderColor":"#41004EFF","buttonColor":"#E54BFFFF","buttonTextColor":"#25002DFF","powerIconColor":"#4A005AFF","serverRowTitleTextColor":"#FFF4FFFF","serverRowSubTitleTextColor":"#D6A7DBFF","topBarButtonsColor":"#EF72FFFF","supportIconColor":"#EF72FFFF","profileWebPageIconColor":"#EF72FFFF","subHeaderButtonColor":"#EF72FFFF","settingsControlsTintColor":"#E54BFFFF","subscriptionInfoBackgroundColor":"#26072FFF","subscriptionTrafficBackgroundColor":"#570066FF","subscriptionInfoTextColor":"#FFF4FFFF","disclosureHeaderTextColor":"#FFF4FFFF","disclosureSubHeaderTextColor":"#D6A7DBFF","serverRowChevronColor":"#EF72FFFF","additionalOptionsButtonColor":"#EF72FFFF","buttonTimerColor":"#FFFFFFFF","elipseColors":["#E54BFFFF","#7A2CFFFF","#FF8BEFFF"],"backgroundImageType":"light","buttonImageType":"light"}
 #subscription-userinfo: expire=1795854244; upload=0; download=0; total=0
-#announce: 🔒 Не заходи в банк через публичный Wi-Fi без VPN.
+#announce: 📱 Для LTE лучше тариф MOBILE.
 #support-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
 vless://0d55ea1d-5587-4c17-9e85-3ee9b279aa8f@90.156.226.4:8093?encryption=none&flow=xtls-rprx-vision&security=reality&sni=travel.yandex.ru&fp=qq&pbk=kmLlM6u12bptp7icPOL3fkUJucwvYTRVMkXz2AGAN2A&sid=ca6703afd42cadcd&type=tcp&headerType=none#🇩🇪 ⚡️🚀 Германия WiFi
-vless://d0d08709-093d-45dc-ac6f-fd18890fa2c5@ro6.aiage.work:443?encryption=none&security=tls&sni=ro6.aiage.work&fp=edge&alpn=h2&type=xhttp&host=ro6.aiage.work&path=/storage/upload/session&mode=stream-up#🇵🇱 ⚡️🚀 Польша WiFi
-vless://d0d08709-093d-45dc-ac6f-fd18890fa2c5@ro6.aiage.work:443?encryption=none&security=tls&sni=ro6.aiage.work&fp=edge&alpn=h2&type=xhttp&host=ro6.aiage.work&path=/storage/upload/session&mode=stream-up#🇫🇮 ⚡️🚀 Финляндия WiFi
-vless://d0d08709-093d-45dc-ac6f-fd18890fa2c5@ro6.aiage.work:443?encryption=none&security=tls&sni=ro6.aiage.work&fp=edge&alpn=h2&type=xhttp&host=ro6.aiage.work&path=/storage/upload/session&mode=stream-up#🇸🇪 ⚡️🚀 Швеция WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@pl2.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇵🇱 ⚡️🚀 Польша WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@est1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇫🇮 ⚡️🚀 Финляндия WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@nl1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇳🇱 ⚡️🚀 Нидерланды WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@pl1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇸🇪 ⚡️🚀 Швеция WiFi
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:8443?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🚀 ОБХОД №1 | ALL
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:2053?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 ⚡️🚀 ОБХОД №2 | ALL
