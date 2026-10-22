@@ -6,6 +6,6 @@ vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@santehdv.site:443?encryption=none&s
 
 vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@slivdom-spb.site:443?encryption=none&security=tls&sni=slivdom-spb.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/dBglRwZveCyD#🇪🇺 🟢🔥 ОБХОД №4 | FAST
 
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:8443?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🐢 ОБХОД №5 | SLOW
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:8443?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🟡🐢 ОБХОД №5 | SLOW
 
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:2053?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🐢 ОБХОД №6 | SLOW
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@windytrout.net:2053?encryption=none&security=tls&sni=windytrout.net&fp=firefox&alpn=h2,http/1.1&type=xhttp&host=windytrout.net&path=/api/v1/upload&mode=auto#🇪🇺 🟡🐢 ОБХОД №6 | SLOW
