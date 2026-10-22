@@ -2,13 +2,19 @@
 #profile-update-interval: 1
 #color-profile: {"backgroundGradientRotationAngle":38,"backgroundGradientColorIntensity":1,"backgroundColors":["#100016FF","#250030FF","#43005AFF"],"serverRowBackgroundColor":"#25082EFF","selectedServerRowColor":"#540064FF","subsHeaderColor":"#41004EFF","buttonColor":"#E54BFFFF","buttonTextColor":"#25002DFF","powerIconColor":"#4A005AFF","serverRowTitleTextColor":"#FFF4FFFF","serverRowSubTitleTextColor":"#D6A7DBFF","topBarButtonsColor":"#EF72FFFF","supportIconColor":"#EF72FFFF","profileWebPageIconColor":"#EF72FFFF","subHeaderButtonColor":"#EF72FFFF","settingsControlsTintColor":"#E54BFFFF","subscriptionInfoBackgroundColor":"#26072FFF","subscriptionTrafficBackgroundColor":"#570066FF","subscriptionInfoTextColor":"#FFF4FFFF","disclosureHeaderTextColor":"#FFF4FFFF","disclosureSubHeaderTextColor":"#D6A7DBFF","serverRowChevronColor":"#EF72FFFF","additionalOptionsButtonColor":"#EF72FFFF","buttonTimerColor":"#FFFFFFFF","elipseColors":["#E54BFFFF","#7A2CFFFF","#FF8BEFFF"],"backgroundImageType":"light","buttonImageType":"light"}
 #subscription-userinfo: expire=0; upload=0; download=0; total=0
-#announce: ⚡ Включай VPN до открытия приложения.
+#announce: 🔒 Не заходи в банк через публичный Wi-Fi без VPN.
 #support-url: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
-hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@pl2.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇵🇱 ⚡️🚀 Польша WiFi
-hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@est1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇫🇮 ⚡️🚀 Финляндия WiFi
-hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@nl1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇳🇱 ⚡️🚀 Нидерланды WiFi
-hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@pl1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇸🇪 ⚡️🚀 Швеция WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@pl2.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇵🇱 ⚡️🚀 Польша INCY WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@est1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇫🇮 ⚡️🚀 Финляндия INCY WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@nl1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇳🇱 ⚡️🚀 Нидерланды INCY WiFi
+hysteria2://92785df7-d82b-441a-a31f-8a8f05630d49@pl1.obxodvpn.us:4443/?sni=nl1.obxodvpn.us&alpn=h3&mport=20000-50000#🇸🇪 ⚡️🚀 Швеция INCY WiFi
+vless://isjejejej-000000-0000-0000cac@fin4.himoy.space:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fin4.himoy.space&fp=firefox&pbk=36MwbI8-ScG1RGaNp7jGe-NMOm9HfvmdMP5vfY4_P3k&sid=0c3c7a686e566de2&type=tcp&headerType=none#👆🏼 ТОЛЬКО INCY
+vless://isjejejej-000000-0000-0000cac@fin4.himoy.space:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fin4.himoy.space&fp=firefox&pbk=36MwbI8-ScG1RGaNp7jGe-NMOm9HfvmdMP5vfY4_P3k&sid=0c3c7a686e566de2&type=tcp&headerType=none#👇🏼 HAPP НИЖЕ
+vless://5131b5e9-2c3c-44a0-8f18-0641f3f21cac@fin4.himoy.space:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fin4.himoy.space&fp=firefox&pbk=36MwbI8-ScG1RGaNp7jGe-NMOm9HfvmdMP5vfY4_P3k&sid=0c3c7a686e566de2&type=tcp&headerType=none#🇫🇮 ⚡️🚀 Финляндия HAPP WiFi
+vless://3b1fa839-2cb9-4511-9711-08800450aea3@match.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apiv12nd.goonars.com&fp=firefox&pbk=OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo&sid=535a3304&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды HAPP WiFi
+vless://5131b5e9-2c3c-44a0-8f18-0641f3f21cac@budulai.himoy.space:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=budulai.himoy.space&fp=firefox&pbk=mk-wqC8YgfjMc89oFsT2HSpBMYB23kMURVBiXkeFHzg&sid=98c76776ef3d1f71&type=tcp&headerType=none#🇫🇮 ⚡️🚀 Финляндия-2 HAPP WiFi
+vless://isjejejej-000000-0000-0000cac@fin4.himoy.space:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fin4.himoy.space&fp=firefox&pbk=36MwbI8-ScG1RGaNp7jGe-NMOm9HfvmdMP5vfY4_P3k&sid=0c3c7a686e566de2&type=tcp&headerType=none#👇🏼 ОБХОДЫ РАБОТАЮТ ВЕЗДЕ
 vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@santehdv.site:443?encryption=none&security=tls&sni=santehdv.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/E2QlYgrvniT_#🇪🇺 🔥 ОБХОД №1 | FAST
 vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@slivdom-spb.site:443?encryption=none&security=tls&sni=slivdom-spb.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/3VTlT49iHS1H#🇪🇺 🔥 ОБХОД №2 | FAST
 vless://9ba53795-4356-40ab-8067-76ec2ae2a3d8@santehdv.site:443?encryption=none&security=tls&sni=santehdv.site&fp=edge&alpn=http/1.1&type=ws&path=/media/stream/qUWu2oaFgxAw#🇪🇺 🔥 ОБХОД №3 | FAST
