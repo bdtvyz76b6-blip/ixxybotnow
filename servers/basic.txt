@@ -1,7 +1,7 @@
-vless://706bce83-91db-4260-b175-cba29145cd56@93.152.223.244:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ddk5-ger.newagetechnologies.live&fp=qq&pbk=yKwDGqOdkC_nEPOQHMvAQLPcPK8YHskv_opYoY66Yk8&type=tcp&headerType=none#🇩🇪 ⚡️🚀 ГЕРМАНИЯ WiFi
+vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@191.217.214.44:47040?encryption=none&flow=xtls-rprx-vision&security=reality&sni=edge-node18.ethervds.com&fp=firefox&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8&sid=57a2f9bf09b73cf3&type=tcp&headerType=none#🇩🇪 ⚡️🚀 Германия WiFi
 
-vless://e0216964-ffa1-4d39-82c4-0e40879a470d@176.65.149.194:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lamibeauty.site&fp=firefox&pbk=XYkuP_Keu-yL7EQ8xZc4RTmcVAfp06Z1onV2ZNrlsHM&sid=c31f187b&type=tcp&headerType=none#🇳🇱 ⚡️🚀 НИДЕРЛАНДЫ WiFi
+vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@191.217.214.44:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=edge-node09.ethervds.com&fp=firefox&pbk=0gAAFRMA-5z5b-BHVDa38JJGT3InTkSnGSrSso_tn10&sid=57a2f9bf09b73cf3&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
 
-vless://d5816c36-6359-5eff-bbfd-14e0cbab087d@185.119.81.20:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mtalk.google.com&fp=firefox&pbk=9BUlinkTIxNgD2Em4KShtEbXOjBKvz2mDwT1VqoeR1k&sid=80c4e0bda641d6c9&spx=%2F&type=tcp&headerType=none#🇫🇮 ⚡️🚀 ФИНЛЯНДИЯ WiFi
+vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@191.217.214.45:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=edge-node16.ethervds.com&fp=firefox&pbk=cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8&sid=e18eda8458cab0d7&type=tcp&headerType=none#🇵🇱 ⚡️🚀 Польша WiFi
 
-vless://d5816c36-6359-5eff-bbfd-14e0cbab087d@194.93.63.195:443?encryption=none&flow=xtls-rprx-vision&security=tls&type=tcp&alpn=h2,http/1.1&fp=firefox&headerType=none#🇵🇱 ⚡️🚀 ПОЛЬША WiFi
+vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@92.53.115.55:46046?encryption=none&flow=xtls-rprx-vision&security=reality&sni=edge-node20.ethervds.com&fp=firefox&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8&sid=57a2f9bf09b73cf3&type=tcp&headerType=none#🇫🇮 ⚡️🚀 Финляндия WiFi
