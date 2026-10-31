@@ -28,7 +28,9 @@
     },
     "inventory": [
       "sub_basic_30"
-    ]
+    ],
+    "last_bonus": 0,
+    "balance": 0
   },
   "6215130536": {
     "id": 6215130536,
