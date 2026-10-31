@@ -19,7 +19,9 @@
       }
     },
     "trial_used": true,
-    "discount": 30
+    "discount": 30,
+    "coins": 10,
+    "game_cooldowns": {}
   },
   "6215130536": {
     "id": 6215130536,
