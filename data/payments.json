@@ -380,10 +380,11 @@
     "days": 0,
     "amount_rub": 240,
     "discount_pct": 0,
-    "status": "pending",
+    "status": "cancelled",
     "activated": false,
     "created_at": "2026-10-31T16:54:43.781480+00:00",
     "chat_id": 6312016802,
-    "message_id": 10509
+    "message_id": 10509,
+    "cancelled_at": "2026-10-31T16:54:48.748036+00:00"
   }
 ]
