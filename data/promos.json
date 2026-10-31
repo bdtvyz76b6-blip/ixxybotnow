@@ -14,5 +14,12 @@
     "used_by": [
       6312016802
     ]
+  },
+  {
+    "code": "QUWUDV52",
+    "type": "discount",
+    "value": 70,
+    "tariff": "basic",
+    "used_by": []
   }
 ]
