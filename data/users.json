@@ -60,7 +60,8 @@
         "expires_at": null
       }
     },
-    "trial_used": false
+    "trial_used": false,
+    "balance": 50000
   },
   "1537995028": {
     "id": 1537995028,
