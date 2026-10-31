@@ -342,5 +342,19 @@
     "activated": true,
     "created_at": "2026-10-31T14:35:23.428498+00:00",
     "paid_at": "2026-10-31T14:37:44.358195+00:00"
+  },
+  {
+    "payment_id": "01a1926d-d463-7108-b565-2e75d674ed7f",
+    "user_id": 6312016802,
+    "item_type": "sub",
+    "item_id": "supra",
+    "days": 1,
+    "amount_rub": 2,
+    "discount_pct": 70,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-10-31T14:47:13.883136+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
