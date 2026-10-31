@@ -317,5 +317,16 @@
     "activated": true,
     "created_at": "2026-10-31T14:03:10.545487+00:00",
     "paid_at": "2026-10-31T14:04:20.173211+00:00"
+  },
+  {
+    "payment_id": "01a1924c-dac9-71c7-b207-8ee70da622e9",
+    "user_id": 6312016802,
+    "tariff": "basic",
+    "days": 2,
+    "amount_rub": 6,
+    "discount_pct": 0,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-10-31T14:11:12.805557+00:00"
   }
 ]
