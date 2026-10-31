@@ -20,8 +20,10 @@
     },
     "trial_used": true,
     "discount": 30,
-    "coins": 60,
-    "game_cooldowns": {}
+    "coins": 45,
+    "game_cooldowns": {
+      "football": 1793456859.6981554
+    }
   },
   "6215130536": {
     "id": 6215130536,
