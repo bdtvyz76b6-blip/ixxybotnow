@@ -329,5 +329,17 @@
     "activated": true,
     "created_at": "2026-10-31T14:11:12.805557+00:00",
     "paid_at": "2026-10-31T14:13:43.893740+00:00"
+  },
+  {
+    "payment_id": "01a19262-fd3b-709d-a7bd-d814a1aa9bb0",
+    "user_id": 6312016802,
+    "item_type": "coins",
+    "item_id": "c100",
+    "days": 0,
+    "amount_rub": 49,
+    "discount_pct": 0,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-10-31T14:35:23.428498+00:00"
   }
 ]
