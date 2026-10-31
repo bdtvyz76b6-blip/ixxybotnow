@@ -351,10 +351,11 @@
     "days": 1,
     "amount_rub": 2,
     "discount_pct": 70,
-    "status": "pending",
-    "activated": false,
+    "status": "paid",
+    "activated": true,
     "created_at": "2026-10-31T14:47:13.883136+00:00",
     "chat_id": 6312016802,
-    "message_id": 10386
+    "message_id": 10386,
+    "paid_at": "2026-10-31T14:48:17.935545+00:00"
   }
 ]
