@@ -20,9 +20,10 @@
     },
     "trial_used": true,
     "discount": 30,
-    "coins": 45,
+    "coins": 15,
     "game_cooldowns": {
-      "football": 1793456859.6981554
+      "football": 1793456859.6981554,
+      "slots": 1793456875.9799416
     }
   },
   "6215130536": {
