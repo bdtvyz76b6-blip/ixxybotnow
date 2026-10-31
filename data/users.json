@@ -19,7 +19,7 @@
       }
     },
     "trial_used": true,
-    "coins": 70076229,
+    "coins": 70077729,
     "game_cooldowns": {
       "football": 1793456859.6981554,
       "slots": 1793456875.9799416,
@@ -27,8 +27,7 @@
       "dice": 1793457619.2007396
     },
     "inventory": [
-      "sub_basic_30",
-      "chaos"
+      "sub_basic_30"
     ],
     "last_bonus": 1793464520.1179302,
     "balance": 23080,
@@ -62,12 +61,7 @@
       }
     },
     "trial_used": false,
-    "balance": 167000,
-    "coins": 0,
-    "last_bonus": 0,
-    "inventory": [],
-    "pass_until": null,
-    "last_pass_bonus": 0
+    "balance": 167000
   },
   "1537995028": {
     "id": 1537995028,
