@@ -313,8 +313,9 @@
     "days": 7,
     "amount_rub": 21,
     "discount_pct": 0,
-    "status": "pending",
-    "activated": false,
-    "created_at": "2026-10-31T14:03:10.545487+00:00"
+    "status": "paid",
+    "activated": true,
+    "created_at": "2026-10-31T14:03:10.545487+00:00",
+    "paid_at": "2026-10-31T14:04:20.173211+00:00"
   }
 ]
