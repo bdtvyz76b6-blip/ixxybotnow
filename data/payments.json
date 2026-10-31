@@ -357,5 +357,19 @@
     "chat_id": 6312016802,
     "message_id": 10386,
     "paid_at": "2026-10-31T14:48:17.935545+00:00"
+  },
+  {
+    "payment_id": "01a192ba-ac48-72ec-b3f4-f4dba0b2e1c4",
+    "user_id": 6312016802,
+    "item_type": "custom_coins",
+    "item_id": "custom",
+    "days": 2250,
+    "amount_rub": 742,
+    "discount_pct": 0,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-10-31T16:11:09.846531+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
