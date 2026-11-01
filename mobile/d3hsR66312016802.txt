@@ -1,10 +1,7 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
 #subscription-userinfo: expire=1799392168
-#announce: ↖️ Поддержка | Безлимит трафика и устройств | Бот ↗️
-#sub-info-text: 🌐 Безлимит устройств и трафика
-#sub-expire: 1
-#sub-expire-button-link: https://t.me/orelvpntopbot
+#announce: ↖️   Бот   |   Поддержка   ↗️
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
 vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@mark-rubick.xrent.cloud:10448?encryption=none&flow=xtls-rprx-vision&security=reality&sni=edge-node08.ethervds.com&fp=firefox&pbk=SJEbErtlRxBIwqIJYbttuF59vN6jbGt7SX2sRvZRS0Q&sid=d1520ca3e02cda34&type=tcp&headerType=none#🇪🇺 🟢⚡️ Обход №1 | Германия
