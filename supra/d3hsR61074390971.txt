@@ -1,10 +1,12 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
-#color-profile: {"backgroundGradientRotationAngle":38,"backgroundGradientColorIntensity":1,"backgroundColors":["#100016FF","#250030FF","#43005AFF"],"serverRowBackgroundColor":"#25082EFF","selectedServerRowColor":"#540064FF","subsHeaderColor":"#41004EFF","buttonColor":"#E54BFFFF","buttonTextColor":"#25002DFF","powerIconColor":"#4A005AFF","serverRowTitleTextColor":"#FFF4FFFF","serverRowSubTitleTextColor":"#D6A7DBFF","topBarButtonsColor":"#EF72FFFF","supportIconColor":"#EF72FFFF","profileWebPageIconColor":"#EF72FFFF","subHeaderButtonColor":"#EF72FFFF","settingsControlsTintColor":"#E54BFFFF","subscriptionInfoBackgroundColor":"#26072FFF","subscriptionTrafficBackgroundColor":"#570066FF","subscriptionInfoTextColor":"#FFF4FFFF","disclosureHeaderTextColor":"#FFF4FFFF","disclosureSubHeaderTextColor":"#D6A7DBFF","serverRowChevronColor":"#EF72FFFF","additionalOptionsButtonColor":"#EF72FFFF","buttonTimerColor":"#FFFFFFFF","elipseColors":["#E54BFFFF","#7A2CFFFF","#FF8BEFFF"],"backgroundImageType":"light","buttonImageType":"light"}
 #subscription-userinfo: expire=1800258086
 #announce: ↖️ Поддержка | Безлимит трафика и устройств | Бот ↗️
-#support-url: https://t.me/ixxy67
+#sub-info-text: 🌐 Безлимит устройств и трафика
+#sub-expire: 1
+#sub-expire-button-link: https://t.me/orelvpntopbot
 #profile-web-page-url: https://t.me/orelvpntopbot
+#support-url: https://t.me/ixxy67
 vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@ne5.rexten.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ne5.rexten.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
 vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@ne5.rexten.cc:10443?encryption=none&security=reality&sni=ne5.rexten.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=ne.rexten.cc#🇳🇱 ⚡️🚀 Нидерланды-2 WiFi
 vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@pl.lenvex.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pl.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇵🇱 ⚡️🚀 Польша WiFi
