@@ -19,7 +19,7 @@
       }
     },
     "trial_used": true,
-    "coins": 63679,
+    "coins": 63629,
     "game_cooldowns": {
       "football": 1793456859.6981554,
       "slots": 1793456875.9799416,
@@ -34,7 +34,8 @@
     "pass_until": "2026-11-30T18:37:50.382595+00:00",
     "last_pass_bonus": 1793493391.624879,
     "last_game": 0,
-    "discount": 50
+    "discount": 50,
+    "ref_count": 1
   },
   "6215130536": {
     "id": 6215130536,
@@ -293,24 +294,5 @@
     "notes": "",
     "username": "Chibik_Xz",
     "first_name": "хз"
-  },
-  "5222385918": {
-    "id": 5222385918,
-    "created_at": "2026-11-01T12:19:51.350167+00:00",
-    "subs": {},
-    "trial_used": false,
-    "ref_by": 6312016802,
-    "ref_count": 0,
-    "ref_earned": 0,
-    "notes": "",
-    "coins": 100,
-    "last_bonus": 0,
-    "last_game": 0,
-    "balance": 0,
-    "pass_until": null,
-    "last_pass_bonus": 0,
-    "inventory": [],
-    "username": "santizz00",
-    "first_name": "..."
   }
 }
