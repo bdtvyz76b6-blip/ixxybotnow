@@ -71,7 +71,13 @@
       }
     },
     "trial_used": false,
-    "balance": 167000
+    "balance": 167000,
+    "coins": 0,
+    "last_bonus": 0,
+    "last_game": 0,
+    "pass_until": null,
+    "last_pass_bonus": 0,
+    "inventory": []
   },
   "1537995028": {
     "id": 1537995028,
