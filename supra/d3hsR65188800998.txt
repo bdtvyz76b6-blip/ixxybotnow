@@ -1,6 +1,6 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
-#subscription-userinfo: expire=1793656142
+#subscription-userinfo: expire=1793742542
 #announce: ↖️   Бот   |   Поддержка   ↗️
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
