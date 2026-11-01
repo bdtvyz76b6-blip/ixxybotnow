@@ -400,5 +400,19 @@
     "created_at": "2026-11-01T10:10:27.506598+00:00",
     "chat_id": 6312016802,
     "message_id": 10754
+  },
+  {
+    "payment_id": "01a1970c-47a5-7132-a410-3be99d1db447",
+    "user_id": 6312016802,
+    "item_type": "sub",
+    "item_id": "supra",
+    "days": 365,
+    "amount_rub": 730,
+    "discount_pct": 50,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-01T12:18:46.946527+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
