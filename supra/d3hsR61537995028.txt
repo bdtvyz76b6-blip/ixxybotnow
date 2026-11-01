@@ -1,10 +1,7 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
 #subscription-userinfo: expire=1795854244
-#announce: ↖️ Поддержка | Безлимит трафика и устройств | Бот ↗️
-#sub-info-text: 🌐 Безлимит устройств и трафика
-#sub-expire: 1
-#sub-expire-button-link: https://t.me/orelvpntopbot
+#announce: ↖️   Бот   |   Поддержка   ↗️
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
 vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@ne5.rexten.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ne5.rexten.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
