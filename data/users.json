@@ -324,5 +324,24 @@
     "inventory": [],
     "username": "paaarlament",
     "first_name": "SP Expedition"
+  },
+  "6788140874": {
+    "id": 6788140874,
+    "created_at": "2026-11-02T07:50:40.578178+00:00",
+    "subs": {},
+    "trial_used": false,
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_earned": 0,
+    "notes": "",
+    "coins": 100,
+    "last_bonus": 0,
+    "last_game": 0,
+    "balance": 0,
+    "pass_until": null,
+    "last_pass_bonus": 0,
+    "inventory": [],
+    "username": "",
+    "first_name": "Секретный дольаеб"
   }
 }
