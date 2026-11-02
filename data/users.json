@@ -410,5 +410,24 @@
     "inventory": [],
     "username": "frisk_un",
     "first_name": "Фриск♥️"
+  },
+  "8203494891": {
+    "id": 8203494891,
+    "created_at": "2026-11-02T14:41:51.673382+00:00",
+    "subs": {},
+    "trial_used": false,
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_earned": 0,
+    "notes": "",
+    "coins": 100,
+    "last_bonus": 0,
+    "last_game": 0,
+    "balance": 0,
+    "pass_until": null,
+    "last_pass_bonus": 0,
+    "inventory": [],
+    "username": "Almaz1235",
+    "first_name": "￴"
   }
 }
