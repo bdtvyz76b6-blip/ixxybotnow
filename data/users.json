@@ -447,7 +447,7 @@
     "coins": 100,
     "last_bonus": 0,
     "last_game": 0,
-    "balance": 0,
+    "balance": 100,
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
