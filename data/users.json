@@ -367,5 +367,24 @@
     "inventory": [],
     "username": "O_O_ki",
     "first_name": "Kostik"
+  },
+  "8139061923": {
+    "id": 8139061923,
+    "created_at": "2026-11-02T08:51:06.775552+00:00",
+    "subs": {},
+    "trial_used": false,
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_earned": 0,
+    "notes": "",
+    "coins": 100,
+    "last_bonus": 0,
+    "last_game": 0,
+    "balance": 0,
+    "pass_until": null,
+    "last_pass_bonus": 0,
+    "inventory": [],
+    "username": "niaz1235_tg",
+    "first_name": "Нияз"
   }
 }
