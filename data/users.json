@@ -469,7 +469,9 @@
     "balance": 0,
     "pass_until": null,
     "last_pass_bonus": 0,
-    "inventory": [],
+    "inventory": [
+      "neon"
+    ],
     "username": "Wizzelly",
     "first_name": "кразаучик"
   }
