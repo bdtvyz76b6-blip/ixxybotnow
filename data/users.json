@@ -463,7 +463,7 @@
         "expires_at": "2026-11-05T17:24:40.460414+00:00"
       }
     },
-    "trial_used": false,
+    "trial_used": true,
     "ref_by": null,
     "ref_count": 0,
     "ref_earned": 0,
