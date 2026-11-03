@@ -1,19 +1,6 @@
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@ne5.rexten.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ne5.rexten.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
+vless://570207c9-fad0-4be8-87a6-00e22f45d292@8.6.112.0:443?encryption=none&security=tls&sni=186.baklajann.ru&fp=chrome&alpn=h3&type=xhttp&host=186.baklajann.ru&path=/&mode=auto#🇵🇱 ⚡️🚀 Польша WiFi
 
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@ne5.rexten.cc:10443?encryption=none&security=reality&sni=ne5.rexten.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=ne.rexten.cc#🇳🇱 ⚡️🚀 Нидерланды-2 WiFi
+vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@94.183.167.96:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=edge-node25.ethervds.com&fp=firefox&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8&sid=57a2f9bf09b73cf3&type=tcp&headerType=none#🇵🇱 ⚡️🚀 Польша WiFi [РЕЗЕРВ]
 
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@pl.lenvex.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pl.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇵🇱 ⚡️🚀 Польша WiFi
+vless://570207c9-fad0-4be8-87a6-00e22f45d292@146.75.35.109:443?encryption=none&security=tls&sni=accounts.fastly.com&fp=chrome&alpn=h3&type=xhttp&host=oh3.global.ssl.fastly.net&path=/&mode=auto#🇫🇷 ⚡️🚀 Франция WiFi
 
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@pl.lenvex.cc:10443?encryption=none&security=reality&sni=pl.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=pl.lenvex.cc#🇵🇱 ⚡️🚀 Польша-2 WiFi
-
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@de.lenvex.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=de.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇩🇪 ⚡️🚀 Германия WiFi
-
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@de.lenvex.cc:10443?encryption=none&security=reality&sni=de.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=de.lenvex.cc#🇩🇪 ⚡️🚀 Германия-2 WiFi
-
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@usa.lenvex.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=usa.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇺🇸 ⚡️🚀 Америка WiFi
-
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@usa.lenvex.cc:10443?encryption=none&security=reality&sni=usa.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=usa.lenvex.cc#🇺🇸 ⚡️🚀 Америка-2 WiFi
-
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@lv.dexlen.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lv.dexlen.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇱🇻 ⚡️🤖 ИИ Латвия WiFi
-
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@lv.dexlen.cc:10443?encryption=none&security=reality&sni=lv.dexlen.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=lv.dexlen.cc#🇱🇻 ⚡️🤖 ИИ Латвия-2 WiFi
