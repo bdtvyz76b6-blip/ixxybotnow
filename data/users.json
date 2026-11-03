@@ -463,15 +463,13 @@
     "ref_count": 0,
     "ref_earned": 0,
     "notes": "",
-    "coins": 0,
+    "coins": 100,
     "last_bonus": 0,
     "last_game": 0,
     "balance": 0,
     "pass_until": null,
     "last_pass_bonus": 0,
-    "inventory": [
-      "neon"
-    ],
+    "inventory": [],
     "username": "Wizzelly",
     "first_name": "кразаучик"
   }
