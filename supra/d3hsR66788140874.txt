@@ -1,18 +1,7 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
 #subscription-userinfo: expire=1793692258
-#announce: ↖️   Бот   |   Поддержка   ↗️
+#announce: 🔴 Подписка истекла. В бота для оплаты.
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@ne5.rexten.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ne5.rexten.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@ne5.rexten.cc:10443?encryption=none&security=reality&sni=ne5.rexten.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=ne.rexten.cc#🇳🇱 ⚡️🚀 Нидерланды-2 WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@pl.lenvex.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pl.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇵🇱 ⚡️🚀 Польша WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@pl.lenvex.cc:10443?encryption=none&security=reality&sni=pl.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=pl.lenvex.cc#🇵🇱 ⚡️🚀 Польша-2 WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@de.lenvex.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=de.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇩🇪 ⚡️🚀 Германия WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@de.lenvex.cc:10443?encryption=none&security=reality&sni=de.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=de.lenvex.cc#🇩🇪 ⚡️🚀 Германия-2 WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@usa.lenvex.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=usa.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇺🇸 ⚡️🚀 Америка WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@usa.lenvex.cc:10443?encryption=none&security=reality&sni=usa.lenvex.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=usa.lenvex.cc#🇺🇸 ⚡️🚀 Америка-2 WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@lv.dexlen.cc:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=lv.dexlen.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=tcp&headerType=none#🇱🇻 ⚡️🤖 ИИ Латвия WiFi
-vless://2614a96d-e39f-4cca-a9c7-467a178c2c0a@lv.dexlen.cc:10443?encryption=none&security=reality&sni=lv.dexlen.cc&fp=firefox&pbk=OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ&type=grpc&serviceName=GunService&authority=lv.dexlen.cc#🇱🇻 ⚡️🤖 ИИ Латвия-2 WiFi
-vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@mark-rubick.xrent.cloud:10448?encryption=none&flow=xtls-rprx-vision&security=reality&sni=edge-node08.ethervds.com&fp=firefox&pbk=SJEbErtlRxBIwqIJYbttuF59vN6jbGt7SX2sRvZRS0Q&sid=d1520ca3e02cda34&type=tcp&headerType=none#🇪🇺 🟢⚡️ Обход №1 | Германия
-vless://c515cd7e-f687-4530-a8fb-5e3f4fc2732c@188.225.25.176:443?encryption=none&security=reality&sni=id.pervye.ru&fp=firefox&pbk=QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8&type=grpc&serviceName=ns&authority=id.pervye.ru#🇪🇺 🟢⚡️ Обход №2 | Италия
+vless://expired@127.0.0.1:443?security=none&type=tcp&serverDescription=Expired#Expired
