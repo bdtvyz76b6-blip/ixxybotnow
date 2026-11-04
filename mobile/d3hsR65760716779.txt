@@ -1,0 +1,8 @@
+#profile-title: base64:4piC77iPIElYWFkgVlBO
+#profile-update-interval: 1
+#subscription-userinfo: expire=1794421184
+#announce: ↖️   Бот   |   Поддержка   ↗️
+#profile-web-page-url: https://t.me/orelvpntopbot
+#support-url: https://t.me/ixxy67
+vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@apply.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apply.betust.net&fp=firefox&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&sid=b20168a5&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №1 | FAST
+vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@join.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=join.betust.net&fp=firefox&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&sid=351224a7&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №2 | FAST
