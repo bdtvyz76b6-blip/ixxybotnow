@@ -308,10 +308,6 @@
       "supra": {
         "started_at": "2026-11-02T07:04:53.143086+00:00",
         "expires_at": "2026-11-03T07:04:53.143086+00:00"
-      },
-      "mobile": {
-        "started_at": "2026-11-04T18:19:44.697506+00:00",
-        "expires_at": "2026-11-11T18:19:44.697506+00:00"
       }
     },
     "trial_used": true,
@@ -322,7 +318,7 @@
     "coins": 100,
     "last_bonus": 0,
     "last_game": 0,
-    "balance": 65,
+    "balance": 100,
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
