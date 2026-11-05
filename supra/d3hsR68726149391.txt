@@ -1,13 +1,7 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
 #subscription-userinfo: expire=1793782277
-#announce: ↖️   Бот   |   Поддержка   ↗️
+#announce: 🔴 Подписка истекла. В бота для оплаты.
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@tickets.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=tickets.betust.net&fp=firefox&pbk=TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw&sid=f70764f8&spx=%2F&type=tcp&headerType=none#🇩🇪 ⚡️🚀 Германия WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@book.jarbook.net:443?encryption=none&security=reality&sni=reg.jarbook.net&fp=firefox&pbk=nUUSNvkc5Xy6LRCP4yeFvbI8wFMx7gdgruPMNBq7jzo&sid=dceb4214&spx=%2F&type=grpc&serviceName=BookCatalog#🇫🇮 ⚡️🚀 Финляндия WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@admin.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=admin.betust.net&fp=firefox&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&sid=3e137406&spx=%2F&type=tcp&headerType=none#🇵🇱 ⚡️🚀 Польша WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@main.jarbook.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=main.jarbook.net&fp=firefox&pbk=gJoMHh97teLxW92Z_3DI8qdSulqBlb9sW6mthYPEEBk&sid=d889ac17&spx=%2F&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@admin.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=admin.betust.net&fp=firefox&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&sid=3e137406&spx=%2F&type=tcp&headerType=none#🇸🇪 ⚡️🚀 Швеция WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@apply.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apply.betust.net&fp=firefox&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&sid=b20168a5&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №1 | FAST
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@join.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=join.betust.net&fp=firefox&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&sid=351224a7&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №2 | FAST
+vless://expired@127.0.0.1:443?security=none&type=tcp&serverDescription=Expired#Expired
