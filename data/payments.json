@@ -414,5 +414,19 @@
     "created_at": "2026-11-01T12:18:46.946527+00:00",
     "chat_id": 6312016802,
     "message_id": 10786
+  },
+  {
+    "payment_id": "01a1ad20-0e7a-7163-b8cf-adb1e989fa6c",
+    "user_id": 6312016802,
+    "item_type": "topup",
+    "item_id": "custom",
+    "days": 0,
+    "amount_rub": 240,
+    "discount_pct": 0,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-05T19:12:01.755577+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
