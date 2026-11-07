@@ -4,5 +4,7 @@
 #announce: ↖️   Бот   |   Поддержка   ↗️
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@panel.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=panel.betust.net&fp=firefox&pbk=2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o&sid=8ece2039&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №1 | Reality
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@panel.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=panel.betust.net&fp=firefox&pbk=2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o&sid=8ece2039&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №2 | Reality
+vless://41847193-20ab-4525-be9f-3113123b864d@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-se-1.dokomon.com&fp=qq&type=ws&host=r-se-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №1 | WS
+vless://4662bf2b-af58-0001-ae5f-ef3d7d3a624f@mbr.rkn-pediki.site:443?encryption=none&security=tls&sni=mbr.rkn-pediki.site&fp=ios&alpn=http/1.1&type=ws&host=mbr.rkn-pediki.site&path=/session#🇪🇺 🔥 ОБХОД №2 | WS
+vless://2b5962e8-1ec2-0001-bdab-cefa57555d2a@mbr.rkn-pediki.site:443?encryption=none&security=tls&sni=mbr.rkn-pediki.site&fp=ios&alpn=http/1.1&type=ws&host=mbr.rkn-pediki.site&path=/session#🇪🇺 🔥 ОБХОД №3 | WS
+vless://41847193-20ab-4525-be9f-3113123b864d@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-nl-1.dokomon.com&fp=qq&type=ws&host=r-nl-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №4 | WS
