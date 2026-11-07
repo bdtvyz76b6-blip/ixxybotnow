@@ -19,7 +19,7 @@
       }
     },
     "trial_used": true,
-    "coins": 63864,
+    "coins": 63914,
     "game_cooldowns": {
       "football": 1793456859.6981554,
       "slots": 1793456875.9799416,
@@ -32,7 +32,7 @@
     "last_bonus": 1793464520.1179302,
     "balance": 4,
     "pass_until": "2026-11-30T18:37:50.382595+00:00",
-    "last_pass_bonus": 1793925307.378257,
+    "last_pass_bonus": 1794011947.5543563,
     "last_game": 0,
     "discount": 50,
     "ref_count": 1
