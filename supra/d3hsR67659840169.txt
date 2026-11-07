@@ -1,13 +1,7 @@
 #profile-title: base64:4piC77iPIElYWFkgVlBO
 #profile-update-interval: 1
 #subscription-userinfo: expire=1793900267
-#announce: ↖️   Бот   |   Поддержка   ↗️
+#announce: 🔴 Подписка истекла. В бота для оплаты.
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@app.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=app.betust.net&fp=firefox&pbk=xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo&sid=ef5d4ad5&spx=%2F&type=tcp&headerType=none#🇩🇪 ⚡️🚀 Германия WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@app26.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=app26.betust.net&fp=firefox&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&sid=d44d6d46&spx=%2F&type=tcp&headerType=none#🇵🇱 ⚡️🚀 Польша WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@snow.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=api37.betust.net&fp=firefox&pbk=92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE&sid=b7a5c406&spx=%2F&type=tcp&headerType=none#🇫🇮 ⚡️🚀 Финляндия WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@app.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=app.betust.net&fp=firefox&pbk=xNzdfy4hPv-IgM_MSn64FNQdb-UPu78pmM-GBE1HhSo&sid=ef5d4ad5&spx=%2F&type=tcp&headerType=none#🇳🇱 ⚡️🚀 Нидерланды WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@app26.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=app26.betust.net&fp=firefox&pbk=5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc&sid=d44d6d46&spx=%2F&type=tcp&headerType=none#🇸🇪 ⚡️🚀 Швеция WiFi
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@panel.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=panel.betust.net&fp=firefox&pbk=2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o&sid=8ece2039&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №1 | Reality
-vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@panel.betust.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=panel.betust.net&fp=firefox&pbk=2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o&sid=8ece2039&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №2 | Reality
+vless://expired@127.0.0.1:443?security=none&type=tcp&serverDescription=Expired#Expired
