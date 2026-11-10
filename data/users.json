@@ -35,7 +35,11 @@
     "last_pass_bonus": 1794271851.441616,
     "last_game": 0,
     "discount": 50,
-    "ref_count": 1
+    "ref_count": 1,
+    "theme": "default",
+    "streak": 0,
+    "last_streak_date": "",
+    "last_fortune": 0
   },
   "6215130536": {
     "id": 6215130536,
