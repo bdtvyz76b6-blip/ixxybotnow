@@ -428,5 +428,19 @@
     "created_at": "2026-11-05T19:12:01.755577+00:00",
     "chat_id": 6312016802,
     "message_id": 11275
+  },
+  {
+    "payment_id": "01a1c716-ff98-7288-81f2-ae1c3ba72a07",
+    "user_id": 6312016802,
+    "item_type": "theme",
+    "item_id": "blood",
+    "days": 0,
+    "amount_rub": 149,
+    "discount_pct": 0,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-10T20:12:15.830104+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
