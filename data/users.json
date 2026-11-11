@@ -53,7 +53,7 @@
       }
     },
     "trial_used": true,
-    "username": "kocherizhka777",
+    "username": "shakalvinvize",
     "first_name": "✌️",
     "coins": 0,
     "last_bonus": 0,
@@ -61,7 +61,11 @@
     "balance": 0,
     "pass_until": null,
     "last_pass_bonus": 0,
-    "inventory": []
+    "inventory": [],
+    "theme": "default",
+    "streak": 0,
+    "last_streak_date": "",
+    "last_fortune": 0
   },
   "1972672627": {
     "id": 1972672627,
