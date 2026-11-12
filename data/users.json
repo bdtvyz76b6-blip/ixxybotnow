@@ -524,5 +524,28 @@
     "inventory": [],
     "username": "Panther_K8_V5",
     "first_name": "⚡♒パンサー ♒⚡ #17"
+  },
+  "8713120076": {
+    "id": 8713120076,
+    "created_at": "2026-11-12T04:19:05.491360+00:00",
+    "subs": {},
+    "trial_used": false,
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_earned": 0,
+    "notes": "",
+    "coins": 100,
+    "last_bonus": 0,
+    "last_game": 0,
+    "balance": 0,
+    "pass_until": null,
+    "last_pass_bonus": 0,
+    "inventory": [],
+    "theme": "default",
+    "streak": 0,
+    "last_streak_date": "",
+    "last_fortune": 0,
+    "username": "itlorence",
+    "first_name": "lorence"
   }
 }
