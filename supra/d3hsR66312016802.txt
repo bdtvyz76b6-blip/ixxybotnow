@@ -7,9 +7,6 @@
 #support-url: https://t.me/ixxy67
 hysteria2://146d567c-6335-4e63-a8aa-7ec068642440@de1.obxodvpn.us:443/?sni=de1.obxodvpn.us&alpn=h3#🇩🇪 ⚡️🚀 Германия WiFi
 vless://146d567c-6335-4e63-a8aa-7ec068642440@pl2.obxodvpn.us:443?encryption=none&security=reality&sni=pl2.obxodvpn.us&fp=firefox&pbk=fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw&sid=5c42ed8c&type=xhttp&host=pl2.obxodvpn.us&path=/xhttp&mode=packet-up#🇵🇱 ⚡️🚀 Польша WiFi
-hysteria2://190edece-2750-454c-b766-0570fc32deca@89.125.214.221:19448/?sni=mshvpn.online&alpn=h3#🇫🇮 ⚡️🚀 Финляндия WiFi
-hysteria2://190edece-2750-454c-b766-0570fc32deca@89.125.214.221:19453/?sni=mshvpn.online&alpn=h3#🇪🇪 ⚡️🚀 Эстония WiFi
-vless://41847193-20ab-4525-be9f-3113123b864d@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-se-1.dokomon.com&fp=qq&type=ws&host=r-se-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №1 | WS
-vless://4662bf2b-af58-0001-ae5f-ef3d7d3a624f@mbr.rkn-pediki.site:443?encryption=none&security=tls&sni=mbr.rkn-pediki.site&fp=ios&alpn=http/1.1&type=ws&host=mbr.rkn-pediki.site&path=/session#🇪🇺 🔥 ОБХОД №2 | WS
-vless://2b5962e8-1ec2-0001-bdab-cefa57555d2a@mbr.rkn-pediki.site:443?encryption=none&security=tls&sni=mbr.rkn-pediki.site&fp=ios&alpn=http/1.1&type=ws&host=mbr.rkn-pediki.site&path=/session#🇪🇺 🔥 ОБХОД №3 | WS
-vless://41847193-20ab-4525-be9f-3113123b864d@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-nl-1.dokomon.com&fp=qq&type=ws&host=r-nl-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №4 | WS
+vless://af026003-7abf-42ae-9330-cc1267c503f4@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-se-1.dokomon.com&fp=qq&type=ws&host=r-se-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №1 | WS
+vless://af026003-7abf-42ae-9330-cc1267c503f4@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-fi-1.dokomon.com&fp=qq&type=ws&host=r-fi-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №2 | WS
+vless://af026003-7abf-42ae-9330-cc1267c503f4@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-nl-1.dokomon.com&fp=qq&type=ws&host=r-nl-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №3 | WS
