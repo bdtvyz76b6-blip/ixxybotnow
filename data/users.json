@@ -121,7 +121,18 @@
         "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_6c59995ef839264e.json"
       }
     },
-    "trial_used": true
+    "trial_used": true,
+    "coins": 0,
+    "last_bonus": 0,
+    "last_game": 0,
+    "balance": 0,
+    "pass_until": null,
+    "last_pass_bonus": 0,
+    "inventory": [],
+    "theme": "default",
+    "streak": 0,
+    "last_streak_date": "",
+    "last_fortune": 0
   },
   "1773877585": {
     "id": 1773877585,
