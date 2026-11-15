@@ -1,5 +1,5 @@
-vless://af026003-7abf-42ae-9330-cc1267c503f4@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-se-1.dokomon.com&fp=qq&type=ws&host=r-se-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №1 | WS
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@price.goonars.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=price.goonars.com&fp=firefox&pbk=UAry1N68zKkbO0MpIqAXmxfxg1Y9rvkiBjexZErRJwY&sid=6a30cf54&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №1 | Reality
 
-vless://af026003-7abf-42ae-9330-cc1267c503f4@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-fi-1.dokomon.com&fp=qq&type=ws&host=r-fi-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №2 | WS
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@chmstnd21.jarvesitw.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=chmstnd21.jarvesitw.ru&fp=firefox&pbk=2LiT1OqXbnWbNAop15NSe0OL3dK2i8EIkiY4EB_3PV8&sid=2e9cd36a&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №2 | Reality
 
-vless://af026003-7abf-42ae-9330-cc1267c503f4@185.86.145.40:5443?encryption=none&security=tls&sni=k2.r-nl-1.dokomon.com&fp=qq&type=ws&host=r-nl-1.dokomon.com&path=/ws/#🇪🇺 🔥 ОБХОД №3 | WS
+vless://2232d904-8e6a-4202-8240-6efd8aec02e9@price.goonars.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=price.goonars.com&fp=firefox&pbk=UAry1N68zKkbO0MpIqAXmxfxg1Y9rvkiBjexZErRJwY&sid=6a30cf54&spx=%2F&type=tcp&headerType=none#🇪🇺 🔥 ОБХОД №3 | Reality
