@@ -619,5 +619,28 @@
     "last_fortune": 0,
     "username": "yeeEB0k",
     "first_name": "cyчий потрох"
+  },
+  "8457752857": {
+    "id": 8457752857,
+    "created_at": "2026-11-18T16:39:50.617006+00:00",
+    "subs": {},
+    "trial_used": false,
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_earned": 0,
+    "notes": "",
+    "coins": 100,
+    "last_bonus": 0,
+    "last_game": 0,
+    "balance": 0,
+    "pass_until": null,
+    "last_pass_bonus": 0,
+    "inventory": [],
+    "theme": "default",
+    "streak": 0,
+    "last_streak_date": "",
+    "last_fortune": 0,
+    "username": "Akaylu",
+    "first_name": "ᴀᴋᴀʏʟᴜ"
   }
 }
