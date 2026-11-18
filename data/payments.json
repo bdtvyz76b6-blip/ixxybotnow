@@ -456,5 +456,19 @@
     "created_at": "2026-11-17T22:29:20.129911+00:00",
     "chat_id": 6312016802,
     "message_id": 12303
+  },
+  {
+    "payment_id": "01a1ef8b-d48b-7059-895a-d49428d5b55b",
+    "user_id": 8457752857,
+    "item_type": "sub",
+    "item_id": "basic",
+    "days": 30,
+    "amount_rub": 80,
+    "discount_pct": 0,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-18T16:44:41.076920+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
