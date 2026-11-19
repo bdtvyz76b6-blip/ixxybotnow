@@ -471,5 +471,19 @@
     "chat_id": 8457752857,
     "message_id": 12378,
     "paid_at": "2026-11-18T16:48:24.836170+00:00"
+  },
+  {
+    "payment_id": "01a1f50a-078d-7162-9fe7-284b91997d7e",
+    "user_id": 6312016802,
+    "item_type": "sub",
+    "item_id": "supra",
+    "days": 1,
+    "amount_rub": 9,
+    "discount_pct": 50,
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-19T18:20:37.729896+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
