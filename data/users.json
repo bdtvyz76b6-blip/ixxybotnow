@@ -42,7 +42,10 @@
     "last_fortune": 1795111653.3278756,
     "notes": "админ",
     "streak_frozen": false,
-    "streak_frozen_at": null
+    "streak_frozen_at": null,
+    "last_reminder": {},
+    "last_balance_shown": 0,
+    "ref_paid": false
   },
   "6215130536": {
     "id": 6215130536,
