@@ -36,7 +36,7 @@
     "last_game": 0,
     "discount": 50,
     "ref_count": 1,
-    "theme": "default",
+    "theme": "ocean",
     "streak": 5,
     "last_streak_date": "2026-11-19",
     "last_fortune": 1795111653.3278756,
@@ -44,7 +44,7 @@
     "streak_frozen": false,
     "streak_frozen_at": null,
     "last_reminder": {},
-    "last_balance_shown": 151,
+    "last_balance_shown": 0,
     "ref_paid": false
   },
   "6215130536": {
@@ -187,7 +187,15 @@
         "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_fb1a663f63e20f5e.json"
       }
     },
-    "trial_used": true
+    "trial_used": true,
+    "balance": 0,
+    "discount": 0,
+    "last_reminder": {},
+    "last_fortune": 0,
+    "pass_until": null,
+    "theme": "default",
+    "last_balance_shown": 0,
+    "ref_paid": false
   },
   "1433850139": {
     "id": 1433850139,
