@@ -473,17 +473,17 @@
     "paid_at": "2026-11-18T16:48:24.836170+00:00"
   },
   {
-    "payment_id": "01a1f50a-078d-7162-9fe7-284b91997d7e",
+    "payment_id": "01a1f50a-6323-727f-8dfd-5362cfb4fb14",
     "user_id": 6312016802,
     "item_type": "sub",
-    "item_id": "supra",
+    "item_id": "basic",
     "days": 1,
-    "amount_rub": 9,
+    "amount_rub": 5,
     "discount_pct": 50,
     "status": "pending",
     "activated": false,
-    "created_at": "2026-11-19T18:20:37.729896+00:00",
-    "chat_id": 6312016802,
-    "message_id": 12485
+    "created_at": "2026-11-19T18:21:01.199893+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
