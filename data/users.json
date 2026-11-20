@@ -685,5 +685,23 @@
     "last_fortune": 0,
     "username": "Akaylu",
     "first_name": "ᴀᴋᴀʏʟᴜ"
+  },
+  "6116670796": {
+    "id": 6116670796,
+    "created_at": "2026-11-20T17:41:09.164074+00:00",
+    "subs": {},
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_paid": false,
+    "notes": "",
+    "balance": 0,
+    "discount": 0,
+    "last_reminder": {},
+    "last_fortune": 0,
+    "pass_until": null,
+    "theme": "default",
+    "last_balance_shown": 0,
+    "username": "tAQCFBZxaR",
+    "first_name": "Артём🍎"
   }
 }
