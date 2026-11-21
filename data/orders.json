@@ -7,13 +7,13 @@
     "price": 0,
     "comment": "тест",
     "phone": "79803630808",
-    "status": "paid_in_work",
+    "status": "completed",
     "is_admin_test": true,
     "created_at": "2026-11-21T18:25:48.042960+00:00",
     "review_deadline": "2026-11-21T20:25:48.042960+00:00",
     "paid_at": "2026-11-21T18:26:22.758928+00:00",
-    "completed_at": null,
-    "delivery_content": "",
+    "completed_at": "2026-11-21T18:27:01.348568+00:00",
+    "delivery_content": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/supra/d3hsR66312016802.txt",
     "client_msg_id": 12797
   }
 ]
