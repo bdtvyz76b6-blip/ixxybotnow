@@ -78,5 +78,36 @@
         "note": "Заявка отправлена на рассмотрение"
       }
     ]
+  },
+  {
+    "id": "35119",
+    "user_id": 6312016802,
+    "username": "ixxy67",
+    "first_name": "ixxxxx",
+    "phone": "",
+    "service_key": "happ_theme_custom",
+    "service_name": "ново",
+    "category": "Кастомные услуги",
+    "details": "особо\nПожелания: особо\nосла",
+    "files": [],
+    "price": 169,
+    "is_test": false,
+    "status": "pending_review",
+    "created_at": "2026-11-21T21:24:10.366803+00:00",
+    "review_deadline": "2026-11-21T23:24:10.366803+00:00",
+    "exec_deadline": "2026-11-22T21:24:10.366803+00:00",
+    "reminded_3h": false,
+    "reminded_overdue": false,
+    "reminded_review_2h": false,
+    "payment_id": null,
+    "deliverable": null,
+    "history": [
+      {
+        "at": "2026-11-21T21:24:10.366803+00:00",
+        "actor": "user:6312016802",
+        "action": "created",
+        "note": "Заявка отправлена на рассмотрение"
+      }
+    ]
   }
 ]
