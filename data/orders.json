@@ -7,7 +7,7 @@
     "price": 0,
     "comment": "тест",
     "phone": "79803630808",
-    "status": "pending_review",
+    "status": "approved_unpaid",
     "is_admin_test": true,
     "created_at": "2026-11-21T18:25:48.042960+00:00",
     "review_deadline": "2026-11-21T20:25:48.042960+00:00",
