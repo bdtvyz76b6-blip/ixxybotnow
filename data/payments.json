@@ -499,5 +499,22 @@
     "created_at": "2026-11-19T18:37:16.879576+00:00",
     "chat_id": 6312016802,
     "message_id": 12530
+  },
+  {
+    "payment_id": "01a1ffdc-efab-70e6-8670-4a91f9ee2b3c",
+    "user_id": 6312016802,
+    "item_type": "wallpaper",
+    "item_id": "anime",
+    "days": 0,
+    "amount_rub": 149,
+    "discount_pct": 0,
+    "order_id": null,
+    "is_test": false,
+    "extra": {},
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-21T20:47:11.882470+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
