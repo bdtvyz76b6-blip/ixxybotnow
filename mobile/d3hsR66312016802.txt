@@ -2,10 +2,7 @@
 #profile-update-interval: 1
 #color-profile: {"backgroundGradientRotationAngle":42,"backgroundGradientColorIntensity":1,"backgroundColors":["#080510FF","#160A2BFF","#27104AFF"],"serverRowBackgroundColor":"#140B24FF","selectedServerRowColor":"#3B1873FF","subsHeaderColor":"#080510FF","buttonColor":"#B57BFFff","buttonTextColor":"#090512FF","powerIconColor":"#C79BFFff","serverRowTitleTextColor":"#F5EEFFFF","serverRowSubTitleTextColor":"#B69EDDFF","topBarButtonsColor":"#C79BFFff","supportIconColor":"#C79BFFff","profileWebPageIconColor":"#C79BFFff","subHeaderButtonColor":"#C79BFFff","settingsControlsTintColor":"#B57BFFff","subscriptionInfoBackgroundColor":"#140B24FF","subscriptionTrafficBackgroundColor":"#3B1873FF","subscriptionInfoTextColor":"#F5EEFFFF","disclosureHeaderTextColor":"#F5EEFFFF","disclosureSubHeaderTextColor":"#B69EDDFF","serverRowChevronColor":"#C79BFFff","additionalOptionsButtonColor":"#C79BFFff","buttonTimerColor":"#F5EEFFFF","elipseColors":["#C79BFFff","#8A4FFFff","#4C2399ff"],"backgroundImageType":"dark","buttonImageType":"dark"}
 #subscription-userinfo: expire=1799392168
-#announce: 👤 @ixxy67 · ⏳ 🟢 47 дней
+#announce: 🔴 Подписка истекла
 #profile-web-page-url: https://t.me/orelvpntopbot
 #support-url: https://t.me/ixxy67
-vless://146bf6d1-92c5-40c1-b0e1-a33590a592af@food.ebaniyautist.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=food.ebaniyautist.com&fp=firefox&pbk=KSHWuunuwpmoW41Ar977xCV3IKRmW5NyqDfviWWO0XQ&sid=2f8f4fa3cb941f6e&spx=%2F&type=tcp&headerType=none#🇫🇲 🔥 ОБХОД №1 | Анти-глушилка
-vless://146bf6d1-92c5-40c1-b0e1-a33590a592af@dash.tsukicloud.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dash.tsukicloud.net&fp=firefox&pbk=RG0hbpUvjNf1AK2tGpHPT3kteziOVYSuX44oX2ZQqSw&sid=647f152de77a7d0b&spx=%2F&type=tcp&headerType=none#🇫🇲 🔥 ОБХОД №2 | Анти-глушилка
-vless://146bf6d1-92c5-40c1-b0e1-a33590a592af@dash.tsukicloud.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sun9-37.userapi.com&fp=firefox&pbk=putvtNkS4kCve1OAcmh_NfUFcc047TdSE1Z_UouC_TY&sid=500e8bc6d5388b7e&spx=%2F&type=tcp&headerType=none#🇫🇲 🔥 ОБХОД №3 | Анти-глушилка
-vless://146bf6d1-92c5-40c1-b0e1-a33590a592af@dash.tsukicloud.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=max.ru&fp=firefox&pbk=U43MNi3YsWScHzseIh1Rg-5PaJFBrjyzLijN4QvKLBM&sid=9fd87fd0a58b5c01&spx=%2F&type=tcp&headerType=none#🇫🇲 🔥 ОБХОД №4 | Анти-глушилка
+vless://expired@127.0.0.1:443?security=none&type=tcp#Expired
