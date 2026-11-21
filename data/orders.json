@@ -109,5 +109,36 @@
         "note": "Заявка отправлена на рассмотрение"
       }
     ]
+  },
+  {
+    "id": "35120",
+    "user_id": 6312016802,
+    "username": "ixxy67",
+    "first_name": "ixxxxx",
+    "phone": "",
+    "service_key": "create_bot",
+    "service_name": "ррр",
+    "category": "Telegram-услуги",
+    "details": "оооо",
+    "files": [],
+    "price": 799,
+    "is_test": false,
+    "status": "pending_review",
+    "created_at": "2026-11-21T21:37:00.758512+00:00",
+    "review_deadline": "2026-11-21T23:37:00.758512+00:00",
+    "exec_deadline": "2026-11-24T21:37:00.758512+00:00",
+    "reminded_3h": false,
+    "reminded_overdue": false,
+    "reminded_review_2h": false,
+    "payment_id": null,
+    "deliverable": null,
+    "history": [
+      {
+        "at": "2026-11-21T21:37:00.758512+00:00",
+        "actor": "user:6312016802",
+        "action": "created",
+        "note": "Заявка отправлена на рассмотрение"
+      }
+    ]
   }
 ]
