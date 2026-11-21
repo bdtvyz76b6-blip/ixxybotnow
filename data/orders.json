@@ -1,0 +1,19 @@
+[
+  {
+    "order_id": "ORD-10976",
+    "user_id": 6312016802,
+    "service_key": "personal_mix",
+    "service_name": "🧬 Персональная подписка «Под себя»",
+    "price": 0,
+    "comment": "тест",
+    "phone": "79803630808",
+    "status": "pending_review",
+    "is_admin_test": true,
+    "created_at": "2026-11-21T18:25:48.042960+00:00",
+    "review_deadline": "2026-11-21T20:25:48.042960+00:00",
+    "paid_at": null,
+    "completed_at": null,
+    "delivery_content": "",
+    "client_msg_id": null
+  }
+]
