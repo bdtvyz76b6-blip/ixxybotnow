@@ -545,7 +545,7 @@
     "order_id": "35121",
     "is_test": false,
     "extra": {},
-    "status": "pending",
+    "status": "cancelled",
     "activated": false,
     "created_at": "2026-11-21T21:43:33.033299+00:00",
     "chat_id": 6312016802,
