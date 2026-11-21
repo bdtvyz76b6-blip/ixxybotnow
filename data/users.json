@@ -30,7 +30,7 @@
       "sub_basic_30"
     ],
     "last_bonus": 1793464520.1179302,
-    "balance": 151,
+    "balance": 0,
     "pass_until": "2026-11-30T18:37:50.382595+00:00",
     "last_pass_bonus": 1795049047.2935393,
     "last_game": 0,
@@ -46,7 +46,14 @@
     "last_reminder": {},
     "last_balance_shown": 0,
     "ref_paid": false,
-    "operations": [],
+    "operations": [
+      {
+        "type": "admin",
+        "amount": -151,
+        "desc": "Списание администратора",
+        "at": "2026-11-21T21:46:39.199742+00:00"
+      }
+    ],
     "bonus_last_date": "",
     "notify_expiry": true,
     "notify_promo": true,
