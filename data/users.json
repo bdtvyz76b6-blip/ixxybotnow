@@ -703,5 +703,23 @@
     "last_balance_shown": 0,
     "username": "tAQCFBZxaR",
     "first_name": "Артём🍎"
+  },
+  "1045778728": {
+    "id": 1045778728,
+    "created_at": "2026-11-21T12:10:20.595517+00:00",
+    "subs": {},
+    "ref_by": null,
+    "ref_count": 0,
+    "ref_paid": false,
+    "notes": "",
+    "balance": 0,
+    "discount": 0,
+    "last_reminder": {},
+    "last_fortune": 0,
+    "pass_until": null,
+    "theme": "default",
+    "last_balance_shown": 0,
+    "username": "",
+    "first_name": "Зера"
   }
 }
