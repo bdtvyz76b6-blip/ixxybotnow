@@ -45,7 +45,11 @@
     "streak_frozen_at": null,
     "last_reminder": {},
     "last_balance_shown": 0,
-    "ref_paid": false
+    "ref_paid": false,
+    "operations": [],
+    "bonus_last_date": "",
+    "notify_expiry": true,
+    "notify_promo": true
   },
   "6215130536": {
     "id": 6215130536,
