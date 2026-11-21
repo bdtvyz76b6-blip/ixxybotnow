@@ -4,7 +4,12 @@
     "username": "ixxy67",
     "first_name": "ixxxxx",
     "created_at": "2026-09-25T07:58:14.682387+00:00",
-    "subs": {},
+    "subs": {
+      "supra": {
+        "started_at": "2026-11-21T21:56:29.839003+00:00",
+        "expires_at": "2026-12-21T21:56:29.839003+00:00"
+      }
+    },
     "trial_used": true,
     "coins": 63034,
     "game_cooldowns": {
