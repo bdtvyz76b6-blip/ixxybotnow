@@ -36,7 +36,7 @@
     "exec_deadline": "2026-11-22T20:34:37.648370+00:00",
     "reminded_3h": false,
     "reminded_overdue": false,
-    "reminded_review_2h": false,
+    "reminded_review_2h": true,
     "payment_id": null,
     "deliverable": null,
     "history": [
