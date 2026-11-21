@@ -30,7 +30,7 @@
     "files": [],
     "price": 169,
     "is_test": false,
-    "status": "pending_review",
+    "status": "rejected",
     "created_at": "2026-11-21T20:34:37.648370+00:00",
     "review_deadline": "2026-11-21T22:34:37.648370+00:00",
     "exec_deadline": "2026-11-22T20:34:37.648370+00:00",
@@ -46,7 +46,9 @@
         "action": "created",
         "note": "Создан заказ (REAL)"
       }
-    ]
+    ],
+    "rejected_at": "2026-11-21T22:42:26.958040+00:00",
+    "reject_reason": "нет"
   },
   {
     "id": "35118",
