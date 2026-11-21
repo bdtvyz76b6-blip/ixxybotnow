@@ -49,7 +49,8 @@
     "operations": [],
     "bonus_last_date": "",
     "notify_expiry": true,
-    "notify_promo": true
+    "notify_promo": true,
+    "phone": ""
   },
   "6215130536": {
     "id": 6215130536,
