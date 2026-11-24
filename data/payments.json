@@ -602,5 +602,22 @@
     "created_at": "2026-11-24T19:02:09.351162+00:00",
     "chat_id": null,
     "message_id": null
+  },
+  {
+    "payment_id": "01a20f69-cc41-738f-a52f-fc4e2ca1aa1e",
+    "user_id": 6312016802,
+    "item_type": "custom_order",
+    "item_id": "35125",
+    "days": 0,
+    "amount_rub": 2000,
+    "discount_pct": 0,
+    "order_id": "35125",
+    "is_test": false,
+    "extra": {},
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-24T21:15:21.893679+00:00",
+    "chat_id": null,
+    "message_id": null
   }
 ]
