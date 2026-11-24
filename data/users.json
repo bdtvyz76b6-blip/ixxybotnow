@@ -173,7 +173,21 @@
         "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_7099c00c0403171e.json"
       }
     },
-    "trial_used": true
+    "trial_used": true,
+    "balance": 0,
+    "discount": 0,
+    "last_reminder": {},
+    "last_fortune": 0,
+    "pass_until": null,
+    "theme": "violet",
+    "last_balance_shown": 0,
+    "ref_paid": false,
+    "operations": [],
+    "bonus_last_date": "",
+    "notify_expiry": true,
+    "notify_promo": true,
+    "phone": "",
+    "purchases_count": 0
   },
   "1074390971": {
     "id": 1074390971,
