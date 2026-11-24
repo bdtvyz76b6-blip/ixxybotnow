@@ -62,7 +62,8 @@
     "notify_expiry": true,
     "notify_promo": true,
     "phone": "79803630808",
-    "purchases_count": 1
+    "purchases_count": 1,
+    "sub_token": "6312016802"
   },
   "6215130536": {
     "id": 6215130536,
