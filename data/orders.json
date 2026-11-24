@@ -261,7 +261,7 @@
     "service_key": "create_bot",
     "price": 0,
     "is_test": true,
-    "status": "in_progress",
+    "status": "completed",
     "created_at": "2026-11-24T19:09:17.669599+00:00",
     "review_deadline": "2026-11-24T21:09:17.669599+00:00",
     "exec_deadline": "2026-11-27T19:09:17.669599+00:00",
@@ -280,9 +280,10 @@
       }
     ],
     "payment_id": null,
-    "result_text": "",
-    "result_photo": null,
+    "result_text": "—",
+    "result_photo": "AgACAgIAAxkBAAIzaWsF4QuP79zNDefFb8SNYn0pZJexAAI6JWsb-KAwSKbrj6MjWaNFAQADAgADdwADPQQ",
     "result_doc": null,
-    "paid_at": "2026-11-24T19:09:19.506253+00:00"
+    "paid_at": "2026-11-24T19:09:19.506253+00:00",
+    "completed_at": "2026-11-24T19:10:03.493657+00:00"
   }
 ]
