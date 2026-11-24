@@ -234,6 +234,12 @@
         "actor": "user",
         "action": "created",
         "note": ""
+      },
+      {
+        "at": "2026-11-24T19:02:07.074168+00:00",
+        "actor": "admin",
+        "action": "accepted",
+        "note": ""
       }
     ],
     "payment_id": null,
