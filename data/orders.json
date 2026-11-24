@@ -224,7 +224,7 @@
     "service_key": "wifi_only",
     "price": 179,
     "is_test": false,
-    "status": "pending_review",
+    "status": "awaiting_payment",
     "created_at": "2026-11-24T19:01:54.318189+00:00",
     "review_deadline": "2026-11-24T21:01:54.318189+00:00",
     "exec_deadline": "2026-11-25T19:01:54.318189+00:00",
