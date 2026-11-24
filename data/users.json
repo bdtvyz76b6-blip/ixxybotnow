@@ -117,7 +117,10 @@
     },
     "trial_used": true,
     "username": "",
-    "first_name": "Елена"
+    "first_name": "Елена",
+    "last_reminder": {
+      "supra_3": "2026-11-28T08:24:04.754001+00:00"
+    }
   },
   "5735189396": {
     "id": 5735189396,
