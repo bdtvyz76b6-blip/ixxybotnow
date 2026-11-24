@@ -277,6 +277,12 @@
         "actor": "system",
         "action": "paid",
         "note": ""
+      },
+      {
+        "at": "2026-11-24T19:10:05.127536+00:00",
+        "actor": "admin",
+        "action": "completed",
+        "note": "—"
       }
     ],
     "payment_id": null,
