@@ -190,7 +190,9 @@
     "themes": [
       "violet"
     ],
-    "theme": "violet"
+    "theme": "violet",
+    "sub_token": "oRIJF7MeOItb6aXW",
+    "notify": true
   },
   "1537995028": {
     "id": 1537995028,
