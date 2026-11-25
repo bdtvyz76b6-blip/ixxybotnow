@@ -26,7 +26,7 @@
       "sub_basic_30"
     ],
     "last_bonus": 1793464520.1179302,
-    "balance": 67053,
+    "balance": 1053,
     "pass_until": null,
     "last_pass_bonus": 1795049047.2935393,
     "last_game": 0,
@@ -84,6 +84,12 @@
         "kind": "cashback",
         "note": "Кэшбэк",
         "at": "2026-11-25T07:00:30.093979+00:00"
+      },
+      {
+        "amount": -66000,
+        "kind": "admin",
+        "note": "Корректировка",
+        "at": "2026-11-25T09:01:48.898260+00:00"
       }
     ],
     "bonus_last_date": "2026-11-25",
