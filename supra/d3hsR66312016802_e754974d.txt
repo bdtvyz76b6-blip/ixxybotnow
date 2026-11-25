@@ -1,7 +1,6 @@
-#profile-title: 8J+RkSBTVVBSQSDCtyAjNjMxMjAxNjgwMg==
-#announce: 8J+RpCBAaXh4eTY3IMK3IOKPsyDwn5+iIDI3INC00L3QtdC5
+#profile-title: 8J+RkSBJWFhZIFZQTiDCtyBTVVBSQSDCtyDQtNC+IDI0LjEyLjIwMjYgwrcgMjgg0LTQvdC10Lk=
+#announce: 8J+foiDQntGB0YLQsNC70L7RgdGMIDI4INC00L3QtdC5IMK3INC+0LHQvdC+0LLQuNGC0Yw6IEDQv9C+0LTQtNC10YDQttC60LAg4oaSINCx0L7Rgg==
 #profile-update-interval: 6
-#support: @ixxy67
 #profile-web-page-url: https://t.me/orelvpntopbot
 #happ-profile: {"backgroundGradientRotationAngle":42,"backgroundGradientColorIntensity":1,"backgroundColors":["#080510FF","#160A2BFF","#27104AFF"],"serverRowBackgroundColor":"#140B24FF","selectedServerRowColor":"#3B1873FF","subsHeaderColor":"#080510FF","buttonColor":"#B57BFFff","buttonTextColor":"#090512FF","powerIconColor":"#C79BFFff","serverRowTitleTextColor":"#F5EEFFFF","serverRowSubTitleTextColor":"#B69EDDFF","topBarButtonsColor":"#C79BFFff","supportIconColor":"#C79BFFff","profileWebPageIconColor":"#C79BFFff","subHeaderButtonColor":"#C79BFFff","settingsControlsTintColor":"#B57BFFff","subscriptionInfoBackgroundColor":"#140B24FF","subscriptionTrafficBackgroundColor":"#3B1873FF","subscriptionInfoTextColor":"#F5EEFFFF","disclosureHeaderTextColor":"#F5EEFFFF","disclosureSubHeaderTextColor":"#B69EDDFF","serverRowChevronColor":"#C79BFFff","additionalOptionsButtonColor":"#C79BFFff","buttonTimerColor":"#F5EEFFFF","elipseColors":["#C79BFFff","#8A4FFFff","#4C2399ff"],"backgroundImageType":"dark","buttonImageType":"dark"}
 vless://3ef1f225-23c8-4610-bffd-b2bb0ab1e232@81.94.159.139:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=jobwright.app&fp=firefox&pbk=AFvZXURvlKD1yGooZJ2LMYriV2UN1oXjddUC8uUuHGk&sid=7f1fd9b7a239664b&type=tcp&headerType=none#🇩🇪 → Германия №1
