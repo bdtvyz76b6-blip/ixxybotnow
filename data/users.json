@@ -26,11 +26,11 @@
       "sub_basic_30"
     ],
     "last_bonus": 1793464520.1179302,
-    "balance": 1053,
+    "balance": 964,
     "pass_until": null,
     "last_pass_bonus": 1795049047.2935393,
     "last_game": 0,
-    "discount": 40,
+    "discount": 0,
     "ref_count": 1,
     "theme": "ocean",
     "streak": 5,
@@ -90,6 +90,12 @@
         "kind": "admin",
         "note": "Корректировка",
         "at": "2026-11-25T09:01:48.898260+00:00"
+      },
+      {
+        "amount": -89,
+        "kind": "buy",
+        "note": "SUPRA 30 дн.",
+        "at": "2026-11-25T10:31:02.455261+00:00"
       }
     ],
     "bonus_last_date": "2026-11-25",
