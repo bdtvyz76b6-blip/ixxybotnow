@@ -525,5 +525,21 @@
     "activated": true,
     "created_at": "2026-11-25T06:30:16.911263+00:00",
     "paid_at": "2026-11-25T06:35:27.023247+00:00"
+  },
+  {
+    "payment_id": "01a21180-8e08-70f8-9b2d-1f7cce74b2fe",
+    "user_id": 6312016802,
+    "kind": "sub",
+    "item_type": "basic",
+    "item_id": null,
+    "days": 1,
+    "amount_rub": 20,
+    "discount_pct": 0,
+    "order_id": null,
+    "method": "sbp",
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-25T06:59:27.470070+00:00",
+    "paid_at": null
   }
 ]
