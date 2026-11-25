@@ -226,7 +226,7 @@
     "coins": 10,
     "last_bonus": 0,
     "last_game": 0,
-    "balance": 1200000050,
+    "balance": 50,
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
@@ -246,6 +246,12 @@
         "kind": "bonus",
         "note": "Бонус дня",
         "at": "2026-11-25T10:34:14.790128+00:00"
+      },
+      {
+        "amount": -1200000000,
+        "kind": "admin",
+        "note": "Корректировка",
+        "at": "2026-11-25T10:39:31.447264+00:00"
       }
     ],
     "sub_token": "0M-odOOX3sFLeTxr",
