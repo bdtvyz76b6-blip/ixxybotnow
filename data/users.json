@@ -122,7 +122,7 @@
     "coins": 0,
     "last_bonus": 0,
     "last_game": 0,
-    "balance": 0,
+    "balance": 1200000,
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
@@ -130,7 +130,14 @@
     "streak": 1,
     "last_streak_date": "2026-11-15",
     "last_fortune": 0,
-    "operations": [],
+    "operations": [
+      {
+        "amount": 1200000,
+        "kind": "admin",
+        "note": "Корректировка",
+        "at": "2026-11-25T10:31:30.183288+00:00"
+      }
+    ],
     "sub_token": "03a2NSAQLUJ6HKJx",
     "notify": true,
     "purchases_count": 1
