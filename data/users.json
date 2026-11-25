@@ -119,7 +119,9 @@
     "streak": 1,
     "last_streak_date": "2026-11-15",
     "last_fortune": 0,
-    "operations": []
+    "operations": [],
+    "sub_token": "03a2NSAQLUJ6HKJx",
+    "notify": true
   },
   "1972672627": {
     "id": 1972672627,
