@@ -220,7 +220,7 @@
     "coins": 10,
     "last_bonus": 0,
     "last_game": 0,
-    "balance": 0,
+    "balance": 1200000000,
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
@@ -228,7 +228,14 @@
     "streak": 1,
     "last_streak_date": "2026-11-17",
     "last_fortune": 1794892456.9814522,
-    "operations": []
+    "operations": [
+      {
+        "amount": 1200000000,
+        "kind": "admin",
+        "note": "Корректировка",
+        "at": "2026-11-25T10:33:12.895018+00:00"
+      }
+    ]
   },
   "1773877585": {
     "id": 1773877585,
