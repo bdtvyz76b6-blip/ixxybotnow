@@ -537,9 +537,9 @@
     "discount_pct": 0,
     "order_id": null,
     "method": "sbp",
-    "status": "pending",
-    "activated": false,
+    "status": "paid",
+    "activated": true,
     "created_at": "2026-11-25T06:59:27.470070+00:00",
-    "paid_at": null
+    "paid_at": "2026-11-25T07:00:26.234582+00:00"
   }
 ]
