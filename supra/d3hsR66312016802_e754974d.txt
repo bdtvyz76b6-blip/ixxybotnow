@@ -1,5 +1,5 @@
-#profile-title: 8J+RkSBJWFhZIFZQTiDCtyBTVVBSQSDCtyDQtNC+IDI0LjEyLjIwMjYgwrcgMjgg0LTQvdC10Lk=
-#announce: 8J+foiDQntGB0YLQsNC70L7RgdGMIDI4INC00L3QtdC5IMK3INC+0LHQvdC+0LLQuNGC0Yw6IEDQv9C+0LTQtNC10YDQttC60LAg4oaSINCx0L7Rgg==
+#profile-title: base64:SVhYWSBWUE4gwrcgU1VQUkE=
+#announce: base64:0LDQutGC0LjQstC90LAg0LTQviAyNC4xMi4yMDI2IMK3INC+0YHRgtCw0LvQvtGB0YwgMjgg0LTQvdC10LkuINCf0YDQvtC00LvQtdC90LjQtSDigJQg0LIg0LHQvtGC0LUgaHR0cHM6Ly90Lm1lL29yZWx2cG50b3Bib3Q=
 #profile-update-interval: 6
 #profile-web-page-url: https://t.me/orelvpntopbot
 #happ-profile: {"backgroundGradientRotationAngle":42,"backgroundGradientColorIntensity":1,"backgroundColors":["#080510FF","#160A2BFF","#27104AFF"],"serverRowBackgroundColor":"#140B24FF","selectedServerRowColor":"#3B1873FF","subsHeaderColor":"#080510FF","buttonColor":"#B57BFFff","buttonTextColor":"#090512FF","powerIconColor":"#C79BFFff","serverRowTitleTextColor":"#F5EEFFFF","serverRowSubTitleTextColor":"#B69EDDFF","topBarButtonsColor":"#C79BFFff","supportIconColor":"#C79BFFff","profileWebPageIconColor":"#C79BFFff","subHeaderButtonColor":"#C79BFFff","settingsControlsTintColor":"#B57BFFff","subscriptionInfoBackgroundColor":"#140B24FF","subscriptionTrafficBackgroundColor":"#3B1873FF","subscriptionInfoTextColor":"#F5EEFFFF","disclosureHeaderTextColor":"#F5EEFFFF","disclosureSubHeaderTextColor":"#B69EDDFF","serverRowChevronColor":"#C79BFFff","additionalOptionsButtonColor":"#C79BFFff","buttonTimerColor":"#F5EEFFFF","elipseColors":["#C79BFFff","#8A4FFFff","#4C2399ff"],"backgroundImageType":"dark","buttonImageType":"dark"}
