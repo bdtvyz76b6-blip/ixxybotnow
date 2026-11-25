@@ -619,5 +619,21 @@
     "created_at": "2026-11-24T21:15:21.893679+00:00",
     "chat_id": null,
     "message_id": null
+  },
+  {
+    "payment_id": "01a21165-d7f5-72a4-9d80-ce835487ff23",
+    "user_id": 6312016802,
+    "kind": "sub",
+    "item_type": "supra",
+    "item_id": null,
+    "days": 1,
+    "amount_rub": 35,
+    "discount_pct": 0,
+    "order_id": null,
+    "method": "sbp",
+    "status": "pending",
+    "activated": false,
+    "created_at": "2026-11-25T06:30:16.911263+00:00",
+    "paid_at": null
   }
 ]
