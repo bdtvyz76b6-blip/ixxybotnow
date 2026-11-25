@@ -100,9 +100,7 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T09:12:05.588431+00:00",
-        "expires_at": null,
-        "filename": "servers/user_fa44fe5390201180.json",
-        "raw_link": "https://raw.githubusercontent.com/bdtvyz76b6-blip/ixxybotnow/main/servers/user_fa44fe5390201180.json"
+        "expires_at": "2027-11-25T07:22:57.989569+00:00"
       }
     },
     "trial_used": true,
@@ -121,7 +119,8 @@
     "last_fortune": 0,
     "operations": [],
     "sub_token": "03a2NSAQLUJ6HKJx",
-    "notify": true
+    "notify": true,
+    "purchases_count": 1
   },
   "1972672627": {
     "id": 1972672627,
