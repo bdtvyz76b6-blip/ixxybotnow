@@ -98,7 +98,8 @@
     "phone": "79803630808",
     "purchases_count": 3,
     "sub_token": "6312016802_e754974d",
-    "notify": true
+    "notify": true,
+    "banned": true
   },
   "6215130536": {
     "id": 6215130536,
