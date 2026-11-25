@@ -122,7 +122,7 @@
     "coins": 0,
     "last_bonus": 0,
     "last_game": 0,
-    "balance": 1200000,
+    "balance": 1199200,
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
@@ -136,11 +136,18 @@
         "kind": "admin",
         "note": "Корректировка",
         "at": "2026-11-25T10:31:30.183288+00:00"
+      },
+      {
+        "amount": -800,
+        "kind": "buy",
+        "note": "SUPRA 365 дн.",
+        "at": "2026-11-25T10:33:04.156745+00:00"
       }
     ],
     "sub_token": "03a2NSAQLUJ6HKJx",
     "notify": true,
-    "purchases_count": 1
+    "purchases_count": 1,
+    "discount": 0
   },
   "1972672627": {
     "id": 1972672627,
