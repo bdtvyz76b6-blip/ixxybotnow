@@ -7,7 +7,7 @@
     "subs": {
       "supra": {
         "started_at": "2026-11-21T21:56:29.839003+00:00",
-        "expires_at": "2026-12-23T21:56:29.839003+00:00"
+        "expires_at": "2027-01-22T21:56:29.839003+00:00"
       },
       "basic": {
         "started_at": "2026-11-25T07:00:27.558699+00:00",
@@ -102,7 +102,7 @@
     "notify_expiry": true,
     "notify_promo": true,
     "phone": "79803630808",
-    "purchases_count": 3,
+    "purchases_count": 4,
     "sub_token": "6312016802_e754974d",
     "notify": true,
     "banned": false
