@@ -48,6 +48,8 @@
     "value": 40,
     "tariff": "basic",
     "max_uses": 15,
-    "used_by": []
+    "used_by": [
+      6312016802
+    ]
   }
 ]
