@@ -113,7 +113,7 @@
     "subs": {
       "supra": {
         "started_at": "2026-09-25T09:12:05.588431+00:00",
-        "expires_at": "2028-11-24T07:22:57.989569+00:00"
+        "expires_at": "2029-11-24T07:22:57.989569+00:00"
       }
     },
     "trial_used": true,
@@ -152,7 +152,7 @@
     ],
     "sub_token": "03a2NSAQLUJ6HKJx",
     "notify": true,
-    "purchases_count": 2,
+    "purchases_count": 3,
     "discount": 0
   },
   "1972672627": {
