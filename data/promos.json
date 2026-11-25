@@ -41,5 +41,13 @@
     "used_by": [
       6312016802
     ]
+  },
+  {
+    "code": "IXXYR",
+    "type": "discount",
+    "value": 40,
+    "tariff": "basic",
+    "max_uses": 15,
+    "used_by": []
   }
 ]
