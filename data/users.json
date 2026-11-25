@@ -226,7 +226,7 @@
     "coins": 10,
     "last_bonus": 0,
     "last_game": 0,
-    "balance": 150,
+    "balance": 1,
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
@@ -258,6 +258,12 @@
         "kind": "admin",
         "note": "Корректировка",
         "at": "2026-11-25T10:39:44.409081+00:00"
+      },
+      {
+        "amount": -149,
+        "kind": "admin",
+        "note": "Корректировка",
+        "at": "2026-11-25T10:40:08.395143+00:00"
       }
     ],
     "sub_token": "0M-odOOX3sFLeTxr",
