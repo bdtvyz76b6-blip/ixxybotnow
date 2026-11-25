@@ -105,7 +105,10 @@
     "purchases_count": 4,
     "sub_token": "6312016802_e754974d",
     "notify": true,
-    "banned": false
+    "banned": false,
+    "themes": [
+      "violet"
+    ]
   },
   "6215130536": {
     "id": 6215130536,
@@ -159,7 +162,10 @@
     "sub_token": "03a2NSAQLUJ6HKJx",
     "notify": true,
     "purchases_count": 4,
-    "discount": 0
+    "discount": 0,
+    "themes": [
+      "violet"
+    ]
   },
   "1972672627": {
     "id": 1972672627,
@@ -180,7 +186,11 @@
     "pass_until": null,
     "last_pass_bonus": 0,
     "inventory": [],
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "1537995028": {
     "id": 1537995028,
@@ -200,14 +210,22 @@
       "supra_3": "2026-11-28T08:24:04.754001+00:00",
       "d3:2026-11-28": true
     },
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "5735189396": {
     "id": 5735189396,
     "created_at": "2026-09-25T10:41:39.170865+00:00",
     "subs": {},
     "trial_used": true,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6100622005": {
     "id": 6100622005,
@@ -268,7 +286,10 @@
     ],
     "sub_token": "0M-odOOX3sFLeTxr",
     "notify": true,
-    "bonus_last_date": "2026-11-25"
+    "bonus_last_date": "2026-11-25",
+    "themes": [
+      "violet"
+    ]
   },
   "1773877585": {
     "id": 1773877585,
@@ -297,7 +318,10 @@
     "notify_expiry": true,
     "notify_promo": true,
     "phone": "",
-    "purchases_count": 0
+    "purchases_count": 0,
+    "themes": [
+      "violet"
+    ]
   },
   "1074390971": {
     "id": 1074390971,
@@ -309,7 +333,11 @@
       }
     },
     "trial_used": true,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "7948161220": {
     "id": 7948161220,
@@ -318,7 +346,11 @@
     "created_at": "2026-09-28T18:28:55.670406+00:00",
     "subs": {},
     "trial_used": true,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6900520193": {
     "id": 6900520193,
@@ -342,7 +374,10 @@
     "theme": "default",
     "last_balance_shown": 0,
     "ref_paid": false,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "1433850139": {
     "id": 1433850139,
@@ -369,7 +404,10 @@
     "streak": 1,
     "last_streak_date": "2026-11-16",
     "last_fortune": 0,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "5787533902": {
     "id": 5787533902,
@@ -389,7 +427,10 @@
     "streak": 1,
     "last_streak_date": "2026-11-15",
     "last_fortune": 0,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "5880870738": {
     "id": 5880870738,
@@ -398,7 +439,11 @@
     "created_at": "2026-10-01T12:13:13.291895+00:00",
     "subs": {},
     "trial_used": true,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8378800425": {
     "id": 8378800425,
@@ -407,7 +452,11 @@
     "created_at": "2026-10-03T14:49:53.975570+00:00",
     "subs": {},
     "trial_used": true,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8586167429": {
     "id": 8586167429,
@@ -416,7 +465,11 @@
     "created_at": "2026-10-03T15:59:07.781618+00:00",
     "subs": {},
     "trial_used": true,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6340890180": {
     "id": 6340890180,
@@ -428,7 +481,11 @@
     "ref_earned": 0,
     "username": "tg_katyusha0",
     "first_name": "катя",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8950023034": {
     "id": 8950023034,
@@ -440,7 +497,11 @@
     "ref_earned": 0,
     "username": "Golchikova1",
     "first_name": "София",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "7664400923": {
     "id": 7664400923,
@@ -453,7 +514,11 @@
     "notes": "",
     "username": "Katyanka_67",
     "first_name": "🐾🐾",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6459284051": {
     "id": 6459284051,
@@ -466,7 +531,11 @@
     "notes": "",
     "username": "filowwq",
     "first_name": "​⚚",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6698541090": {
     "id": 6698541090,
@@ -479,7 +548,11 @@
     "notes": "",
     "username": "Panokina2004",
     "first_name": "Юлёк😉",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "1075107638": {
     "id": 1075107638,
@@ -492,7 +565,11 @@
     "notes": "",
     "username": "Maskow_Maskva",
     "first_name": "天と地では、私だけが価値があります",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8278839053": {
     "id": 8278839053,
@@ -501,7 +578,11 @@
     "trial_used": true,
     "username": "Kirijj_sidorov_5463",
     "first_name": "💯🥳💯",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "7543995908": {
     "id": 7543995908,
@@ -514,7 +595,11 @@
     "notes": "",
     "username": "Chibik_Xz",
     "first_name": "хз",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "5760716779": {
     "id": 5760716779,
@@ -539,7 +624,11 @@
     "inventory": [],
     "username": "paaarlament",
     "first_name": "SP Expedition",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6788140874": {
     "id": 6788140874,
@@ -564,7 +653,11 @@
     "inventory": [],
     "username": "",
     "first_name": "Секретный дольаеб",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8726149391": {
     "id": 8726149391,
@@ -593,7 +686,11 @@
     "inventory": [],
     "username": "O_O_ki",
     "first_name": "Kostik",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8139061923": {
     "id": 8139061923,
@@ -613,7 +710,11 @@
     "inventory": [],
     "username": "niaz1235_tg",
     "first_name": "Нияз",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "7759999845": {
     "id": 7759999845,
@@ -633,7 +734,11 @@
     "inventory": [],
     "username": "frisk_un",
     "first_name": "Фриск♥️",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8203494891": {
     "id": 8203494891,
@@ -653,7 +758,11 @@
     "inventory": [],
     "username": "Almaz1235",
     "first_name": "￴",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6595576842": {
     "id": 6595576842,
@@ -678,7 +787,11 @@
     "inventory": [],
     "username": "sssssz79",
     "first_name": "Facker NN",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "6237770041": {
     "id": 6237770041,
@@ -707,7 +820,11 @@
     "inventory": [],
     "username": "Wizzelly",
     "first_name": "кразаучик",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "7659840169": {
     "id": 7659840169,
@@ -732,7 +849,11 @@
     "inventory": [],
     "username": "Panther_K8_V5",
     "first_name": "⚡♒パンサー ♒⚡ #17",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ],
+    "theme": "violet"
   },
   "8713120076": {
     "id": 8713120076,
@@ -756,7 +877,10 @@
     "last_fortune": 0,
     "username": "itlorence",
     "first_name": "lorence",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "8877056113": {
     "id": 8877056113,
@@ -780,7 +904,10 @@
     "last_fortune": 0,
     "username": "",
     "first_name": "Александр ООО РТК",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "5190177249": {
     "id": 5190177249,
@@ -804,7 +931,10 @@
     "last_fortune": 0,
     "username": "yeeEB0k",
     "first_name": "cyчий потрох",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "7750476096": {
     "id": 7750476096,
@@ -829,7 +959,10 @@
     "username": "llnsgi",
     "first_name": "ᴄᴜᴛᴏʀɴɢ",
     "discount": 10,
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "8457752857": {
     "id": 8457752857,
@@ -858,7 +991,10 @@
     "last_fortune": 0,
     "username": "Akaylu",
     "first_name": "ᴀᴋᴀʏʟᴜ",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "6116670796": {
     "id": 6116670796,
@@ -877,7 +1013,10 @@
     "last_balance_shown": 0,
     "username": "tAQCFBZxaR",
     "first_name": "Артём🍎",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   },
   "1045778728": {
     "id": 1045778728,
@@ -896,6 +1035,9 @@
     "last_balance_shown": 0,
     "username": "",
     "first_name": "Зера",
-    "operations": []
+    "operations": [],
+    "themes": [
+      "violet"
+    ]
   }
 }
