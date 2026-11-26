@@ -39,7 +39,9 @@
     "notes": "админ",
     "streak_frozen": false,
     "streak_frozen_at": null,
-    "last_reminder": {},
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    },
     "last_balance_shown": 0,
     "ref_paid": false,
     "operations": [
@@ -165,7 +167,10 @@
     "discount": 0,
     "themes": [
       "violet"
-    ]
+    ],
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "1972672627": {
     "id": 1972672627,
@@ -192,7 +197,10 @@
     ],
     "theme": "violet",
     "sub_token": "oRIJF7MeOItb6aXW",
-    "notify": true
+    "notify": true,
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "1537995028": {
     "id": 1537995028,
@@ -210,7 +218,9 @@
     "first_name": "Елена",
     "last_reminder": {
       "supra_3": "2026-11-28T08:24:04.754001+00:00",
-      "d3:2026-11-28": true
+      "d3:2026-11-28": true,
+      "exp:2026-11-28T08:24:04.754001+00:00:3d": true,
+      "exp:2026-11-28T08:24:04.754001+00:00:7d": true
     },
     "operations": [],
     "themes": [
@@ -291,7 +301,10 @@
     "bonus_last_date": "2026-11-25",
     "themes": [
       "violet"
-    ]
+    ],
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "1773877585": {
     "id": 1773877585,
@@ -309,7 +322,9 @@
     "trial_used": true,
     "balance": 0,
     "discount": 0,
-    "last_reminder": {},
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    },
     "last_fortune": 0,
     "pass_until": null,
     "theme": "violet",
@@ -370,7 +385,9 @@
     "trial_used": true,
     "balance": 0,
     "discount": 0,
-    "last_reminder": {},
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    },
     "last_fortune": 0,
     "pass_until": null,
     "theme": "default",
@@ -409,7 +426,10 @@
     "operations": [],
     "themes": [
       "violet"
-    ]
+    ],
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "5787533902": {
     "id": 5787533902,
@@ -432,7 +452,10 @@
     "operations": [],
     "themes": [
       "violet"
-    ]
+    ],
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "5880870738": {
     "id": 5880870738,
@@ -601,7 +624,10 @@
     "themes": [
       "violet"
     ],
-    "theme": "violet"
+    "theme": "violet",
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "5760716779": {
     "id": 5760716779,
@@ -716,7 +742,10 @@
     "themes": [
       "violet"
     ],
-    "theme": "violet"
+    "theme": "violet",
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "7759999845": {
     "id": 7759999845,
@@ -764,7 +793,10 @@
     "themes": [
       "violet"
     ],
-    "theme": "violet"
+    "theme": "violet",
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "6595576842": {
     "id": 6595576842,
@@ -909,7 +941,10 @@
     "operations": [],
     "themes": [
       "violet"
-    ]
+    ],
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "5190177249": {
     "id": 5190177249,
@@ -936,7 +971,10 @@
     "operations": [],
     "themes": [
       "violet"
-    ]
+    ],
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "7750476096": {
     "id": 7750476096,
@@ -966,7 +1004,10 @@
       "violet"
     ],
     "sub_token": "9PN6XrhutibVz_jP",
-    "notify": true
+    "notify": true,
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "8457752857": {
     "id": 8457752857,
@@ -998,7 +1039,10 @@
     "operations": [],
     "themes": [
       "violet"
-    ]
+    ],
+    "last_reminder": {
+      "thanks": "2026-11-26T20:11:33.581349+00:00"
+    }
   },
   "6116670796": {
     "id": 6116670796,
@@ -1010,7 +1054,9 @@
     "notes": "",
     "balance": 0,
     "discount": 0,
-    "last_reminder": {},
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    },
     "last_fortune": 0,
     "pass_until": null,
     "theme": "default",
@@ -1032,7 +1078,9 @@
     "notes": "",
     "balance": 0,
     "discount": 0,
-    "last_reminder": {},
+    "last_reminder": {
+      "nudge": "2026-11-26T20:11:33.581349+00:00"
+    },
     "last_fortune": 0,
     "pass_until": null,
     "theme": "default",
