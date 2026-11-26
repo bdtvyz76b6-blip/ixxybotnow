@@ -26,11 +26,11 @@
       "sub_basic_30"
     ],
     "last_bonus": 1793464520.1179302,
-    "balance": 964,
+    "balance": 404,
     "pass_until": null,
     "last_pass_bonus": 1795049047.2935393,
     "last_game": 0,
-    "discount": 20,
+    "discount": 0,
     "ref_count": 1,
     "theme": "ocean",
     "streak": 5,
@@ -98,6 +98,12 @@
         "kind": "buy",
         "note": "SUPRA 30 дн.",
         "at": "2026-11-25T10:31:02.455261+00:00"
+      },
+      {
+        "amount": -560,
+        "kind": "buy",
+        "note": "MOBILE 365 дн.",
+        "at": "2026-11-26T20:34:55.564283+00:00"
       }
     ],
     "bonus_last_date": "2026-11-26",
