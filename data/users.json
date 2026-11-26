@@ -30,7 +30,7 @@
       "sub_basic_30"
     ],
     "last_bonus": 1793464520.1179302,
-    "balance": 404,
+    "balance": 104,
     "pass_until": null,
     "last_pass_bonus": 1795049047.2935393,
     "last_game": 0,
@@ -108,6 +108,12 @@
         "kind": "buy",
         "note": "MOBILE 365 дн.",
         "at": "2026-11-26T20:34:55.564283+00:00"
+      },
+      {
+        "amount": -300,
+        "kind": "buy",
+        "note": "BASIC 180 дн.",
+        "at": "2026-11-26T20:37:19.938649+00:00"
       }
     ],
     "bonus_last_date": "2026-11-26",
