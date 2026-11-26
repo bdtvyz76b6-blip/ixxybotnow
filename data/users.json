@@ -11,7 +11,7 @@
       },
       "basic": {
         "started_at": "2026-11-25T07:00:27.558699+00:00",
-        "expires_at": "2026-11-26T07:00:27.558689+00:00"
+        "expires_at": "2027-05-25T20:37:21.277326+00:00"
       },
       "mobile": {
         "started_at": "2026-11-26T20:34:56.937143+00:00",
@@ -120,7 +120,7 @@
     "notify_expiry": true,
     "notify_promo": true,
     "phone": "79803630808",
-    "purchases_count": 5,
+    "purchases_count": 6,
     "sub_token": "6312016802_e754974d",
     "notify": true,
     "banned": false,
