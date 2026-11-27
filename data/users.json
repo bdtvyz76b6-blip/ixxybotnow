@@ -1058,7 +1058,9 @@
     ],
     "last_reminder": {
       "thanks": "2026-11-26T20:11:33.581349+00:00"
-    }
+    },
+    "sub_token": "YCt8B3HwOHEcpiSM",
+    "notify": true
   },
   "6116670796": {
     "id": 6116670796,
